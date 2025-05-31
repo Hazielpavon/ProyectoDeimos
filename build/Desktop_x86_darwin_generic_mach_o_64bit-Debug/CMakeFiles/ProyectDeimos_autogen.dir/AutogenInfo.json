@@ -436,7 +436,12 @@
 		"/opt/homebrew/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake",
 		"/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake",
 		"/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/GNUInstallDirs.cmake",
+<<<<<<< HEAD
 		"/opt/homebrew/Cellar/qt/6.9.0/lib/cmake/Qt6/macos/Info.plist.app.in"
+=======
+		"/opt/homebrew/Cellar/qt/6.9.0/lib/cmake/Qt6/macos/Info.plist.app.in",
+		"/Users/anavalle/Documents/ProyectoDeimos/resources.qrc"
+>>>>>>> ana
 	],
 	"CMAKE_SOURCE_DIR" : "/Users/anavalle/Documents/ProyectoDeimos",
 	"CROSS_CONFIG" : false,
@@ -445,10 +450,82 @@
 	"HEADERS" : 
 	[
 		[
+<<<<<<< HEAD
+=======
+			"/Users/anavalle/Documents/ProyectoDeimos/colatareas.h",
+			"MU",
+			"EWIEGA46WW/moc_colatareas.cpp",
+			null
+		],
+		[
+			"/Users/anavalle/Documents/ProyectoDeimos/componentefisico.h",
+			"MU",
+			"EWIEGA46WW/moc_componentefisico.cpp",
+			null
+		],
+		[
+			"/Users/anavalle/Documents/ProyectoDeimos/componentesalud.h",
+			"MU",
+			"EWIEGA46WW/moc_componentesalud.cpp",
+			null
+		],
+		[
+			"/Users/anavalle/Documents/ProyectoDeimos/enemigo.h",
+			"MU",
+			"EWIEGA46WW/moc_enemigo.cpp",
+			null
+		],
+		[
+			"/Users/anavalle/Documents/ProyectoDeimos/entidad.h",
+			"MU",
+			"EWIEGA46WW/moc_entidad.cpp",
+			null
+		],
+		[
+			"/Users/anavalle/Documents/ProyectoDeimos/hilotrabajo.h",
+			"MU",
+			"EWIEGA46WW/moc_hilotrabajo.cpp",
+			null
+		],
+		[
+			"/Users/anavalle/Documents/ProyectoDeimos/jugador.h",
+			"MU",
+			"EWIEGA46WW/moc_jugador.cpp",
+			null
+		],
+		[
+>>>>>>> ana
 			"/Users/anavalle/Documents/ProyectoDeimos/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
+<<<<<<< HEAD
+=======
+		],
+		[
+			"/Users/anavalle/Documents/ProyectoDeimos/menuopciones.h",
+			"MU",
+			"EWIEGA46WW/moc_menuopciones.cpp",
+			null
+		],
+		[
+			"/Users/anavalle/Documents/ProyectoDeimos/pantallainicio.h",
+			"MU",
+			"EWIEGA46WW/moc_pantallainicio.cpp",
+			null
+		],
+		[
+			"/Users/anavalle/Documents/ProyectoDeimos/sprite.h",
+			"MU",
+			"EWIEGA46WW/moc_sprite.cpp",
+			null
+		],
+		[
+			"/Users/anavalle/Documents/ProyectoDeimos/tranformacion.h",
+			"MU",
+			"EWIEGA46WW/moc_tranformacion.cpp",
+			null
+>>>>>>> ana
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -510,8 +587,48 @@
 	"SETTINGS_FILE" : "/Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/ProyectDeimos_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+<<<<<<< HEAD
 		[ "/Users/anavalle/Documents/ProyectoDeimos/main.cpp", "MU", null ],
 		[ "/Users/anavalle/Documents/ProyectoDeimos/mainwindow.cpp", "MU", null ]
+=======
+		[ "/Users/anavalle/Documents/ProyectoDeimos/colatareas.cpp", "MU", null ],
+		[
+			"/Users/anavalle/Documents/ProyectoDeimos/componentefisico.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/anavalle/Documents/ProyectoDeimos/componentesalud.cpp",
+			"MU",
+			null
+		],
+		[ "/Users/anavalle/Documents/ProyectoDeimos/enemigo.cpp", "MU", null ],
+		[ "/Users/anavalle/Documents/ProyectoDeimos/entidad.cpp", "MU", null ],
+		[
+			"/Users/anavalle/Documents/ProyectoDeimos/hilotrabajo.cpp",
+			"MU",
+			null
+		],
+		[ "/Users/anavalle/Documents/ProyectoDeimos/jugador.cpp", "MU", null ],
+		[ "/Users/anavalle/Documents/ProyectoDeimos/main.cpp", "MU", null ],
+		[ "/Users/anavalle/Documents/ProyectoDeimos/mainwindow.cpp", "MU", null ],
+		[
+			"/Users/anavalle/Documents/ProyectoDeimos/menuopciones.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/anavalle/Documents/ProyectoDeimos/pantallainicio.cpp",
+			"MU",
+			null
+		],
+		[ "/Users/anavalle/Documents/ProyectoDeimos/sprite.cpp", "MU", null ],
+		[
+			"/Users/anavalle/Documents/ProyectoDeimos/tranformacion.cpp",
+			"MU",
+			null
+		]
+>>>>>>> ana
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

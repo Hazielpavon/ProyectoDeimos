@@ -12,6 +12,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   ".qtc/package-manager/auto-setup.cmake"
   "CMakeFiles/3.31.6/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.31.6/CMakeSystem.cmake"
+<<<<<<< HEAD
+=======
+  "/Users/anavalle/Documents/ProyectoDeimos/resources.qrc"
+>>>>>>> ana
   "/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
   "/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
@@ -316,6 +320,10 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   ".qt/info_plist/ProyectDeimos/Info.plist"
   "CMakeFiles/ProyectDeimos_autogen.dir/AutogenInfo.json"
+<<<<<<< HEAD
+=======
+  "CMakeFiles/ProyectDeimos_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json"
+>>>>>>> ana
   ".qt/QtDeploySupport.cmake"
   ".qt/QtDeployTargets.cmake"
   "ProyectDeimos.app/Contents/MacOS"
