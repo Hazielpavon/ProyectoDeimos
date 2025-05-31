@@ -149,13 +149,148 @@ CMakeFiles/ProyectDeimos.dir/menuopciones.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ProyectDeimos.dir/menuopciones.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anavalle/Documents/ProyectoDeimos/menuopciones.cpp -o CMakeFiles/ProyectDeimos.dir/menuopciones.cpp.s
 
+CMakeFiles/ProyectDeimos.dir/entidad.cpp.o: CMakeFiles/ProyectDeimos.dir/flags.make
+CMakeFiles/ProyectDeimos.dir/entidad.cpp.o: /Users/anavalle/Documents/ProyectoDeimos/entidad.cpp
+CMakeFiles/ProyectDeimos.dir/entidad.cpp.o: CMakeFiles/ProyectDeimos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ProyectDeimos.dir/entidad.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ProyectDeimos.dir/entidad.cpp.o -MF CMakeFiles/ProyectDeimos.dir/entidad.cpp.o.d -o CMakeFiles/ProyectDeimos.dir/entidad.cpp.o -c /Users/anavalle/Documents/ProyectoDeimos/entidad.cpp
+
+CMakeFiles/ProyectDeimos.dir/entidad.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ProyectDeimos.dir/entidad.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anavalle/Documents/ProyectoDeimos/entidad.cpp > CMakeFiles/ProyectDeimos.dir/entidad.cpp.i
+
+CMakeFiles/ProyectDeimos.dir/entidad.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ProyectDeimos.dir/entidad.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anavalle/Documents/ProyectoDeimos/entidad.cpp -o CMakeFiles/ProyectDeimos.dir/entidad.cpp.s
+
+CMakeFiles/ProyectDeimos.dir/colatareas.cpp.o: CMakeFiles/ProyectDeimos.dir/flags.make
+CMakeFiles/ProyectDeimos.dir/colatareas.cpp.o: /Users/anavalle/Documents/ProyectoDeimos/colatareas.cpp
+CMakeFiles/ProyectDeimos.dir/colatareas.cpp.o: CMakeFiles/ProyectDeimos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ProyectDeimos.dir/colatareas.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ProyectDeimos.dir/colatareas.cpp.o -MF CMakeFiles/ProyectDeimos.dir/colatareas.cpp.o.d -o CMakeFiles/ProyectDeimos.dir/colatareas.cpp.o -c /Users/anavalle/Documents/ProyectoDeimos/colatareas.cpp
+
+CMakeFiles/ProyectDeimos.dir/colatareas.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ProyectDeimos.dir/colatareas.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anavalle/Documents/ProyectoDeimos/colatareas.cpp > CMakeFiles/ProyectDeimos.dir/colatareas.cpp.i
+
+CMakeFiles/ProyectDeimos.dir/colatareas.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ProyectDeimos.dir/colatareas.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anavalle/Documents/ProyectoDeimos/colatareas.cpp -o CMakeFiles/ProyectDeimos.dir/colatareas.cpp.s
+
+CMakeFiles/ProyectDeimos.dir/hilotrabajo.cpp.o: CMakeFiles/ProyectDeimos.dir/flags.make
+CMakeFiles/ProyectDeimos.dir/hilotrabajo.cpp.o: /Users/anavalle/Documents/ProyectoDeimos/hilotrabajo.cpp
+CMakeFiles/ProyectDeimos.dir/hilotrabajo.cpp.o: CMakeFiles/ProyectDeimos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ProyectDeimos.dir/hilotrabajo.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ProyectDeimos.dir/hilotrabajo.cpp.o -MF CMakeFiles/ProyectDeimos.dir/hilotrabajo.cpp.o.d -o CMakeFiles/ProyectDeimos.dir/hilotrabajo.cpp.o -c /Users/anavalle/Documents/ProyectoDeimos/hilotrabajo.cpp
+
+CMakeFiles/ProyectDeimos.dir/hilotrabajo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ProyectDeimos.dir/hilotrabajo.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anavalle/Documents/ProyectoDeimos/hilotrabajo.cpp > CMakeFiles/ProyectDeimos.dir/hilotrabajo.cpp.i
+
+CMakeFiles/ProyectDeimos.dir/hilotrabajo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ProyectDeimos.dir/hilotrabajo.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anavalle/Documents/ProyectoDeimos/hilotrabajo.cpp -o CMakeFiles/ProyectDeimos.dir/hilotrabajo.cpp.s
+
+CMakeFiles/ProyectDeimos.dir/tranformacion.cpp.o: CMakeFiles/ProyectDeimos.dir/flags.make
+CMakeFiles/ProyectDeimos.dir/tranformacion.cpp.o: /Users/anavalle/Documents/ProyectoDeimos/tranformacion.cpp
+CMakeFiles/ProyectDeimos.dir/tranformacion.cpp.o: CMakeFiles/ProyectDeimos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ProyectDeimos.dir/tranformacion.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ProyectDeimos.dir/tranformacion.cpp.o -MF CMakeFiles/ProyectDeimos.dir/tranformacion.cpp.o.d -o CMakeFiles/ProyectDeimos.dir/tranformacion.cpp.o -c /Users/anavalle/Documents/ProyectoDeimos/tranformacion.cpp
+
+CMakeFiles/ProyectDeimos.dir/tranformacion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ProyectDeimos.dir/tranformacion.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anavalle/Documents/ProyectoDeimos/tranformacion.cpp > CMakeFiles/ProyectDeimos.dir/tranformacion.cpp.i
+
+CMakeFiles/ProyectDeimos.dir/tranformacion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ProyectDeimos.dir/tranformacion.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anavalle/Documents/ProyectoDeimos/tranformacion.cpp -o CMakeFiles/ProyectDeimos.dir/tranformacion.cpp.s
+
+CMakeFiles/ProyectDeimos.dir/sprite.cpp.o: CMakeFiles/ProyectDeimos.dir/flags.make
+CMakeFiles/ProyectDeimos.dir/sprite.cpp.o: /Users/anavalle/Documents/ProyectoDeimos/sprite.cpp
+CMakeFiles/ProyectDeimos.dir/sprite.cpp.o: CMakeFiles/ProyectDeimos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ProyectDeimos.dir/sprite.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ProyectDeimos.dir/sprite.cpp.o -MF CMakeFiles/ProyectDeimos.dir/sprite.cpp.o.d -o CMakeFiles/ProyectDeimos.dir/sprite.cpp.o -c /Users/anavalle/Documents/ProyectoDeimos/sprite.cpp
+
+CMakeFiles/ProyectDeimos.dir/sprite.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ProyectDeimos.dir/sprite.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anavalle/Documents/ProyectoDeimos/sprite.cpp > CMakeFiles/ProyectDeimos.dir/sprite.cpp.i
+
+CMakeFiles/ProyectDeimos.dir/sprite.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ProyectDeimos.dir/sprite.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anavalle/Documents/ProyectoDeimos/sprite.cpp -o CMakeFiles/ProyectDeimos.dir/sprite.cpp.s
+
+CMakeFiles/ProyectDeimos.dir/enemigo.cpp.o: CMakeFiles/ProyectDeimos.dir/flags.make
+CMakeFiles/ProyectDeimos.dir/enemigo.cpp.o: /Users/anavalle/Documents/ProyectoDeimos/enemigo.cpp
+CMakeFiles/ProyectDeimos.dir/enemigo.cpp.o: CMakeFiles/ProyectDeimos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ProyectDeimos.dir/enemigo.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ProyectDeimos.dir/enemigo.cpp.o -MF CMakeFiles/ProyectDeimos.dir/enemigo.cpp.o.d -o CMakeFiles/ProyectDeimos.dir/enemigo.cpp.o -c /Users/anavalle/Documents/ProyectoDeimos/enemigo.cpp
+
+CMakeFiles/ProyectDeimos.dir/enemigo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ProyectDeimos.dir/enemigo.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anavalle/Documents/ProyectoDeimos/enemigo.cpp > CMakeFiles/ProyectDeimos.dir/enemigo.cpp.i
+
+CMakeFiles/ProyectDeimos.dir/enemigo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ProyectDeimos.dir/enemigo.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anavalle/Documents/ProyectoDeimos/enemigo.cpp -o CMakeFiles/ProyectDeimos.dir/enemigo.cpp.s
+
+CMakeFiles/ProyectDeimos.dir/jugador.cpp.o: CMakeFiles/ProyectDeimos.dir/flags.make
+CMakeFiles/ProyectDeimos.dir/jugador.cpp.o: /Users/anavalle/Documents/ProyectoDeimos/jugador.cpp
+CMakeFiles/ProyectDeimos.dir/jugador.cpp.o: CMakeFiles/ProyectDeimos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ProyectDeimos.dir/jugador.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ProyectDeimos.dir/jugador.cpp.o -MF CMakeFiles/ProyectDeimos.dir/jugador.cpp.o.d -o CMakeFiles/ProyectDeimos.dir/jugador.cpp.o -c /Users/anavalle/Documents/ProyectoDeimos/jugador.cpp
+
+CMakeFiles/ProyectDeimos.dir/jugador.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ProyectDeimos.dir/jugador.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anavalle/Documents/ProyectoDeimos/jugador.cpp > CMakeFiles/ProyectDeimos.dir/jugador.cpp.i
+
+CMakeFiles/ProyectDeimos.dir/jugador.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ProyectDeimos.dir/jugador.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anavalle/Documents/ProyectoDeimos/jugador.cpp -o CMakeFiles/ProyectDeimos.dir/jugador.cpp.s
+
+CMakeFiles/ProyectDeimos.dir/componentefisico.cpp.o: CMakeFiles/ProyectDeimos.dir/flags.make
+CMakeFiles/ProyectDeimos.dir/componentefisico.cpp.o: /Users/anavalle/Documents/ProyectoDeimos/componentefisico.cpp
+CMakeFiles/ProyectDeimos.dir/componentefisico.cpp.o: CMakeFiles/ProyectDeimos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/ProyectDeimos.dir/componentefisico.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ProyectDeimos.dir/componentefisico.cpp.o -MF CMakeFiles/ProyectDeimos.dir/componentefisico.cpp.o.d -o CMakeFiles/ProyectDeimos.dir/componentefisico.cpp.o -c /Users/anavalle/Documents/ProyectoDeimos/componentefisico.cpp
+
+CMakeFiles/ProyectDeimos.dir/componentefisico.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ProyectDeimos.dir/componentefisico.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anavalle/Documents/ProyectoDeimos/componentefisico.cpp > CMakeFiles/ProyectDeimos.dir/componentefisico.cpp.i
+
+CMakeFiles/ProyectDeimos.dir/componentefisico.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ProyectDeimos.dir/componentefisico.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anavalle/Documents/ProyectoDeimos/componentefisico.cpp -o CMakeFiles/ProyectDeimos.dir/componentefisico.cpp.s
+
+CMakeFiles/ProyectDeimos.dir/componentesalud.cpp.o: CMakeFiles/ProyectDeimos.dir/flags.make
+CMakeFiles/ProyectDeimos.dir/componentesalud.cpp.o: /Users/anavalle/Documents/ProyectoDeimos/componentesalud.cpp
+CMakeFiles/ProyectDeimos.dir/componentesalud.cpp.o: CMakeFiles/ProyectDeimos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/ProyectDeimos.dir/componentesalud.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ProyectDeimos.dir/componentesalud.cpp.o -MF CMakeFiles/ProyectDeimos.dir/componentesalud.cpp.o.d -o CMakeFiles/ProyectDeimos.dir/componentesalud.cpp.o -c /Users/anavalle/Documents/ProyectoDeimos/componentesalud.cpp
+
+CMakeFiles/ProyectDeimos.dir/componentesalud.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ProyectDeimos.dir/componentesalud.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anavalle/Documents/ProyectoDeimos/componentesalud.cpp > CMakeFiles/ProyectDeimos.dir/componentesalud.cpp.i
+
+CMakeFiles/ProyectDeimos.dir/componentesalud.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ProyectDeimos.dir/componentesalud.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anavalle/Documents/ProyectoDeimos/componentesalud.cpp -o CMakeFiles/ProyectDeimos.dir/componentesalud.cpp.s
+
 # Object files for target ProyectDeimos
 ProyectDeimos_OBJECTS = \
 "CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/ProyectDeimos.dir/main.cpp.o" \
 "CMakeFiles/ProyectDeimos.dir/mainwindow.cpp.o" \
 "CMakeFiles/ProyectDeimos.dir/pantallainicio.cpp.o" \
-"CMakeFiles/ProyectDeimos.dir/menuopciones.cpp.o"
+"CMakeFiles/ProyectDeimos.dir/menuopciones.cpp.o" \
+"CMakeFiles/ProyectDeimos.dir/entidad.cpp.o" \
+"CMakeFiles/ProyectDeimos.dir/colatareas.cpp.o" \
+"CMakeFiles/ProyectDeimos.dir/hilotrabajo.cpp.o" \
+"CMakeFiles/ProyectDeimos.dir/tranformacion.cpp.o" \
+"CMakeFiles/ProyectDeimos.dir/sprite.cpp.o" \
+"CMakeFiles/ProyectDeimos.dir/enemigo.cpp.o" \
+"CMakeFiles/ProyectDeimos.dir/jugador.cpp.o" \
+"CMakeFiles/ProyectDeimos.dir/componentefisico.cpp.o" \
+"CMakeFiles/ProyectDeimos.dir/componentesalud.cpp.o"
 
 # External object files for target ProyectDeimos
 ProyectDeimos_EXTERNAL_OBJECTS =
@@ -165,12 +300,21 @@ ProyectDeimos.app/Contents/MacOS/ProyectDeimos: CMakeFiles/ProyectDeimos.dir/mai
 ProyectDeimos.app/Contents/MacOS/ProyectDeimos: CMakeFiles/ProyectDeimos.dir/mainwindow.cpp.o
 ProyectDeimos.app/Contents/MacOS/ProyectDeimos: CMakeFiles/ProyectDeimos.dir/pantallainicio.cpp.o
 ProyectDeimos.app/Contents/MacOS/ProyectDeimos: CMakeFiles/ProyectDeimos.dir/menuopciones.cpp.o
+ProyectDeimos.app/Contents/MacOS/ProyectDeimos: CMakeFiles/ProyectDeimos.dir/entidad.cpp.o
+ProyectDeimos.app/Contents/MacOS/ProyectDeimos: CMakeFiles/ProyectDeimos.dir/colatareas.cpp.o
+ProyectDeimos.app/Contents/MacOS/ProyectDeimos: CMakeFiles/ProyectDeimos.dir/hilotrabajo.cpp.o
+ProyectDeimos.app/Contents/MacOS/ProyectDeimos: CMakeFiles/ProyectDeimos.dir/tranformacion.cpp.o
+ProyectDeimos.app/Contents/MacOS/ProyectDeimos: CMakeFiles/ProyectDeimos.dir/sprite.cpp.o
+ProyectDeimos.app/Contents/MacOS/ProyectDeimos: CMakeFiles/ProyectDeimos.dir/enemigo.cpp.o
+ProyectDeimos.app/Contents/MacOS/ProyectDeimos: CMakeFiles/ProyectDeimos.dir/jugador.cpp.o
+ProyectDeimos.app/Contents/MacOS/ProyectDeimos: CMakeFiles/ProyectDeimos.dir/componentefisico.cpp.o
+ProyectDeimos.app/Contents/MacOS/ProyectDeimos: CMakeFiles/ProyectDeimos.dir/componentesalud.cpp.o
 ProyectDeimos.app/Contents/MacOS/ProyectDeimos: CMakeFiles/ProyectDeimos.dir/build.make
 ProyectDeimos.app/Contents/MacOS/ProyectDeimos: /opt/homebrew/lib/QtWidgets.framework/Versions/A/QtWidgets
 ProyectDeimos.app/Contents/MacOS/ProyectDeimos: /opt/homebrew/lib/QtGui.framework/Versions/A/QtGui
 ProyectDeimos.app/Contents/MacOS/ProyectDeimos: /opt/homebrew/lib/QtCore.framework/Versions/A/QtCore
 ProyectDeimos.app/Contents/MacOS/ProyectDeimos: CMakeFiles/ProyectDeimos.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ProyectDeimos.app/Contents/MacOS/ProyectDeimos"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable ProyectDeimos.app/Contents/MacOS/ProyectDeimos"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ProyectDeimos.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

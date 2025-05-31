@@ -25,6 +25,15 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         ${PROJECT_SOURCES}
         pantallainicio.h pantallainicio.cpp
         menuopciones.h menuopciones.cpp
+        entidad.h entidad.cpp
+        colatareas.h colatareas.cpp
+        hilotrabajo.h hilotrabajo.cpp
+        tranformacion.h tranformacion.cpp
+        sprite.h sprite.cpp
+        enemigo.h enemigo.cpp
+        jugador.h jugador.cpp
+        componentefisico.h componentefisico.cpp
+        componentesalud.h componentesalud.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET ProyectDeimos APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

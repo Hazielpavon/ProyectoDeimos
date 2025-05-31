@@ -445,6 +445,48 @@
 	"HEADERS" : 
 	[
 		[
+			"/Users/anavalle/Documents/ProyectoDeimos/colatareas.h",
+			"MU",
+			"EWIEGA46WW/moc_colatareas.cpp",
+			null
+		],
+		[
+			"/Users/anavalle/Documents/ProyectoDeimos/componentefisico.h",
+			"MU",
+			"EWIEGA46WW/moc_componentefisico.cpp",
+			null
+		],
+		[
+			"/Users/anavalle/Documents/ProyectoDeimos/componentesalud.h",
+			"MU",
+			"EWIEGA46WW/moc_componentesalud.cpp",
+			null
+		],
+		[
+			"/Users/anavalle/Documents/ProyectoDeimos/enemigo.h",
+			"MU",
+			"EWIEGA46WW/moc_enemigo.cpp",
+			null
+		],
+		[
+			"/Users/anavalle/Documents/ProyectoDeimos/entidad.h",
+			"MU",
+			"EWIEGA46WW/moc_entidad.cpp",
+			null
+		],
+		[
+			"/Users/anavalle/Documents/ProyectoDeimos/hilotrabajo.h",
+			"MU",
+			"EWIEGA46WW/moc_hilotrabajo.cpp",
+			null
+		],
+		[
+			"/Users/anavalle/Documents/ProyectoDeimos/jugador.h",
+			"MU",
+			"EWIEGA46WW/moc_jugador.cpp",
+			null
+		],
+		[
 			"/Users/anavalle/Documents/ProyectoDeimos/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -460,6 +502,18 @@
 			"/Users/anavalle/Documents/ProyectoDeimos/pantallainicio.h",
 			"MU",
 			"EWIEGA46WW/moc_pantallainicio.cpp",
+			null
+		],
+		[
+			"/Users/anavalle/Documents/ProyectoDeimos/sprite.h",
+			"MU",
+			"EWIEGA46WW/moc_sprite.cpp",
+			null
+		],
+		[
+			"/Users/anavalle/Documents/ProyectoDeimos/tranformacion.h",
+			"MU",
+			"EWIEGA46WW/moc_tranformacion.cpp",
 			null
 		]
 	],
@@ -522,6 +576,25 @@
 	"SETTINGS_FILE" : "/Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/ProyectDeimos_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "/Users/anavalle/Documents/ProyectoDeimos/colatareas.cpp", "MU", null ],
+		[
+			"/Users/anavalle/Documents/ProyectoDeimos/componentefisico.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/anavalle/Documents/ProyectoDeimos/componentesalud.cpp",
+			"MU",
+			null
+		],
+		[ "/Users/anavalle/Documents/ProyectoDeimos/enemigo.cpp", "MU", null ],
+		[ "/Users/anavalle/Documents/ProyectoDeimos/entidad.cpp", "MU", null ],
+		[
+			"/Users/anavalle/Documents/ProyectoDeimos/hilotrabajo.cpp",
+			"MU",
+			null
+		],
+		[ "/Users/anavalle/Documents/ProyectoDeimos/jugador.cpp", "MU", null ],
 		[ "/Users/anavalle/Documents/ProyectoDeimos/main.cpp", "MU", null ],
 		[ "/Users/anavalle/Documents/ProyectoDeimos/mainwindow.cpp", "MU", null ],
 		[
@@ -531,6 +604,12 @@
 		],
 		[
 			"/Users/anavalle/Documents/ProyectoDeimos/pantallainicio.cpp",
+			"MU",
+			null
+		],
+		[ "/Users/anavalle/Documents/ProyectoDeimos/sprite.cpp", "MU", null ],
+		[
+			"/Users/anavalle/Documents/ProyectoDeimos/tranformacion.cpp",
 			"MU",
 			null
 		]
