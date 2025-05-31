@@ -272,6 +272,54 @@ mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
+menuopciones.o: menuopciones.cpp.o
+.PHONY : menuopciones.o
+
+# target to build an object file
+menuopciones.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/menuopciones.cpp.o
+.PHONY : menuopciones.cpp.o
+
+menuopciones.i: menuopciones.cpp.i
+.PHONY : menuopciones.i
+
+# target to preprocess a source file
+menuopciones.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/menuopciones.cpp.i
+.PHONY : menuopciones.cpp.i
+
+menuopciones.s: menuopciones.cpp.s
+.PHONY : menuopciones.s
+
+# target to generate assembly for a file
+menuopciones.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/menuopciones.cpp.s
+.PHONY : menuopciones.cpp.s
+
+pantallainicio.o: pantallainicio.cpp.o
+.PHONY : pantallainicio.o
+
+# target to build an object file
+pantallainicio.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/pantallainicio.cpp.o
+.PHONY : pantallainicio.cpp.o
+
+pantallainicio.i: pantallainicio.cpp.i
+.PHONY : pantallainicio.i
+
+# target to preprocess a source file
+pantallainicio.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/pantallainicio.cpp.i
+.PHONY : pantallainicio.cpp.i
+
+pantallainicio.s: pantallainicio.cpp.s
+.PHONY : pantallainicio.s
+
+# target to generate assembly for a file
+pantallainicio.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/pantallainicio.cpp.s
+.PHONY : pantallainicio.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -296,6 +344,12 @@ help:
 	@echo "... mainwindow.o"
 	@echo "... mainwindow.i"
 	@echo "... mainwindow.s"
+	@echo "... menuopciones.o"
+	@echo "... menuopciones.i"
+	@echo "... menuopciones.s"
+	@echo "... pantallainicio.o"
+	@echo "... pantallainicio.i"
+	@echo "... pantallainicio.s"
 .PHONY : help
 
 

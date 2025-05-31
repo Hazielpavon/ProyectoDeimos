@@ -12,6 +12,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/ProyectDeimos_autogen/mocs_compilation.cpp" "CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/mocs_compilation.cpp.o.d"
   "/Users/anavalle/Documents/ProyectoDeimos/main.cpp" "CMakeFiles/ProyectDeimos.dir/main.cpp.o" "gcc" "CMakeFiles/ProyectDeimos.dir/main.cpp.o.d"
   "/Users/anavalle/Documents/ProyectoDeimos/mainwindow.cpp" "CMakeFiles/ProyectDeimos.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/ProyectDeimos.dir/mainwindow.cpp.o.d"
+  "/Users/anavalle/Documents/ProyectoDeimos/menuopciones.cpp" "CMakeFiles/ProyectDeimos.dir/menuopciones.cpp.o" "gcc" "CMakeFiles/ProyectDeimos.dir/menuopciones.cpp.o.d"
+  "/Users/anavalle/Documents/ProyectoDeimos/pantallainicio.cpp" "CMakeFiles/ProyectDeimos.dir/pantallainicio.cpp.o" "gcc" "CMakeFiles/ProyectDeimos.dir/pantallainicio.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
