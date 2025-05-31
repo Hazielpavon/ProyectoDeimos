@@ -200,6 +200,30 @@ ProyectDeimos_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos_autogen.dir/build.make CMakeFiles/ProyectDeimos_autogen.dir/build
 .PHONY : ProyectDeimos_autogen/fast
 
+ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.o: ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.o
+.PHONY : ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.o
+
+# target to build an object file
+ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.o
+.PHONY : ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.o
+
+ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.i: ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.i
+.PHONY : ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.i
+
+# target to preprocess a source file
+ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.i
+.PHONY : ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.i
+
+ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.s: ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.s
+.PHONY : ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.s
+
+# target to generate assembly for a file
+ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.s
+.PHONY : ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.s
+
 ProyectDeimos_autogen/mocs_compilation.o: ProyectDeimos_autogen/mocs_compilation.cpp.o
 .PHONY : ProyectDeimos_autogen/mocs_compilation.o
 
@@ -223,6 +247,174 @@ ProyectDeimos_autogen/mocs_compilation.s: ProyectDeimos_autogen/mocs_compilation
 ProyectDeimos_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/mocs_compilation.cpp.s
 .PHONY : ProyectDeimos_autogen/mocs_compilation.cpp.s
+
+colatareas.o: colatareas.cpp.o
+.PHONY : colatareas.o
+
+# target to build an object file
+colatareas.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/colatareas.cpp.o
+.PHONY : colatareas.cpp.o
+
+colatareas.i: colatareas.cpp.i
+.PHONY : colatareas.i
+
+# target to preprocess a source file
+colatareas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/colatareas.cpp.i
+.PHONY : colatareas.cpp.i
+
+colatareas.s: colatareas.cpp.s
+.PHONY : colatareas.s
+
+# target to generate assembly for a file
+colatareas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/colatareas.cpp.s
+.PHONY : colatareas.cpp.s
+
+componentefisico.o: componentefisico.cpp.o
+.PHONY : componentefisico.o
+
+# target to build an object file
+componentefisico.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/componentefisico.cpp.o
+.PHONY : componentefisico.cpp.o
+
+componentefisico.i: componentefisico.cpp.i
+.PHONY : componentefisico.i
+
+# target to preprocess a source file
+componentefisico.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/componentefisico.cpp.i
+.PHONY : componentefisico.cpp.i
+
+componentefisico.s: componentefisico.cpp.s
+.PHONY : componentefisico.s
+
+# target to generate assembly for a file
+componentefisico.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/componentefisico.cpp.s
+.PHONY : componentefisico.cpp.s
+
+componentesalud.o: componentesalud.cpp.o
+.PHONY : componentesalud.o
+
+# target to build an object file
+componentesalud.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/componentesalud.cpp.o
+.PHONY : componentesalud.cpp.o
+
+componentesalud.i: componentesalud.cpp.i
+.PHONY : componentesalud.i
+
+# target to preprocess a source file
+componentesalud.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/componentesalud.cpp.i
+.PHONY : componentesalud.cpp.i
+
+componentesalud.s: componentesalud.cpp.s
+.PHONY : componentesalud.s
+
+# target to generate assembly for a file
+componentesalud.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/componentesalud.cpp.s
+.PHONY : componentesalud.cpp.s
+
+enemigo.o: enemigo.cpp.o
+.PHONY : enemigo.o
+
+# target to build an object file
+enemigo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/enemigo.cpp.o
+.PHONY : enemigo.cpp.o
+
+enemigo.i: enemigo.cpp.i
+.PHONY : enemigo.i
+
+# target to preprocess a source file
+enemigo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/enemigo.cpp.i
+.PHONY : enemigo.cpp.i
+
+enemigo.s: enemigo.cpp.s
+.PHONY : enemigo.s
+
+# target to generate assembly for a file
+enemigo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/enemigo.cpp.s
+.PHONY : enemigo.cpp.s
+
+entidad.o: entidad.cpp.o
+.PHONY : entidad.o
+
+# target to build an object file
+entidad.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/entidad.cpp.o
+.PHONY : entidad.cpp.o
+
+entidad.i: entidad.cpp.i
+.PHONY : entidad.i
+
+# target to preprocess a source file
+entidad.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/entidad.cpp.i
+.PHONY : entidad.cpp.i
+
+entidad.s: entidad.cpp.s
+.PHONY : entidad.s
+
+# target to generate assembly for a file
+entidad.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/entidad.cpp.s
+.PHONY : entidad.cpp.s
+
+hilotrabajo.o: hilotrabajo.cpp.o
+.PHONY : hilotrabajo.o
+
+# target to build an object file
+hilotrabajo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/hilotrabajo.cpp.o
+.PHONY : hilotrabajo.cpp.o
+
+hilotrabajo.i: hilotrabajo.cpp.i
+.PHONY : hilotrabajo.i
+
+# target to preprocess a source file
+hilotrabajo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/hilotrabajo.cpp.i
+.PHONY : hilotrabajo.cpp.i
+
+hilotrabajo.s: hilotrabajo.cpp.s
+.PHONY : hilotrabajo.s
+
+# target to generate assembly for a file
+hilotrabajo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/hilotrabajo.cpp.s
+.PHONY : hilotrabajo.cpp.s
+
+jugador.o: jugador.cpp.o
+.PHONY : jugador.o
+
+# target to build an object file
+jugador.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/jugador.cpp.o
+.PHONY : jugador.cpp.o
+
+jugador.i: jugador.cpp.i
+.PHONY : jugador.i
+
+# target to preprocess a source file
+jugador.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/jugador.cpp.i
+.PHONY : jugador.cpp.i
+
+jugador.s: jugador.cpp.s
+.PHONY : jugador.s
+
+# target to generate assembly for a file
+jugador.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/jugador.cpp.s
+.PHONY : jugador.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -272,6 +464,102 @@ mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
+menuopciones.o: menuopciones.cpp.o
+.PHONY : menuopciones.o
+
+# target to build an object file
+menuopciones.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/menuopciones.cpp.o
+.PHONY : menuopciones.cpp.o
+
+menuopciones.i: menuopciones.cpp.i
+.PHONY : menuopciones.i
+
+# target to preprocess a source file
+menuopciones.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/menuopciones.cpp.i
+.PHONY : menuopciones.cpp.i
+
+menuopciones.s: menuopciones.cpp.s
+.PHONY : menuopciones.s
+
+# target to generate assembly for a file
+menuopciones.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/menuopciones.cpp.s
+.PHONY : menuopciones.cpp.s
+
+pantallainicio.o: pantallainicio.cpp.o
+.PHONY : pantallainicio.o
+
+# target to build an object file
+pantallainicio.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/pantallainicio.cpp.o
+.PHONY : pantallainicio.cpp.o
+
+pantallainicio.i: pantallainicio.cpp.i
+.PHONY : pantallainicio.i
+
+# target to preprocess a source file
+pantallainicio.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/pantallainicio.cpp.i
+.PHONY : pantallainicio.cpp.i
+
+pantallainicio.s: pantallainicio.cpp.s
+.PHONY : pantallainicio.s
+
+# target to generate assembly for a file
+pantallainicio.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/pantallainicio.cpp.s
+.PHONY : pantallainicio.cpp.s
+
+sprite.o: sprite.cpp.o
+.PHONY : sprite.o
+
+# target to build an object file
+sprite.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/sprite.cpp.o
+.PHONY : sprite.cpp.o
+
+sprite.i: sprite.cpp.i
+.PHONY : sprite.i
+
+# target to preprocess a source file
+sprite.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/sprite.cpp.i
+.PHONY : sprite.cpp.i
+
+sprite.s: sprite.cpp.s
+.PHONY : sprite.s
+
+# target to generate assembly for a file
+sprite.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/sprite.cpp.s
+.PHONY : sprite.cpp.s
+
+tranformacion.o: tranformacion.cpp.o
+.PHONY : tranformacion.o
+
+# target to build an object file
+tranformacion.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/tranformacion.cpp.o
+.PHONY : tranformacion.cpp.o
+
+tranformacion.i: tranformacion.cpp.i
+.PHONY : tranformacion.i
+
+# target to preprocess a source file
+tranformacion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/tranformacion.cpp.i
+.PHONY : tranformacion.cpp.i
+
+tranformacion.s: tranformacion.cpp.s
+.PHONY : tranformacion.s
+
+# target to generate assembly for a file
+tranformacion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/tranformacion.cpp.s
+.PHONY : tranformacion.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -287,15 +575,51 @@ help:
 	@echo "... ProyectDeimos_autogen"
 	@echo "... ProyectDeimos_autogen_timestamp_deps"
 	@echo "... ProyectDeimos"
+	@echo "... ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.o"
+	@echo "... ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.i"
+	@echo "... ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.s"
 	@echo "... ProyectDeimos_autogen/mocs_compilation.o"
 	@echo "... ProyectDeimos_autogen/mocs_compilation.i"
 	@echo "... ProyectDeimos_autogen/mocs_compilation.s"
+	@echo "... colatareas.o"
+	@echo "... colatareas.i"
+	@echo "... colatareas.s"
+	@echo "... componentefisico.o"
+	@echo "... componentefisico.i"
+	@echo "... componentefisico.s"
+	@echo "... componentesalud.o"
+	@echo "... componentesalud.i"
+	@echo "... componentesalud.s"
+	@echo "... enemigo.o"
+	@echo "... enemigo.i"
+	@echo "... enemigo.s"
+	@echo "... entidad.o"
+	@echo "... entidad.i"
+	@echo "... entidad.s"
+	@echo "... hilotrabajo.o"
+	@echo "... hilotrabajo.i"
+	@echo "... hilotrabajo.s"
+	@echo "... jugador.o"
+	@echo "... jugador.i"
+	@echo "... jugador.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
 	@echo "... mainwindow.o"
 	@echo "... mainwindow.i"
 	@echo "... mainwindow.s"
+	@echo "... menuopciones.o"
+	@echo "... menuopciones.i"
+	@echo "... menuopciones.s"
+	@echo "... pantallainicio.o"
+	@echo "... pantallainicio.i"
+	@echo "... pantallainicio.s"
+	@echo "... sprite.o"
+	@echo "... sprite.i"
+	@echo "... sprite.s"
+	@echo "... tranformacion.o"
+	@echo "... tranformacion.i"
+	@echo "... tranformacion.s"
 .PHONY : help
 
 

@@ -1,14 +1,29 @@
 #include "mainwindow.h"
-#include "./ui_mainwindow.h"
+#include <QDebug>
 
 MainWindow::MainWindow(QWidget *parent)
-    : QMainWindow(parent)
-    , ui(new Ui::MainWindow)
+    : QMainWindow(parent), pantallaActual(nullptr), menuOpciones(nullptr)
 {
-    ui->setupUi(this);
+    setFixedSize(950, 650);
+
+    pantallaInicio = new PantallaInicio(this);
+
+    connect(pantallaInicio, &PantallaInicio::iniciarJuegoPresionado, this, [=]() {
+        qDebug() << "✅ Cambiando a MenuOpciones";
+        if (!menuOpciones)
+            menuOpciones = new MenuOpciones(this);
+        mostrarPantalla(menuOpciones);
+    });
+
+    mostrarPantalla(pantallaInicio);
 }
 
-MainWindow::~MainWindow()
+MainWindow::~MainWindow() {}
+
+void MainWindow::mostrarPantalla(QWidget *pantalla)
 {
-    delete ui;
+    if (pantallaActual) pantallaActual->hide();
+    pantallaActual = pantalla;
+    setCentralWidget(pantallaActual);
+    pantallaActual->show();
 }
