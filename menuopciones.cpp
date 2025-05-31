@@ -45,3 +45,6 @@ MenuOpciones::MenuOpciones(QWidget *parent)
         qApp->exit();
     });
 }
+
+
+
