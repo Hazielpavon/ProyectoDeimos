@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ProyectDeimos_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/ProyectDeimos_autogen.dir/ParseCache.txt"
   "ProyectDeimos_autogen"
+  "CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.o"
+  "CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.o.d"
   "CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/mocs_compilation.cpp.o.d"
   "CMakeFiles/ProyectDeimos.dir/colatareas.cpp.o"
@@ -32,6 +34,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ProyectDeimos.dir/tranformacion.cpp.o.d"
   "ProyectDeimos.app/Contents/MacOS/ProyectDeimos"
   "ProyectDeimos.pdb"
+  "ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp"
   "ProyectDeimos_autogen/mocs_compilation.cpp"
   "ProyectDeimos_autogen/timestamp"
 )

@@ -200,6 +200,30 @@ ProyectDeimos_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos_autogen.dir/build.make CMakeFiles/ProyectDeimos_autogen.dir/build
 .PHONY : ProyectDeimos_autogen/fast
 
+ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.o: ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.o
+.PHONY : ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.o
+
+# target to build an object file
+ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.o
+.PHONY : ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.o
+
+ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.i: ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.i
+.PHONY : ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.i
+
+# target to preprocess a source file
+ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.i
+.PHONY : ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.i
+
+ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.s: ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.s
+.PHONY : ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.s
+
+# target to generate assembly for a file
+ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.s
+.PHONY : ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.s
+
 ProyectDeimos_autogen/mocs_compilation.o: ProyectDeimos_autogen/mocs_compilation.cpp.o
 .PHONY : ProyectDeimos_autogen/mocs_compilation.o
 
@@ -551,6 +575,9 @@ help:
 	@echo "... ProyectDeimos_autogen"
 	@echo "... ProyectDeimos_autogen_timestamp_deps"
 	@echo "... ProyectDeimos"
+	@echo "... ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.o"
+	@echo "... ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.i"
+	@echo "... ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.s"
 	@echo "... ProyectDeimos_autogen/mocs_compilation.o"
 	@echo "... ProyectDeimos_autogen/mocs_compilation.i"
 	@echo "... ProyectDeimos_autogen/mocs_compilation.s"

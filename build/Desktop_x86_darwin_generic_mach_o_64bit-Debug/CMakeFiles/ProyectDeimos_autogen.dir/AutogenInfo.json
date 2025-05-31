@@ -436,7 +436,8 @@
 		"/opt/homebrew/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake",
 		"/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake",
 		"/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/GNUInstallDirs.cmake",
-		"/opt/homebrew/Cellar/qt/6.9.0/lib/cmake/Qt6/macos/Info.plist.app.in"
+		"/opt/homebrew/Cellar/qt/6.9.0/lib/cmake/Qt6/macos/Info.plist.app.in",
+		"/Users/anavalle/Documents/ProyectoDeimos/resources.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "/Users/anavalle/Documents/ProyectoDeimos",
 	"CROSS_CONFIG" : false,

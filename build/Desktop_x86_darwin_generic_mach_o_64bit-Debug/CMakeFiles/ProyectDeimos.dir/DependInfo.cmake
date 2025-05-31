@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "ProyectDeimos_autogen/timestamp" "custom" "ProyectDeimos_autogen/deps"
+  "/Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp" "CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.o" "gcc" "CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.o.d"
   "/Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/ProyectDeimos_autogen/mocs_compilation.cpp" "CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/mocs_compilation.cpp.o.d"
   "/Users/anavalle/Documents/ProyectoDeimos/colatareas.cpp" "CMakeFiles/ProyectDeimos.dir/colatareas.cpp.o" "gcc" "CMakeFiles/ProyectDeimos.dir/colatareas.cpp.o.d"
   "/Users/anavalle/Documents/ProyectoDeimos/componentefisico.cpp" "CMakeFiles/ProyectDeimos.dir/componentefisico.cpp.o" "gcc" "CMakeFiles/ProyectDeimos.dir/componentefisico.cpp.o.d"
