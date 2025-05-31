@@ -2,12 +2,8 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-
-QT_BEGIN_NAMESPACE
-namespace Ui {
-class MainWindow;
-}
-QT_END_NAMESPACE
+#include "pantallainicio.h"
+#include "menuopciones.h"
 
 class MainWindow : public QMainWindow
 {
@@ -18,6 +14,11 @@ public:
     ~MainWindow();
 
 private:
-    Ui::MainWindow *ui;
+    QWidget *pantallaActual;
+    PantallaInicio *pantallaInicio;
+    MenuOpciones *menuOpciones;
+
+    void mostrarPantalla(QWidget *pantalla);
 };
+
 #endif // MAINWINDOW_H
