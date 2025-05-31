@@ -78,6 +78,7 @@ ProyectDeimos_autogen/timestamp: CMakeFiles/ProyectDeimos.dir/compiler_depend.ts
 
 ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/anavalle/Documents/ProyectoDeimos/resources.qrc
 ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp: CMakeFiles/ProyectDeimos_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json
+ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/anavalle/Documents/ProyectoDeimos/resources/menu_Op.png
 ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/anavalle/Documents/ProyectoDeimos/resources/inicio.png
 ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp: /opt/homebrew/share/qt/libexec/rcc
 ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp: /opt/homebrew/share/qt/libexec/rcc
