@@ -17,7 +17,11 @@
 			{
 				"command" : 0,
 				"file" : 0,
+<<<<<<<< HEAD:build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.cmake/api/v1/reply 3.prev/directory-.-Debug-06f75d5b1cf1d54f2948.json
 				"line" : 76,
+========
+				"line" : 62,
+>>>>>>>> haziel:build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.cmake/api/v1/reply 3.prev/directory-.-Debug-375587e42e08d7e5796d.json
 				"parent" : 0
 			}
 		]

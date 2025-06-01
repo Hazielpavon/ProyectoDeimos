@@ -7,7 +7,11 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
+<<<<<<<< HEAD:build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.cmake/api/v1/reply 3.prev/codemodel-v2-50a5ed87236bce1e1661.json
 					"jsonFile" : "directory-.-Debug-06f75d5b1cf1d54f2948.json",
+========
+					"jsonFile" : "directory-.-Debug-375587e42e08d7e5796d.json",
+>>>>>>>> haziel:build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.cmake/api/v1/reply 3.prev/codemodel-v2-7a85963879eb62899a0d.json
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +48,11 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ProyectDeimos::@6890427a1f51a3e7e1df",
+<<<<<<<< HEAD:build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.cmake/api/v1/reply 3.prev/codemodel-v2-50a5ed87236bce1e1661.json
 					"jsonFile" : "target-ProyectDeimos-Debug-b60e8869c1cbfd8e1bb4.json",
+========
+					"jsonFile" : "target-ProyectDeimos-Debug-e8dbbeec20b3c0988c44.json",
+>>>>>>>> haziel:build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.cmake/api/v1/reply 3.prev/codemodel-v2-7a85963879eb62899a0d.json
 					"name" : "ProyectDeimos",
 					"projectIndex" : 0
 				},

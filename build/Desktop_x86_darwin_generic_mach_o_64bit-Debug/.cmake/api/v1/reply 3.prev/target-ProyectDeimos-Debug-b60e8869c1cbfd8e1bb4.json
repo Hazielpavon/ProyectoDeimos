@@ -69,13 +69,21 @@
 			{
 				"command" : 4,
 				"file" : 1,
+<<<<<<<< HEAD:build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.cmake/api/v1/reply 3.prev/target-ProyectDeimos-Debug-b60e8869c1cbfd8e1bb4.json
 				"line" : 76,
+========
+				"line" : 75,
+>>>>>>>> haziel:build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.cmake/api/v1/reply 3.prev/target-ProyectDeimos-Debug-1b4dddffd3a2c9fc141f.json
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
+<<<<<<<< HEAD:build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.cmake/api/v1/reply 3.prev/target-ProyectDeimos-Debug-b60e8869c1cbfd8e1bb4.json
 				"line" : 59,
+========
+				"line" : 58,
+>>>>>>>> haziel:build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.cmake/api/v1/reply 3.prev/target-ProyectDeimos-Debug-1b4dddffd3a2c9fc141f.json
 				"parent" : 0
 			},
 			{
@@ -303,8 +311,12 @@
 				24,
 				26,
 				29,
+<<<<<<<< HEAD:build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.cmake/api/v1/reply 3.prev/target-ProyectDeimos-Debug-b60e8869c1cbfd8e1bb4.json
 				31,
 				34
+========
+				32
+>>>>>>>> haziel:build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.cmake/api/v1/reply 3.prev/target-ProyectDeimos-Debug-1b4dddffd3a2c9fc141f.json
 			]
 		}
 	],
@@ -438,8 +450,12 @@
 				24,
 				26,
 				29,
+<<<<<<<< HEAD:build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.cmake/api/v1/reply 3.prev/target-ProyectDeimos-Debug-b60e8869c1cbfd8e1bb4.json
 				31,
 				34
+========
+				32
+>>>>>>>> haziel:build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.cmake/api/v1/reply 3.prev/target-ProyectDeimos-Debug-1b4dddffd3a2c9fc141f.json
 			]
 		},
 		{
@@ -459,8 +475,12 @@
 				23,
 				25,
 				28,
+<<<<<<<< HEAD:build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.cmake/api/v1/reply 3.prev/target-ProyectDeimos-Debug-b60e8869c1cbfd8e1bb4.json
 				30,
 				32
+========
+				30
+>>>>>>>> haziel:build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.cmake/api/v1/reply 3.prev/target-ProyectDeimos-Debug-1b4dddffd3a2c9fc141f.json
 			]
 		},
 		{
@@ -481,15 +501,24 @@
 			"name" : "",
 			"sourceIndexes" : 
 			[
+<<<<<<<< HEAD:build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.cmake/api/v1/reply 3.prev/target-ProyectDeimos-Debug-b60e8869c1cbfd8e1bb4.json
 				33
+========
+				31
+>>>>>>>> haziel:build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.cmake/api/v1/reply 3.prev/target-ProyectDeimos-Debug-1b4dddffd3a2c9fc141f.json
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
+<<<<<<<< HEAD:build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.cmake/api/v1/reply 3.prev/target-ProyectDeimos-Debug-b60e8869c1cbfd8e1bb4.json
 				35,
 				36
+========
+				33,
+				34
+>>>>>>>> haziel:build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.cmake/api/v1/reply 3.prev/target-ProyectDeimos-Debug-1b4dddffd3a2c9fc141f.json
 			]
 		}
 	],
@@ -662,6 +691,7 @@
 			"sourceGroupIndex" : 0
 		},
 		{
+<<<<<<<< HEAD:build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.cmake/api/v1/reply 3.prev/target-ProyectDeimos-Debug-b60e8869c1cbfd8e1bb4.json
 			"backtrace" : 4,
 			"path" : "pantallacarga.h",
 			"sourceGroupIndex" : 1
@@ -673,6 +703,8 @@
 			"sourceGroupIndex" : 0
 		},
 		{
+========
+>>>>>>>> haziel:build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/.cmake/api/v1/reply 3.prev/target-ProyectDeimos-Debug-1b4dddffd3a2c9fc141f.json
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/ProyectDeimos_autogen/include/ui_mainwindow.h",
