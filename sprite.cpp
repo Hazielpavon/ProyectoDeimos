@@ -1,37 +1,68 @@
-#include "Sprite.h"
+// sprite.cpp
+
+#include "sprite.h"
+#include <QDebug>
+#include <QCoreApplication>
+#include <QDir>
 
 Sprite::Sprite()
-    : m_frameIndex(0),
-    m_direction(Direction::Idle),
-    m_pos(0, 0),
-    m_speed(4)   // por defecto 4 píxeles/tick; puedes cambiarlo con setSpeed()
+    : m_frameIndex(0)
+    , m_timeAccumulator(0.0f)
+    , m_secondsPerFrame(1.0f / 12.0f) // p. ej. 12 FPS por defecto
+    , m_state(SpriteState::Idle)
+    , m_drawSize(64, 64)
+    , m_pos(0, 0)
 {
-    // En el constructor no cargamos nada;
-    // llamaremos a loadFrames(...) desde el widget principal.
 }
 
-void Sprite::loadFrames(const QString &prefixRight,const QString &prefixLeft, int count)
+void Sprite::loadWalkingFrames(const QString &prefix, int count)
 {
-    m_framesRight.clear();
-    m_framesLeft.clear();
+    m_walkingFrames.clear();
+    m_frameIndex = 0;
+    m_timeAccumulator = 0.0f;
 
-    // Por ejemplo, si prefixRight = ":/sprites/char_right_"
-    // y count = 3, cargará ":/sprites/char_right_0.png", ":/sprites/char_right_1.png", ":/sprites/char_right_2.png"
+    // Construimos projectRoot tal y como vimos antes
+    QString exeDir = QCoreApplication::applicationDirPath();
+    QString projectRoot = QDir(exeDir).absoluteFilePath("../..");
+
     for (int i = 0; i < count; ++i) {
-        QString rightPath = QString("%1%2.png").arg(prefixRight).arg(i);
-        QString leftPath  = QString("%1%2.png").arg(prefixLeft).arg(i);
+        QString number = QString("%1").arg(i, 3, 10, QChar('0'));
+        // prefix por ejemplo "Sprites/PersonajePrincipal/PNG Sequences/Walking/0_Blood_Demon_Walking_"
+        QString relPath = prefix + number + ".png";
+        QString fullPath = QDir(projectRoot).absoluteFilePath(relPath);
 
-        QPixmap pR(rightPath);
-        QPixmap pL(leftPath);
-
-        // Puedes verificar si se cargó correctamente, por ejemplo:
-        if (pR.isNull() || pL.isNull()) {
-            qWarning("Sprite::loadFrames: no se pudo cargar algún frame en '%s' o '%s'",
-                     qPrintable(rightPath), qPrintable(leftPath));
+        QPixmap pix(fullPath);
+        if (pix.isNull()) {
+            qWarning() << "Walking ❌ NO pudo cargar:" << fullPath;
+        } else {
+            qDebug() << "Walking ✅ Cargó:" << fullPath << "size" << pix.size();
         }
+        m_walkingFrames.append(pix);
+    }
+}
 
-        m_framesRight.append(pR);
-        m_framesLeft.append(pL);
+void Sprite::loadIdleFrames(const QString &prefix, int count)
+{
+    m_idleFrames.clear();
+    m_frameIndex = 0;
+    m_timeAccumulator = 0.0f;
+
+    QString exeDir = QCoreApplication::applicationDirPath();
+    QString projectRoot = QDir(exeDir).absoluteFilePath("../..");
+
+    for (int i = 0; i < count; ++i) {
+        QString number = QString("%1").arg(i, 3, 10, QChar('0'));
+        // prefix por ejemplo "Sprites/PersonajePrincipal/PNG Sequences/Idle/0_Blood_Demon_Idle_"
+        QString relPath = prefix + number + ".png";
+        QString fullPath = QDir(projectRoot).absoluteFilePath(relPath);
+
+        QPixmap pix(fullPath);
+        if (pix.isNull()) {
+            qWarning() << "Idle ❌ NO pudo cargar:" << fullPath;
+        } else {
+            qDebug() << "Idle ✅ Cargó:" << fullPath << "size" << pix.size();
+        }
+        m_idleFrames.append(pix);
     }
 }
 
@@ -41,97 +72,67 @@ void Sprite::setPosition(int x, int y)
     m_pos.setY(y);
 }
 
-QPoint Sprite::position() const
+void Sprite::setSize(int w, int h)
 {
-    return m_pos;
+    m_drawSize = QSize(w, h);
 }
 
-void Sprite::setDirection(Direction d)
+void Sprite::setState(SpriteState newState)
 {
-    m_direction = d;
-    // Si pasamos de Idle a Left/Right, dejamos que update() avance frames.
-    // Si configuramos Idle, el update() reseteará el frame a 0.
-}
-
-Direction Sprite::direction() const
-{
-    return m_direction;
-}
-
-void Sprite::setSpeed(int pixels)
-{
-    m_speed = pixels;
-}
-
-int Sprite::speed() const
-{
-    return m_speed;
-}
-
-void Sprite::update()
-{
-    // Si está en Idle (quieto), forzamos index a 0 (frame inicial del “quieto”)
-    if (m_direction == Direction::Idle) {
+    if (m_state != newState) {
+        m_state = newState;
         m_frameIndex = 0;
+        m_timeAccumulator = 0.0f;
+    }
+}
+
+void Sprite::setFPS(int framesPerSecond)
+{
+    if (framesPerSecond > 0) {
+        m_secondsPerFrame = 1.0f / float(framesPerSecond);
+    }
+}
+
+void Sprite::update(float dt)
+{
+    const QVector<QPixmap> *currentFrames = nullptr;
+    if (m_state == SpriteState::Walking) {
+        currentFrames = &m_walkingFrames;
+    } else {
+        currentFrames = &m_idleFrames;
+    }
+
+    if (!currentFrames || currentFrames->isEmpty())
         return;
-    }
 
-    // 1) Avanzar el índice de animación
-    //    Usamos modulo en caso de que count > 1
-    int frameCount = m_framesRight.size();
-    if (frameCount == 0)
-        return; // nada que hacer si no hay frames
-
-    m_frameIndex = (m_frameIndex + 1) % frameCount;
-
-    // 2) Mover la posición en X
-    if (m_direction == Direction::Right) {
-        m_pos.setX(m_pos.x() + m_speed);
+    m_timeAccumulator += dt;
+    while (m_timeAccumulator >= m_secondsPerFrame) {
+        m_timeAccumulator -= m_secondsPerFrame;
+        m_frameIndex = (m_frameIndex + 1) % currentFrames->size();
     }
-    else if (m_direction == Direction::Left) {
-        m_pos.setX(m_pos.x() - m_speed);
-    }
-    // No tocamos el eje Y aquí (podrías agregar salto, gravedad, etc. en otra parte)
 }
 
 void Sprite::draw(QPainter &painter) const
 {
-    if (m_framesRight.isEmpty() || m_framesLeft.isEmpty())
+    const QVector<QPixmap> *currentFrames = nullptr;
+    if (m_state == SpriteState::Walking) {
+        currentFrames = &m_walkingFrames;
+    } else {
+        currentFrames = &m_idleFrames;
+    }
+
+    if (!currentFrames || currentFrames->isEmpty())
         return;
 
-    QPixmap currentPixmap;
-    int frameCount = m_framesRight.size();
+    const QPixmap &orig = currentFrames->at(m_frameIndex);
+    if (orig.isNull()) return;
 
-    if (m_direction == Direction::Right) {
-        currentPixmap = m_framesRight[m_frameIndex % frameCount];
-    }
-    else if (m_direction == Direction::Left) {
-        currentPixmap = m_framesLeft[m_frameIndex % frameCount];
-    }
-    else {
-        // Quieto: dibujar el primer frame de la derecha (o podrías elegir otra imagen)
-        currentPixmap = m_framesRight[0];
-    }
-
-    // Dibuja el pixmap en (x, y)
-    painter.drawPixmap(m_pos.x(), m_pos.y(), currentPixmap);
-}
-
-void Sprite::resetAnimation()
-{
-    m_frameIndex = 0;
-}
-
-int Sprite::width() const
-{
-    if (!m_framesRight.isEmpty())
-        return m_framesRight.first().width();
-    return 0;
-}
-
-int Sprite::height() const
-{
-    if (!m_framesRight.isEmpty())
-        return m_framesRight.first().height();
-    return 0;
+    // Escalamos a m_drawSize
+    QPixmap scaledPix = orig.scaled(
+        m_drawSize.width(),
+        m_drawSize.height(),
+        Qt::KeepAspectRatio,
+        Qt::SmoothTransformation
+        );
+    painter.drawPixmap(m_pos.x(), m_pos.y(), scaledPix);
 }

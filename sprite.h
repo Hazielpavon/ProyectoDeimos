@@ -7,56 +7,52 @@
 #include <QString>
 #include <QPoint>
 
-enum class Direction {
-    Idle = 0,
-    Left = -1,
-    Right = +1
+// Opcional: un enum para estados/animaciones si deseas más adelante
+enum class SpriteState {
+    Idle,
+    Walking,
+    Attacking,
+    // …y otros estados que creas necesarios
 };
 
 class Sprite
 {
 public:
     Sprite();
+    void loadWalkingFrames(const QString &prefix, int count);
 
+    // Carga las imágenes de la animación “Idle”; el prefijo debe terminar en “_”
+    void loadIdleFrames(const QString &prefix, int count);
 
-    void loadFrames(const QString &prefixRight,const QString &prefixLeft, int count);
-
-    // Posición en pantalla
+    // Fija la posición donde se dibujará (centro del sprite)
     void setPosition(int x, int y);
-    QPoint position() const;
 
-    // Dirección: Idle (0), Left (-1) o Right (+1)
-    void setDirection(Direction d);
-    Direction direction() const;
+    // Ajusta el tamaño (ancho y alto) al que queremos escalar el sprite
+    void setSize(int ancho, int alto);
 
-    // Velocidad en pixeles por “tick”
-    void setSpeed(int pixels);
-    int speed() const;
+    // Llama a este método cada frame para avanzar la animación
+    void update(float dt);
 
-    // Llamar periódicamente (por ejemplo, desde un QTimer) para:
-    //  1) avanzar el frame de animación
-    //  2) desplazar la posición en x si direction != Idle
-    void update();
-
-    // Dibuja el frame actual en el QPainter en la posición interna (m_pos).
+    // Dibuja el frame actual en la posición interna (m_pos),
+    // usando el tamaño fijado en setSize()
     void draw(QPainter &painter) const;
 
-    // Para resetear animación a frame inicial (por si quieres forzar “quieto”)
-    void resetAnimation();
-
-    // Ancho y alto del sprite (basado en el primer frame Right[0]).
-    // Útil si quieres comprobar colisiones o bordes.
-    int width() const;
-    int height() const;
+    void setState(SpriteState s);
+    void setFPS(int framesPerSecond);
+    QSize getSize() const { return m_drawSize; }
+     QPoint getPosition() const { return m_pos; }
 
 private:
-    QVector<QPixmap> m_framesRight;  // frames de caminar a la derecha
-    QVector<QPixmap> m_framesLeft;   // frames de caminar a la izquierda
+    QVector<QPixmap> m_walkingFrames;
+    QVector<QPixmap> m_idleFrames;    // frames originales (sin escalar)
+    int               m_frameIndex; // índice actual en la animación
+    QPoint            m_pos;        // posición X,Y donde se dibuja (será la esquina superior del sprite)
+    float             m_timeAccumulator; // acumulador de tiempo para avanzar frames
+    float             m_secondsPerFrame; // 1 / FPS
 
-    int         m_frameIndex;      // índice actual dentro de [0..m_framesRight.size()-1]
-    Direction   m_direction;       // Idle, Left o Right
-    QPoint      m_pos;             // posición (x,y) actual del sprite
-    int         m_speed;           // pixeles por “tick”
+    SpriteState       m_state;      // estado de animación (Idle, Walking, etc.)
+
+    QSize             m_drawSize;   // tamañ // estado actual si manejas varias animaciones
 };
 
 #endif // SPRITE_H
