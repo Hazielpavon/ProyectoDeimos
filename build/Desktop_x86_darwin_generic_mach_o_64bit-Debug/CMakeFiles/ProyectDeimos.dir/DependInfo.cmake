@@ -9,11 +9,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "ProyectDeimos_autogen/timestamp" "custom" "ProyectDeimos_autogen/deps"
-<<<<<<< HEAD
-  "/Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/ProyectDeimos_autogen/mocs_compilation.cpp" "CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/mocs_compilation.cpp.o.d"
-  "/Users/anavalle/Documents/ProyectoDeimos/main.cpp" "CMakeFiles/ProyectDeimos.dir/main.cpp.o" "gcc" "CMakeFiles/ProyectDeimos.dir/main.cpp.o.d"
-  "/Users/anavalle/Documents/ProyectoDeimos/mainwindow.cpp" "CMakeFiles/ProyectDeimos.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/ProyectDeimos.dir/mainwindow.cpp.o.d"
-=======
   "/Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp" "CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.o" "gcc" "CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.o.d"
   "/Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/ProyectDeimos_autogen/mocs_compilation.cpp" "CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/mocs_compilation.cpp.o.d"
   "/Users/anavalle/Documents/ProyectoDeimos/colatareas.cpp" "CMakeFiles/ProyectDeimos.dir/colatareas.cpp.o" "gcc" "CMakeFiles/ProyectDeimos.dir/colatareas.cpp.o.d"
@@ -29,7 +24,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/anavalle/Documents/ProyectoDeimos/pantallainicio.cpp" "CMakeFiles/ProyectDeimos.dir/pantallainicio.cpp.o" "gcc" "CMakeFiles/ProyectDeimos.dir/pantallainicio.cpp.o.d"
   "/Users/anavalle/Documents/ProyectoDeimos/sprite.cpp" "CMakeFiles/ProyectDeimos.dir/sprite.cpp.o" "gcc" "CMakeFiles/ProyectDeimos.dir/sprite.cpp.o.d"
   "/Users/anavalle/Documents/ProyectoDeimos/tranformacion.cpp" "CMakeFiles/ProyectDeimos.dir/tranformacion.cpp.o" "gcc" "CMakeFiles/ProyectDeimos.dir/tranformacion.cpp.o.d"
->>>>>>> ana
   )
 
 # Targets to which this target links which contain Fortran sources.

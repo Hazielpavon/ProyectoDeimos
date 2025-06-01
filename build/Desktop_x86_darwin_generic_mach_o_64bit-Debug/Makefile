@@ -200,8 +200,6 @@ ProyectDeimos_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos_autogen.dir/build.make CMakeFiles/ProyectDeimos_autogen.dir/build
 .PHONY : ProyectDeimos_autogen/fast
 
-<<<<<<< HEAD
-=======
 ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.o: ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.o
 .PHONY : ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.o
 
@@ -226,7 +224,6 @@ ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.s
 .PHONY : ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.s
 
->>>>>>> ana
 ProyectDeimos_autogen/mocs_compilation.o: ProyectDeimos_autogen/mocs_compilation.cpp.o
 .PHONY : ProyectDeimos_autogen/mocs_compilation.o
 
@@ -251,8 +248,6 @@ ProyectDeimos_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/mocs_compilation.cpp.s
 .PHONY : ProyectDeimos_autogen/mocs_compilation.cpp.s
 
-<<<<<<< HEAD
-=======
 colatareas.o: colatareas.cpp.o
 .PHONY : colatareas.o
 
@@ -421,7 +416,6 @@ jugador.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/jugador.cpp.s
 .PHONY : jugador.cpp.s
 
->>>>>>> ana
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -470,8 +464,6 @@ mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
-<<<<<<< HEAD
-=======
 menuopciones.o: menuopciones.cpp.o
 .PHONY : menuopciones.o
 
@@ -568,7 +560,6 @@ tranformacion.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/tranformacion.cpp.s
 .PHONY : tranformacion.cpp.s
 
->>>>>>> ana
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -584,11 +575,6 @@ help:
 	@echo "... ProyectDeimos_autogen"
 	@echo "... ProyectDeimos_autogen_timestamp_deps"
 	@echo "... ProyectDeimos"
-<<<<<<< HEAD
-	@echo "... ProyectDeimos_autogen/mocs_compilation.o"
-	@echo "... ProyectDeimos_autogen/mocs_compilation.i"
-	@echo "... ProyectDeimos_autogen/mocs_compilation.s"
-=======
 	@echo "... ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.o"
 	@echo "... ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.i"
 	@echo "... ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.s"
@@ -616,15 +602,12 @@ help:
 	@echo "... jugador.o"
 	@echo "... jugador.i"
 	@echo "... jugador.s"
->>>>>>> ana
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
 	@echo "... mainwindow.o"
 	@echo "... mainwindow.i"
 	@echo "... mainwindow.s"
-<<<<<<< HEAD
-=======
 	@echo "... menuopciones.o"
 	@echo "... menuopciones.i"
 	@echo "... menuopciones.s"
@@ -637,7 +620,6 @@ help:
 	@echo "... tranformacion.o"
 	@echo "... tranformacion.i"
 	@echo "... tranformacion.s"
->>>>>>> ana
 .PHONY : help
 
 

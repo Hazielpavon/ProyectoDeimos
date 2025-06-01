@@ -436,12 +436,8 @@
 		"/opt/homebrew/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake",
 		"/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake",
 		"/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/GNUInstallDirs.cmake",
-<<<<<<< HEAD
-		"/opt/homebrew/Cellar/qt/6.9.0/lib/cmake/Qt6/macos/Info.plist.app.in"
-=======
 		"/opt/homebrew/Cellar/qt/6.9.0/lib/cmake/Qt6/macos/Info.plist.app.in",
 		"/Users/anavalle/Documents/ProyectoDeimos/resources.qrc"
->>>>>>> ana
 	],
 	"CMAKE_SOURCE_DIR" : "/Users/anavalle/Documents/ProyectoDeimos",
 	"CROSS_CONFIG" : false,
@@ -450,8 +446,6 @@
 	"HEADERS" : 
 	[
 		[
-<<<<<<< HEAD
-=======
 			"/Users/anavalle/Documents/ProyectoDeimos/colatareas.h",
 			"MU",
 			"EWIEGA46WW/moc_colatareas.cpp",
@@ -494,13 +488,10 @@
 			null
 		],
 		[
->>>>>>> ana
 			"/Users/anavalle/Documents/ProyectoDeimos/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
-<<<<<<< HEAD
-=======
 		],
 		[
 			"/Users/anavalle/Documents/ProyectoDeimos/menuopciones.h",
@@ -525,7 +516,6 @@
 			"MU",
 			"EWIEGA46WW/moc_tranformacion.cpp",
 			null
->>>>>>> ana
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -587,10 +577,6 @@
 	"SETTINGS_FILE" : "/Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/ProyectDeimos_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-<<<<<<< HEAD
-		[ "/Users/anavalle/Documents/ProyectoDeimos/main.cpp", "MU", null ],
-		[ "/Users/anavalle/Documents/ProyectoDeimos/mainwindow.cpp", "MU", null ]
-=======
 		[ "/Users/anavalle/Documents/ProyectoDeimos/colatareas.cpp", "MU", null ],
 		[
 			"/Users/anavalle/Documents/ProyectoDeimos/componentefisico.cpp",
@@ -628,7 +614,6 @@
 			"MU",
 			null
 		]
->>>>>>> ana
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

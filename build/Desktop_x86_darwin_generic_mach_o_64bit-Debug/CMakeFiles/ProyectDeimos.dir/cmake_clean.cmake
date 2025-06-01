@@ -2,10 +2,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/ProyectDeimos_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/ProyectDeimos_autogen.dir/ParseCache.txt"
   "ProyectDeimos_autogen"
-<<<<<<< HEAD
-  "CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/mocs_compilation.cpp.o"
-  "CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/mocs_compilation.cpp.o.d"
-=======
   "CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.o"
   "CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.o.d"
   "CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/mocs_compilation.cpp.o"
@@ -24,15 +20,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/ProyectDeimos.dir/hilotrabajo.cpp.o.d"
   "CMakeFiles/ProyectDeimos.dir/jugador.cpp.o"
   "CMakeFiles/ProyectDeimos.dir/jugador.cpp.o.d"
->>>>>>> ana
   "CMakeFiles/ProyectDeimos.dir/main.cpp.o"
   "CMakeFiles/ProyectDeimos.dir/main.cpp.o.d"
   "CMakeFiles/ProyectDeimos.dir/mainwindow.cpp.o"
   "CMakeFiles/ProyectDeimos.dir/mainwindow.cpp.o.d"
-<<<<<<< HEAD
-  "ProyectDeimos.app/Contents/MacOS/ProyectDeimos"
-  "ProyectDeimos.pdb"
-=======
   "CMakeFiles/ProyectDeimos.dir/menuopciones.cpp.o"
   "CMakeFiles/ProyectDeimos.dir/menuopciones.cpp.o.d"
   "CMakeFiles/ProyectDeimos.dir/pantallainicio.cpp.o"
@@ -44,7 +35,6 @@ file(REMOVE_RECURSE
   "ProyectDeimos.app/Contents/MacOS/ProyectDeimos"
   "ProyectDeimos.pdb"
   "ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp"
->>>>>>> ana
   "ProyectDeimos_autogen/mocs_compilation.cpp"
   "ProyectDeimos_autogen/timestamp"
 )
