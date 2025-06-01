@@ -8,7 +8,7 @@
 Sprite::Sprite()
     : m_frameIndex(0)
     , m_timeAccumulator(0.0f)
-    , m_secondsPerFrame(1.0f / 12.0f) // p. ej. 12 FPS por defecto
+    , m_secondsPerFrame(1.0f / 12.0f)
     , m_state(SpriteState::Idle)
     , m_drawSize(64, 64)
     , m_pos(0, 0)

@@ -20,10 +20,10 @@ MainWindow::MainWindow(QWidget *parent)
     m_leftPressed(false),
     m_rightPressed(false)
 {
-    ui->setupUi(this);
-
     // Tamaño fijo para el área de juego
     setFixedSize(950, 650);
+   /* ui->setupUi(this);
+
     connect(pantallaCarga, &PantallaCarga::cargaCompletada, this, [=]() {
 
         // 1) Creamos la entidad/jugador:
@@ -63,13 +63,10 @@ MainWindow::MainWindow(QWidget *parent)
         temp->show();
         delete temp;
     });
-    // NOTA: No creamos m_player ni arrancamos m_timer aquí.
-    //       Esperaremos hasta que el usuario presione “Nueva Partida”
-    //       y termine la pantalla de carga.
 
     setFocusPolicy(Qt::NoFocus);
-    // Le quitamos el foco por default:
-    // luego, al arrancar la partida, haremos setFocus() para poder leer teclado.
+
+    */
 
     // Parte de Ana: configuramos la pantalla de inicio y menús
     pantallaInicio = new PantallaInicio(this);
@@ -92,6 +89,7 @@ MainWindow::MainWindow(QWidget *parent)
                     // Cerramos la pantalla de carga
                     pantallaCarga->close();
 
+                    /*
                     // 1) Creamos la entidad/jugador y la posicionamos
                     m_player = new entidad();
                     m_player->transform().setPosition(width()/2 - 32, height()/2 - 32);
@@ -117,6 +115,7 @@ MainWindow::MainWindow(QWidget *parent)
                     // Si eliminas temp, el centralWidget queda huérfano, pero luego Paint
                     // de MainWindow seguirá dibujando encima. Alternativamente,
                     // simplemente usa setCentralWidget(nullptr) si tu versión lo admite.
+                        */
                 });
 
                 // Mostrar pantalla de carga
