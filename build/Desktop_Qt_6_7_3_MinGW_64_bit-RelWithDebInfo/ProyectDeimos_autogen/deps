@@ -1,10 +1,14 @@
 ProyectDeimos_autogen/timestamp: \
 	C:/Qt/6.7.3/mingw_64/include/QtCore/QList \
 	C:/Qt/6.7.3/mingw_64/include/QtCore/QObject \
+	C:/Qt/6.7.3/mingw_64/include/QtCore/QPoint \
+	C:/Qt/6.7.3/mingw_64/include/QtCore/QPointF \
 	C:/Qt/6.7.3/mingw_64/include/QtCore/QRect \
 	C:/Qt/6.7.3/mingw_64/include/QtCore/QSize \
 	C:/Qt/6.7.3/mingw_64/include/QtCore/QSizeF \
+	C:/Qt/6.7.3/mingw_64/include/QtCore/QString \
 	C:/Qt/6.7.3/mingw_64/include/QtCore/QTimer \
+	C:/Qt/6.7.3/mingw_64/include/QtCore/QVector \
 	C:/Qt/6.7.3/mingw_64/include/QtCore/q20functional.h \
 	C:/Qt/6.7.3/mingw_64/include/QtCore/q20memory.h \
 	C:/Qt/6.7.3/mingw_64/include/QtCore/q20type_traits.h \
@@ -131,10 +135,14 @@ ProyectDeimos_autogen/timestamp: \
 	C:/Qt/6.7.3/mingw_64/include/QtCore/qutf8stringview.h \
 	C:/Qt/6.7.3/mingw_64/include/QtCore/qvariant.h \
 	C:/Qt/6.7.3/mingw_64/include/QtCore/qvarlengtharray.h \
+	C:/Qt/6.7.3/mingw_64/include/QtCore/qvector.h \
 	C:/Qt/6.7.3/mingw_64/include/QtCore/qversiontagging.h \
 	C:/Qt/6.7.3/mingw_64/include/QtCore/qxptype_traits.h \
 	C:/Qt/6.7.3/mingw_64/include/QtCore/qyieldcpu.h \
+	C:/Qt/6.7.3/mingw_64/include/QtGui/QKeyEvent \
 	C:/Qt/6.7.3/mingw_64/include/QtGui/QMouseEvent \
+	C:/Qt/6.7.3/mingw_64/include/QtGui/QPainter \
+	C:/Qt/6.7.3/mingw_64/include/QtGui/QPixmap \
 	C:/Qt/6.7.3/mingw_64/include/QtGui/QTransform \
 	C:/Qt/6.7.3/mingw_64/include/QtGui/qaction.h \
 	C:/Qt/6.7.3/mingw_64/include/QtGui/qbitmap.h \
@@ -154,7 +162,9 @@ ProyectDeimos_autogen/timestamp: \
 	C:/Qt/6.7.3/mingw_64/include/QtGui/qinputmethod.h \
 	C:/Qt/6.7.3/mingw_64/include/QtGui/qkeysequence.h \
 	C:/Qt/6.7.3/mingw_64/include/QtGui/qpaintdevice.h \
+	C:/Qt/6.7.3/mingw_64/include/QtGui/qpainter.h \
 	C:/Qt/6.7.3/mingw_64/include/QtGui/qpalette.h \
+	C:/Qt/6.7.3/mingw_64/include/QtGui/qpen.h \
 	C:/Qt/6.7.3/mingw_64/include/QtGui/qpicture.h \
 	C:/Qt/6.7.3/mingw_64/include/QtGui/qpixelformat.h \
 	C:/Qt/6.7.3/mingw_64/include/QtGui/qpixmap.h \
@@ -166,6 +176,7 @@ ProyectDeimos_autogen/timestamp: \
 	C:/Qt/6.7.3/mingw_64/include/QtGui/qscreen.h \
 	C:/Qt/6.7.3/mingw_64/include/QtGui/qscreen_platform.h \
 	C:/Qt/6.7.3/mingw_64/include/QtGui/qtextdocument.h \
+	C:/Qt/6.7.3/mingw_64/include/QtGui/qtextoption.h \
 	C:/Qt/6.7.3/mingw_64/include/QtGui/qtgui-config.h \
 	C:/Qt/6.7.3/mingw_64/include/QtGui/qtguiexports.h \
 	C:/Qt/6.7.3/mingw_64/include/QtGui/qtguiglobal.h \
@@ -625,4 +636,5 @@ ProyectDeimos_autogen/timestamp: \
 	C:/Users/Administrador/OneDrive\ -\ Universidad\ Tecnologica\ Centroamericana/Documents/GitHub/ProyectoDeimos/sprite.h \
 	C:/Users/Administrador/OneDrive\ -\ Universidad\ Tecnologica\ Centroamericana/Documents/GitHub/ProyectoDeimos/tranformacion.cpp \
 	C:/Users/Administrador/OneDrive\ -\ Universidad\ Tecnologica\ Centroamericana/Documents/GitHub/ProyectoDeimos/tranformacion.h \
+	C:/Users/Administrador/OneDrive\ -\ Universidad\ Tecnologica\ Centroamericana/Documents/GitHub/ProyectoDeimos/mainwindow.ui \
 	C:/Qt/Tools/CMake_64/bin/cmake.exe

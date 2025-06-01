@@ -4,97 +4,76 @@
 entidad::entidad()
     : m_transformacion()
     , m_sprite()
-    , m_componenteFisico(&m_transformacion)
+    , m_componenteFisico(&m_transformacion)  // Suponiendo que ComponenteFisico requiere puntero a Transformacion
     , m_componenteSalud()
-      {
+{
+    // 1) Cargar las animaciones en el constructor:
 
-    // 1) Posición inicial de la entidad (por ejemplo 50,50)
-    m_transformacion.setPosition(50, 50);
+    // 1.1) Animación Walking (24 frames):
+    //     Prefijo: sin “000.png” al final
+    m_sprite.loadWalkingFrames(
+        "Sprites/PersonajePrincipal/PNG Sequences/Walking/0_Blood_Demon_Walking_",
+        24
+        );
 
-    // 2) Cargar los frames del sprite (asegúrate de que resources.qrc tiene estas rutas)
-    //    Por ejemplo, si tienes en resources.qrc:
-    //      sprites/char_right_0.png
-    //      sprites/char_right_1.png
-    //      sprites/char_right_2.png
-    //      sprites/char_left_0.png
-    //      sprites/char_left_1.png
-    //      sprites/char_left_2.png
+    // 1.2) Animación Idle (por ejemplo 16 frames):
+    m_sprite.loadIdleFrames(
+        "Sprites/PersonajePrincipal/PNG Sequences/Idle/0_Blood_Demon_Idle_",
+        16
+        );
 
+    // 1.3) Ajustar velocidad de fotogramas (opcional):
+    //     Podrías querer Idle a 8 FPS, Walking a 12 FPS.
+    //     Sin embargo la implementación que mostramos usa un solo FPS para todo estado.
+    m_sprite.setFPS(12);
 
-    m_sprite.loadFrames(":/sprites/char_right_", ":/sprites/char_left_", 3);
+    // 1.4) Tamaño inicial del sprite (p. ej. 128×128):
+    m_sprite.setSize(128, 128);
 
-    // 3) Sincronizar la posición del Sprite con la de Transformacion
-    QPoint posInicial = m_transformacion.getPosition();
-    m_sprite.setPosition(posInicial.x(), posInicial.y());
+    // 1.5) Estado inicial a Idle (supongamos que, al nacer la entidad,
+    //     no se está moviendo)
+    m_sprite.setState(SpriteState::Idle);
 
-    // 4) Configurar velocidad del componente físico (120 px/s, por ejemplo)
-    m_componenteFisico.setSpeed(120.0f);
+    // 1.6) Colocar posición inicial (por ejemplo, en el centro de la pantalla):
+    //     Dejamos el valor inicial en (0,0) aquí. Lo ajustará MainWindow más tarde:
+    m_transformacion.setPosition(0.0f, 0.0f);
 
-    // 5) Configurar salud inicial (por ejemplo 100 HP)
+    // 1.7) Configurar el ComponenteSalud (por ejemplo, 100 puntos de vida):
     m_componenteSalud.setHP(100);
 }
 
 entidad::~entidad()
 {
-    // Si algún componente tuviera memoria dinámica, liberarla aquí.
-    // En este ejemplo, no es necesario porque usamos solo objetos que se destruyen solos.
+    // Si alguno de tus componentes requiere limpieza manual, hazla aquí.
+    // En este ejemplo, todos los objetos son destruidos automáticamente.
 }
 
 void entidad::actualizar(float dt)
 {
-    // --------------------------------------------------------
-    // 1) Actualizar la física (esto modifica la Transformación interna)
-    // --------------------------------------------------------
     m_componenteFisico.actualizar(dt);
+    QPointF posF = m_transformacion.getPosition();
+    actualizarAnimacion(dt);
 
-    // --------------------------------------------------------
-    // 2) Recuperar la nueva posición de Transformación y pasársela al Sprite
-    // --------------------------------------------------------
-    QPoint nuevaPos = m_transformacion.getPosition();
-    m_sprite.setPosition(nuevaPos.x(), nuevaPos.y());
+    int spriteW = m_sprite.getSize().width();
+    int spriteH = m_sprite.getSize().height();
+    int drawX = int(posF.x() - (spriteW * 0.5f));
+    int drawY = int(posF.y() - (spriteH * 0.5f));
+    m_sprite.setPosition(drawX, drawY);
 
-    // --------------------------------------------------------
-    // 3) Determinar la dirección del Sprite según la velocidad física
-    // --------------------------------------------------------
-    float vx = m_componenteFisico.velocity().x();
-    if      (vx >  +0.1f) m_sprite.setDirection(Direction::Right);
-    else if (vx <  -0.1f) m_sprite.setDirection(Direction::Left);
-    else                  m_sprite.setDirection(Direction::Idle);
-
-    // --------------------------------------------------------
-    // 4) Avanzar la animación del Sprite (cambia frameInterno, etc.)
-    // --------------------------------------------------------
-    m_sprite.update();
-
-    // --------------------------------------------------------
-    // 5) Actualizar componente de salud (regeneraciones, estados, etc.)
-    // --------------------------------------------------------
     m_componenteSalud.actualizar(dt);
-
-    // --------------------------------------------------------
-    // 6) Aquí podrías agregar colisiones, IA u otra lógica extra
-    // --------------------------------------------------------
 }
 
-void entidad::dibujar(QPainter &painter)
-{
-     // El sprite ya está sincronizado en posición y frame;
-     // basta con llamar a draw() para que se pinte.
-    m_sprite.draw(painter);
 
-    // Opcional: si quieres dibujar una barra de vida sobre la cabeza:
-     int hpActual = m_componenteSalud.currentHP();
-     int hpMax    = m_componenteSalud.maxHP();
-     if (hpActual > 0 && hpMax > 0) {
-         float frac = float(hpActual) / float(hpMax);
-         int anchoBarra = 40;
-         int altoBarra  = 5;
-         int anchoHealth = int(anchoBarra * frac);
-         QPoint pos = m_transformacion.getPosition();
-         painter.setBrush(Qt::red);
-         painter.drawRect(pos.x(), pos.y() - 10, anchoBarra, altoBarra);
-         painter.setBrush(Qt::green);
-         painter.drawRect(pos.x(), pos.y() - 10, anchoHealth, altoBarra);
-         painter.setBrush(Qt::NoBrush);
-     }
+void entidad::actualizarAnimacion(float dt)
+{
+    float vx = m_componenteFisico.velocity().x();
+    float vy = m_componenteFisico.velocity().y();
+
+    if (qFuzzyCompare(vx, 0.0f) && qFuzzyCompare(vy, 0.0f)) {
+        m_sprite.setState(SpriteState::Idle);
+    } else {
+        m_sprite.setState(SpriteState::Walking);
+    }
+
+    m_sprite.update(dt);
 }

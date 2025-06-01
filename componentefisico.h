@@ -1,6 +1,8 @@
 #ifndef COMPONENTEFISICO_H
 #define COMPONENTEFISICO_H
 #include "tranformacion.h"
+#include <QPointF>
+
 class componentefisico{
 
 public:
@@ -9,7 +11,8 @@ public:
     void setSpeed(float pxPerSecond);
     void actualizar(float dt);
     QPointF velocity() const;
-     void setDirection(int dir);
+    void setDirection(int dir);
+    void setVelocity(float vx, float vy);
     // … otros métodos que necesites
 private:
     tranformacion *m_transform;

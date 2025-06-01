@@ -198,7 +198,7 @@ build ProyectDeimos.exe: CXX_EXECUTABLE_LINKER__ProyectDeimos_RelWithDebInfo CMa
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/Qt/6.7.3/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.7.3/mingw_64/lib/libQt6Gui.a  C:/Qt/6.7.3/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.7.3/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ProyectDeimos.dir
-  POST_BUILD = cd .
+  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Administrador\OneDrive - Universidad Tecnologica Centroamericana\Documents\GitHub\ProyectoDeimos\build\Desktop_Qt_6_7_3_MinGW_64_bit-RelWithDebInfo" && C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy_directory "C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Documents/GitHub/ProyectoDeimos/Sprites" "C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Documents/GitHub/ProyectoDeimos/build/Desktop_Qt_6_7_3_MinGW_64_bit-RelWithDebInfo/Sprites""
   PRE_LINK = cd .
   TARGET_FILE = ProyectDeimos.exe
   TARGET_IMPLIB = libProyectDeimos.dll.a
