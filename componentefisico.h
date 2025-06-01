@@ -13,13 +13,11 @@ public:
     QPointF velocity() const;
     void setDirection(int dir);
     void setVelocity(float vx, float vy);
-    // … otros métodos que necesites
 private:
     tranformacion *m_transform;
     QPointF         m_velocity;
     float           m_speed;
     int             m_direction;
-    // … demás variables internas
 };
 
 
