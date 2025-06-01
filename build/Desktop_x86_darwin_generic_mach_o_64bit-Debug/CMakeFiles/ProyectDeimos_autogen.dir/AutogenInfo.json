@@ -446,6 +446,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/Users/anavalle/Documents/ProyectoDeimos/clickablelabel.h",
+			"MU",
+			"EWIEGA46WW/moc_clickablelabel.cpp",
+			null
+		],
+		[
 			"/Users/anavalle/Documents/ProyectoDeimos/colatareas.h",
 			"MU",
 			"EWIEGA46WW/moc_colatareas.cpp",
@@ -577,6 +583,11 @@
 	"SETTINGS_FILE" : "/Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/ProyectDeimos_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/Users/anavalle/Documents/ProyectoDeimos/clickablelabel.cpp",
+			"MU",
+			null
+		],
 		[ "/Users/anavalle/Documents/ProyectoDeimos/colatareas.cpp", "MU", null ],
 		[
 			"/Users/anavalle/Documents/ProyectoDeimos/componentefisico.cpp",

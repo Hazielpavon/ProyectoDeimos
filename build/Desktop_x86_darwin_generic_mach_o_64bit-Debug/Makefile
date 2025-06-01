@@ -248,6 +248,30 @@ ProyectDeimos_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/mocs_compilation.cpp.s
 .PHONY : ProyectDeimos_autogen/mocs_compilation.cpp.s
 
+clickablelabel.o: clickablelabel.cpp.o
+.PHONY : clickablelabel.o
+
+# target to build an object file
+clickablelabel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/clickablelabel.cpp.o
+.PHONY : clickablelabel.cpp.o
+
+clickablelabel.i: clickablelabel.cpp.i
+.PHONY : clickablelabel.i
+
+# target to preprocess a source file
+clickablelabel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/clickablelabel.cpp.i
+.PHONY : clickablelabel.cpp.i
+
+clickablelabel.s: clickablelabel.cpp.s
+.PHONY : clickablelabel.s
+
+# target to generate assembly for a file
+clickablelabel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/clickablelabel.cpp.s
+.PHONY : clickablelabel.cpp.s
+
 colatareas.o: colatareas.cpp.o
 .PHONY : colatareas.o
 
@@ -581,6 +605,9 @@ help:
 	@echo "... ProyectDeimos_autogen/mocs_compilation.o"
 	@echo "... ProyectDeimos_autogen/mocs_compilation.i"
 	@echo "... ProyectDeimos_autogen/mocs_compilation.s"
+	@echo "... clickablelabel.o"
+	@echo "... clickablelabel.i"
+	@echo "... clickablelabel.s"
 	@echo "... colatareas.o"
 	@echo "... colatareas.i"
 	@echo "... colatareas.s"
