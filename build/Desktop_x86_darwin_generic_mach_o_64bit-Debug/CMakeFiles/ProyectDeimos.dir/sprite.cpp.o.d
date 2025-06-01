@@ -1,6 +1,6 @@
 CMakeFiles/ProyectDeimos.dir/sprite.cpp.o: \
   /Users/anavalle/Documents/ProyectoDeimos/sprite.cpp \
-  /Users/anavalle/Documents/ProyectoDeimos/Sprite.h \
+  /Users/anavalle/Documents/ProyectoDeimos/sprite.h \
   /opt/homebrew/lib/QtGui.framework/Headers/QPixmap \
   /opt/homebrew/lib/QtGui.framework/Headers/qpixmap.h \
   /opt/homebrew/include/QtGui/qtguiglobal.h \
@@ -947,4 +947,79 @@ CMakeFiles/ProyectDeimos.dir/sprite.cpp.o: \
   /opt/homebrew/lib/QtCore.framework/Headers/QString \
   /opt/homebrew/lib/QtCore.framework/Headers/qstring.h \
   /opt/homebrew/lib/QtCore.framework/Headers/QPoint \
-  /opt/homebrew/lib/QtCore.framework/Headers/qpoint.h
+  /opt/homebrew/lib/QtCore.framework/Headers/qpoint.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QDebug \
+  /opt/homebrew/lib/QtCore.framework/Headers/qdebug.h \
+  /opt/homebrew/include/QtCore/qtextstream.h \
+  /opt/homebrew/include/QtCore/qcontiguouscache.h \
+  /opt/homebrew/include/QtCore/qsharedpointer.h \
+  /opt/homebrew/include/QtCore/qsharedpointer_impl.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/chrono \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__chrono/file_clock.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/forward_list \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/set \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/unordered_set \
+  /opt/homebrew/include/QtCore/qmap.h \
+  /opt/homebrew/include/QtCore/qshareddata_impl.h \
+  /opt/homebrew/include/QtCore/qset.h \
+  /opt/homebrew/include/QtCore/qhash.h \
+  /opt/homebrew/include/QtCore/qvarlengtharray.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QCoreApplication \
+  /opt/homebrew/lib/QtCore.framework/Headers/qcoreapplication.h \
+  /opt/homebrew/include/QtCore/qcoreevent.h \
+  /opt/homebrew/include/QtCore/qbasictimer.h \
+  /opt/homebrew/include/QtCore/qabstracteventdispatcher.h \
+  /opt/homebrew/include/QtCore/qobject.h \
+  /opt/homebrew/include/QtCore/qobject_impl.h \
+  /opt/homebrew/include/QtCore/qbindingstorage.h \
+  /opt/homebrew/include/QtCore/qeventloop.h \
+  /opt/homebrew/include/QtCore/qdeadlinetimer.h \
+  /opt/homebrew/include/QtCore/qelapsedtimer.h \
+  /opt/homebrew/include/QtCore/qnativeinterface.h \
+  /opt/homebrew/include/QtCore/qcoreapplication_platform.h \
+  /opt/homebrew/include/QtCore/qcoreapplication.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QDir \
+  /opt/homebrew/lib/QtCore.framework/Headers/qdir.h \
+  /opt/homebrew/include/QtCore/qdirlisting.h \
+  /opt/homebrew/include/QtCore/qfiledevice.h \
+  /opt/homebrew/include/QtCore/qiodevice.h \
+  /opt/homebrew/include/QtCore/qdatetime.h \
+  /opt/homebrew/include/QtCore/qcalendar.h \
+  /opt/homebrew/include/QtCore/qlocale.h \
+  /opt/homebrew/include/QtCore/qvariant.h \
+  /opt/homebrew/include/QtCore/qdebug.h \
+  /opt/homebrew/include/QtCore/qfile.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/filesystem \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/file_status.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/iomanip \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/istream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__ostream/basic_ostream.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/bitset \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__type_traits/is_char_like_type.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/ostream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/format \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/queue \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__fwd/deque.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__fwd/queue.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/deque \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/stack \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__fwd/stack.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/print \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/unistd.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/operations.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/space_info.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__filesystem/u8path.h \
+  /opt/homebrew/include/QtCore/qfileinfo.h \
+  /opt/homebrew/include/QtCore/qtimezone.h

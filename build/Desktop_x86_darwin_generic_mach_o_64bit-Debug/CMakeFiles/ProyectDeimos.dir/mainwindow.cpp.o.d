@@ -969,23 +969,6 @@ CMakeFiles/ProyectDeimos.dir/mainwindow.cpp.o: \
   /opt/homebrew/include/QtGui/qcursor.h \
   /opt/homebrew/include/QtGui/qbitmap.h \
   /opt/homebrew/include/QtWidgets/qtabwidget.h \
-  /Users/anavalle/Documents/ProyectoDeimos/menuopciones.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h \
-  /opt/homebrew/include/QtWidgets/qabstractbutton.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QLabel \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h \
-  /opt/homebrew/include/QtWidgets/qframe.h \
-  /opt/homebrew/include/QtGui/qpicture.h \
-  /opt/homebrew/include/QtCore/qiodevice.h \
-  /opt/homebrew/include/QtGui/qtextdocument.h \
-  /opt/homebrew/include/QtCore/qurl.h \
-  /Users/anavalle/Documents/ProyectoDeimos/pantallainicio.h \
-  /Users/anavalle/Documents/ProyectoDeimos/PantallaCarga.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QProgressBar \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qprogressbar.h \
   /opt/homebrew/lib/QtCore.framework/Headers/QTimer \
   /opt/homebrew/lib/QtCore.framework/Headers/qtimer.h \
   /opt/homebrew/include/QtCore/qbasictimer.h \
@@ -993,5 +976,73 @@ CMakeFiles/ProyectDeimos.dir/mainwindow.cpp.o: \
   /opt/homebrew/include/QtCore/qeventloop.h \
   /opt/homebrew/include/QtCore/qdeadlinetimer.h \
   /opt/homebrew/include/QtCore/qelapsedtimer.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/QKeyEvent \
+  /opt/homebrew/lib/QtGui.framework/Headers/qevent.h \
+  /opt/homebrew/include/QtCore/qcoreevent.h \
+  /opt/homebrew/include/QtCore/qiodevice.h \
+  /opt/homebrew/include/QtCore/qurl.h \
+  /opt/homebrew/include/QtGui/qeventpoint.h \
+  /opt/homebrew/include/QtGui/qvector2d.h \
+  /opt/homebrew/include/QtGui/qvectornd.h \
+  /opt/homebrew/include/QtGui/qpointingdevice.h \
+  /opt/homebrew/include/QtGui/qinputdevice.h \
+  /opt/homebrew/include/QtGui/qscreen.h \
+  /opt/homebrew/include/QtCore/QList \
+  /opt/homebrew/include/QtCore/QObject \
+  /opt/homebrew/include/QtCore/QRect /opt/homebrew/include/QtCore/QSize \
+  /opt/homebrew/include/QtCore/QSizeF \
+  /opt/homebrew/include/QtGui/QTransform \
+  /opt/homebrew/include/QtCore/qnativeinterface.h \
+  /opt/homebrew/include/QtGui/qscreen_platform.h \
+  /opt/homebrew/include/QtGui/qguiapplication.h \
+  /opt/homebrew/include/QtCore/qcoreapplication.h \
+  /opt/homebrew/include/QtCore/qcoreapplication_platform.h \
+  /opt/homebrew/include/QtGui/qinputmethod.h \
+  /opt/homebrew/include/QtCore/qlocale.h \
+  /opt/homebrew/include/QtGui/qguiapplication_platform.h \
+  /Users/anavalle/Documents/ProyectoDeimos/entidad.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/QPainter \
+  /opt/homebrew/lib/QtGui.framework/Headers/qpainter.h \
+  /opt/homebrew/include/QtGui/qtextoption.h \
+  /opt/homebrew/include/QtGui/qpen.h \
+  /Users/anavalle/Documents/ProyectoDeimos/tranformacion.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QPoint \
+  /opt/homebrew/lib/QtCore.framework/Headers/qpoint.h \
+  /Users/anavalle/Documents/ProyectoDeimos/Sprite.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/QPixmap \
+  /opt/homebrew/lib/QtGui.framework/Headers/qpixmap.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QVector \
+  /opt/homebrew/lib/QtCore.framework/Headers/qvector.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QString \
+  /opt/homebrew/lib/QtCore.framework/Headers/qstring.h \
+  /Users/anavalle/Documents/ProyectoDeimos/componentefisico.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QPointF \
+  /Users/anavalle/Documents/ProyectoDeimos/componentesalud.h \
+  /Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/ProyectDeimos_autogen/include/ui_mainwindow.h \
+  /opt/homebrew/include/QtCore/QVariant \
+  /opt/homebrew/include/QtWidgets/QApplication \
+  /opt/homebrew/include/QtWidgets/qapplication.h \
+  /opt/homebrew/include/QtWidgets/QFrame \
+  /opt/homebrew/include/QtWidgets/qframe.h \
+  /opt/homebrew/include/QtWidgets/QMainWindow \
+  /opt/homebrew/include/QtWidgets/QMenuBar \
+  /opt/homebrew/include/QtWidgets/qmenubar.h \
+  /opt/homebrew/include/QtWidgets/qmenu.h \
+  /opt/homebrew/include/QtWidgets/QStatusBar \
+  /opt/homebrew/include/QtWidgets/qstatusbar.h \
+  /opt/homebrew/include/QtWidgets/QWidget \
+  /Users/anavalle/Documents/ProyectoDeimos/menuopciones.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h \
+  /opt/homebrew/include/QtWidgets/qabstractbutton.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QLabel \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h \
+  /opt/homebrew/include/QtGui/qpicture.h \
+  /opt/homebrew/include/QtGui/qtextdocument.h \
+  /Users/anavalle/Documents/ProyectoDeimos/pantallainicio.h \
+  /Users/anavalle/Documents/ProyectoDeimos/PantallaCarga.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QProgressBar \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qprogressbar.h \
   /opt/homebrew/lib/QtCore.framework/Headers/QDebug \
   /opt/homebrew/lib/QtCore.framework/Headers/qdebug.h

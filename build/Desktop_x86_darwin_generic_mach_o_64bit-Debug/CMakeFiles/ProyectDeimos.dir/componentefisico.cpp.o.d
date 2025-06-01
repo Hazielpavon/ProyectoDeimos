@@ -842,4 +842,5 @@ CMakeFiles/ProyectDeimos.dir/componentefisico.cpp.o: \
   /opt/homebrew/include/QtCore/qnamespace.h \
   /opt/homebrew/include/QtCore/qtmetamacros.h \
   /opt/homebrew/include/QtCore/q23utility.h \
-  /opt/homebrew/include/QtCore/q20utility.h
+  /opt/homebrew/include/QtCore/q20utility.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QPointF

@@ -943,7 +943,7 @@ CMakeFiles/ProyectDeimos.dir/entidad.cpp.o: \
   /Users/anavalle/Documents/ProyectoDeimos/tranformacion.h \
   /opt/homebrew/lib/QtCore.framework/Headers/QPoint \
   /opt/homebrew/lib/QtCore.framework/Headers/qpoint.h \
-  /Users/anavalle/Documents/ProyectoDeimos/sprite.h \
+  /Users/anavalle/Documents/ProyectoDeimos/Sprite.h \
   /opt/homebrew/lib/QtGui.framework/Headers/QPixmap \
   /opt/homebrew/lib/QtGui.framework/Headers/qpixmap.h \
   /opt/homebrew/lib/QtCore.framework/Headers/QVector \
@@ -951,6 +951,7 @@ CMakeFiles/ProyectDeimos.dir/entidad.cpp.o: \
   /opt/homebrew/lib/QtCore.framework/Headers/QString \
   /opt/homebrew/lib/QtCore.framework/Headers/qstring.h \
   /Users/anavalle/Documents/ProyectoDeimos/componentefisico.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QPointF \
   /Users/anavalle/Documents/ProyectoDeimos/componentesalud.h \
   /opt/homebrew/lib/QtCore.framework/Headers/QDebug \
   /opt/homebrew/lib/QtCore.framework/Headers/qdebug.h \

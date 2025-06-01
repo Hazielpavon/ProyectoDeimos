@@ -802,10 +802,14 @@ ProyectDeimos_autogen/timestamp: \
 	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Platform/UnixPaths.cmake \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QList \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QObject \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QPoint \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QPointF \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QRect \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QSize \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QSizeF \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QString \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QTimer \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QVector \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/q17memory.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/q20iterator.h \
@@ -941,10 +945,14 @@ ProyectDeimos_autogen/timestamp: \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/qvariant.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/qvector.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/qyieldcpu.h \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/QKeyEvent \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/QMouseEvent \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/QPainter \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/QPixmap \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/QTransform \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qaction.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qbitmap.h \
@@ -965,7 +973,9 @@ ProyectDeimos_autogen/timestamp: \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qinputmethod.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qkeysequence.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qpainter.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qpen.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qpicture.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
@@ -977,6 +987,7 @@ ProyectDeimos_autogen/timestamp: \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qscreen.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qscreen_platform.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qtextdocument.h \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qtextoption.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
@@ -1254,4 +1265,5 @@ ProyectDeimos_autogen/timestamp: \
 	/opt/homebrew/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-release.cmake \
 	/opt/homebrew/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
 	/opt/homebrew/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
+	/Users/anavalle/Documents/ProyectoDeimos/mainwindow.ui \
 	/opt/homebrew/Cellar/cmake/3.31.6/bin/cmake
