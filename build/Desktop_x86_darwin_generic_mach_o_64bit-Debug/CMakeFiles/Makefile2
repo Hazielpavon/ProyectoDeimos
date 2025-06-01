@@ -84,8 +84,8 @@ clean: CMakeFiles/ProyectDeimos_autogen.dir/clean
 # Target rules for target CMakeFiles/ProyectDeimos.dir
 
 # All Build rule for target.
-CMakeFiles/ProyectDeimos.dir/all: CMakeFiles/ProyectDeimos_autogen_timestamp_deps.dir/all
 CMakeFiles/ProyectDeimos.dir/all: CMakeFiles/ProyectDeimos_autogen.dir/all
+CMakeFiles/ProyectDeimos.dir/all: CMakeFiles/ProyectDeimos_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 "Built target ProyectDeimos"
@@ -103,8 +103,8 @@ ProyectDeimos: CMakeFiles/ProyectDeimos.dir/rule
 .PHONY : ProyectDeimos
 
 # codegen rule for target.
-CMakeFiles/ProyectDeimos.dir/codegen: CMakeFiles/ProyectDeimos_autogen_timestamp_deps.dir/all
 CMakeFiles/ProyectDeimos.dir/codegen: CMakeFiles/ProyectDeimos_autogen.dir/all
+CMakeFiles/ProyectDeimos.dir/codegen: CMakeFiles/ProyectDeimos_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/codegen
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 "Finished codegen for target ProyectDeimos"
 .PHONY : CMakeFiles/ProyectDeimos.dir/codegen
