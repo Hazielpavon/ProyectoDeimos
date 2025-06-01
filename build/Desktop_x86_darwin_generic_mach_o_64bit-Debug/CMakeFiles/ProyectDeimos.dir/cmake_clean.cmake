@@ -28,6 +28,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ProyectDeimos.dir/mainwindow.cpp.o.d"
   "CMakeFiles/ProyectDeimos.dir/menuopciones.cpp.o"
   "CMakeFiles/ProyectDeimos.dir/menuopciones.cpp.o.d"
+  "CMakeFiles/ProyectDeimos.dir/pantallacarga.cpp.o"
+  "CMakeFiles/ProyectDeimos.dir/pantallacarga.cpp.o.d"
   "CMakeFiles/ProyectDeimos.dir/pantallainicio.cpp.o"
   "CMakeFiles/ProyectDeimos.dir/pantallainicio.cpp.o.d"
   "CMakeFiles/ProyectDeimos.dir/sprite.cpp.o"

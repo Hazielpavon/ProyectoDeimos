@@ -512,6 +512,30 @@ menuopciones.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/menuopciones.cpp.s
 .PHONY : menuopciones.cpp.s
 
+pantallacarga.o: pantallacarga.cpp.o
+.PHONY : pantallacarga.o
+
+# target to build an object file
+pantallacarga.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/pantallacarga.cpp.o
+.PHONY : pantallacarga.cpp.o
+
+pantallacarga.i: pantallacarga.cpp.i
+.PHONY : pantallacarga.i
+
+# target to preprocess a source file
+pantallacarga.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/pantallacarga.cpp.i
+.PHONY : pantallacarga.cpp.i
+
+pantallacarga.s: pantallacarga.cpp.s
+.PHONY : pantallacarga.s
+
+# target to generate assembly for a file
+pantallacarga.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/pantallacarga.cpp.s
+.PHONY : pantallacarga.cpp.s
+
 pantallainicio.o: pantallainicio.cpp.o
 .PHONY : pantallainicio.o
 
@@ -638,6 +662,9 @@ help:
 	@echo "... menuopciones.o"
 	@echo "... menuopciones.i"
 	@echo "... menuopciones.s"
+	@echo "... pantallacarga.o"
+	@echo "... pantallacarga.i"
+	@echo "... pantallacarga.s"
 	@echo "... pantallainicio.o"
 	@echo "... pantallainicio.i"
 	@echo "... pantallainicio.s"

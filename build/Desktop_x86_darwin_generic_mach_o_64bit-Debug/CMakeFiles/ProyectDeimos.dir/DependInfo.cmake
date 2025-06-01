@@ -22,6 +22,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/anavalle/Documents/ProyectoDeimos/main.cpp" "CMakeFiles/ProyectDeimos.dir/main.cpp.o" "gcc" "CMakeFiles/ProyectDeimos.dir/main.cpp.o.d"
   "/Users/anavalle/Documents/ProyectoDeimos/mainwindow.cpp" "CMakeFiles/ProyectDeimos.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/ProyectDeimos.dir/mainwindow.cpp.o.d"
   "/Users/anavalle/Documents/ProyectoDeimos/menuopciones.cpp" "CMakeFiles/ProyectDeimos.dir/menuopciones.cpp.o" "gcc" "CMakeFiles/ProyectDeimos.dir/menuopciones.cpp.o.d"
+  "/Users/anavalle/Documents/ProyectoDeimos/pantallacarga.cpp" "CMakeFiles/ProyectDeimos.dir/pantallacarga.cpp.o" "gcc" "CMakeFiles/ProyectDeimos.dir/pantallacarga.cpp.o.d"
   "/Users/anavalle/Documents/ProyectoDeimos/pantallainicio.cpp" "CMakeFiles/ProyectDeimos.dir/pantallainicio.cpp.o" "gcc" "CMakeFiles/ProyectDeimos.dir/pantallainicio.cpp.o.d"
   "/Users/anavalle/Documents/ProyectoDeimos/sprite.cpp" "CMakeFiles/ProyectDeimos.dir/sprite.cpp.o" "gcc" "CMakeFiles/ProyectDeimos.dir/sprite.cpp.o.d"
   "/Users/anavalle/Documents/ProyectoDeimos/tranformacion.cpp" "CMakeFiles/ProyectDeimos.dir/tranformacion.cpp.o" "gcc" "CMakeFiles/ProyectDeimos.dir/tranformacion.cpp.o.d"
