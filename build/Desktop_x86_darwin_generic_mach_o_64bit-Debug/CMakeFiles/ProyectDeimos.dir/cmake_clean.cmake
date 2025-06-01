@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.o.d"
   "CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/ProyectDeimos.dir/clickablelabel.cpp.o"
+  "CMakeFiles/ProyectDeimos.dir/clickablelabel.cpp.o.d"
   "CMakeFiles/ProyectDeimos.dir/colatareas.cpp.o"
   "CMakeFiles/ProyectDeimos.dir/colatareas.cpp.o.d"
   "CMakeFiles/ProyectDeimos.dir/componentefisico.cpp.o"

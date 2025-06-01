@@ -1,9 +1,9 @@
 CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/mocs_compilation.cpp.o: \
   /Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/ProyectDeimos_autogen/mocs_compilation.cpp \
-  /Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/ProyectDeimos_autogen/EWIEGA46WW/moc_mainwindow.cpp \
-  /Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/ProyectDeimos_autogen/EWIEGA46WW/../../../../mainwindow.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
+  /Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/ProyectDeimos_autogen/EWIEGA46WW/moc_clickablelabel.cpp \
+  /Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/ProyectDeimos_autogen/EWIEGA46WW/../../../../clickablelabel.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QLabel \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h \
   /opt/homebrew/include/QtWidgets/qtwidgetsglobal.h \
   /opt/homebrew/include/QtGui/qtguiglobal.h \
   /opt/homebrew/include/QtCore/qglobal.h \
@@ -688,6 +688,7 @@ CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/mocs_compilation.cpp.o: \
   /opt/homebrew/include/QtGui/qtguiexports.h \
   /opt/homebrew/include/QtWidgets/qtwidgets-config.h \
   /opt/homebrew/include/QtWidgets/qtwidgetsexports.h \
+  /opt/homebrew/include/QtWidgets/qframe.h \
   /opt/homebrew/include/QtWidgets/qwidget.h \
   /opt/homebrew/include/QtGui/qwindowdefs.h \
   /opt/homebrew/include/QtCore/qobjectdefs.h \
@@ -969,21 +970,39 @@ CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/mocs_compilation.cpp.o: \
   /opt/homebrew/include/QtWidgets/qsizepolicy.h \
   /opt/homebrew/include/QtGui/qcursor.h \
   /opt/homebrew/include/QtGui/qbitmap.h \
-  /opt/homebrew/include/QtWidgets/qtabwidget.h \
-  /Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/ProyectDeimos_autogen/EWIEGA46WW/../../../../pantallainicio.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h \
-  /opt/homebrew/include/QtWidgets/qabstractbutton.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QLabel \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h \
-  /opt/homebrew/include/QtWidgets/qframe.h \
   /opt/homebrew/include/QtGui/qpicture.h \
   /opt/homebrew/include/QtCore/qiodevice.h \
   /opt/homebrew/include/QtGui/qtextdocument.h \
   /opt/homebrew/include/QtCore/qurl.h \
-  /Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/ProyectDeimos_autogen/EWIEGA46WW/../../../../menuopciones.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/QMouseEvent \
+  /opt/homebrew/lib/QtGui.framework/Headers/qevent.h \
+  /opt/homebrew/include/QtCore/qcoreevent.h \
+  /opt/homebrew/include/QtCore/qbasictimer.h \
+  /opt/homebrew/include/QtCore/qabstracteventdispatcher.h \
+  /opt/homebrew/include/QtCore/qeventloop.h \
+  /opt/homebrew/include/QtCore/qdeadlinetimer.h \
+  /opt/homebrew/include/QtCore/qelapsedtimer.h \
+  /opt/homebrew/include/QtGui/qeventpoint.h \
+  /opt/homebrew/include/QtGui/qvector2d.h \
+  /opt/homebrew/include/QtGui/qvectornd.h \
+  /opt/homebrew/include/QtGui/qpointingdevice.h \
+  /opt/homebrew/include/QtGui/qinputdevice.h \
+  /opt/homebrew/include/QtGui/qscreen.h \
+  /opt/homebrew/include/QtCore/QList \
+  /opt/homebrew/include/QtCore/QObject \
+  /opt/homebrew/include/QtCore/QRect /opt/homebrew/include/QtCore/QSize \
+  /opt/homebrew/include/QtCore/QSizeF \
+  /opt/homebrew/include/QtGui/QTransform \
+  /opt/homebrew/include/QtCore/qnativeinterface.h \
+  /opt/homebrew/include/QtGui/qscreen_platform.h \
+  /opt/homebrew/include/QtGui/qguiapplication.h \
+  /opt/homebrew/include/QtCore/qcoreapplication.h \
+  /opt/homebrew/include/QtCore/qcoreapplication_platform.h \
+  /opt/homebrew/include/QtGui/qinputmethod.h \
+  /opt/homebrew/include/QtCore/qlocale.h \
+  /opt/homebrew/include/QtGui/qguiapplication_platform.h \
   /opt/homebrew/include/QtGui/qtextcursor.h \
   /opt/homebrew/include/QtGui/qtextformat.h \
   /opt/homebrew/include/QtGui/qpen.h \
@@ -992,5 +1011,15 @@ CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/mocs_compilation.cpp.o: \
   /opt/homebrew/include/QtCore/qtmocconstants.h \
   /opt/homebrew/include/QtCore/q20algorithm.h \
   /opt/homebrew/include/QtCore/q23type_traits.h \
+  /Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/ProyectDeimos_autogen/EWIEGA46WW/moc_mainwindow.cpp \
+  /Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/ProyectDeimos_autogen/EWIEGA46WW/../../../../mainwindow.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
+  /opt/homebrew/include/QtWidgets/qtabwidget.h \
+  /Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/ProyectDeimos_autogen/EWIEGA46WW/../../../../pantallainicio.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h \
+  /opt/homebrew/include/QtWidgets/qabstractbutton.h \
+  /Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/ProyectDeimos_autogen/EWIEGA46WW/../../../../menuopciones.h \
   /Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/ProyectDeimos_autogen/EWIEGA46WW/moc_menuopciones.cpp \
   /Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/ProyectDeimos_autogen/EWIEGA46WW/moc_pantallainicio.cpp
