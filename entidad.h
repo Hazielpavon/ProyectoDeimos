@@ -3,7 +3,7 @@
 
 #include <QPainter>
 #include "tranformacion.h"
-#include "sprite.h"
+#include "Sprite.h"
 #include "componentefisico.h"
 #include "componentesalud.h"
 
@@ -38,8 +38,7 @@ public:
     /**
      * @brief dibujar      Dibuja el sprite de la entidad en pantalla.
      * @param painter      QPainter válido donde se va a pintar el sprite.
-     */
-    void dibujar(QPainter &painter);
+     */\
 
     // Getters para acceder a los subcomponentes si se necesitara desde fuera:
     tranformacion   &transform()  { return m_transformacion;   }
@@ -51,7 +50,8 @@ private:
     tranformacion    m_transformacion;    ///< Posición, rotación y escala
     Sprite            m_sprite;            ///< Controla la animación (frames) del personaje
     componentefisico   m_componenteFisico;   ///< Actualiza posición/velocidad física
-    componentesalud    m_componenteSalud;    ///< Maneja puntos de vida y daño
+    componentesalud    m_componenteSalud;    ///< Maneja puntos de vida y
+    void actualizarAnimacion(float dt);
 };
 
 #endif // ENTIDAD_H
