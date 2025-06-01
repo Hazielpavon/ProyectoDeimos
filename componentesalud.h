@@ -14,9 +14,7 @@ public:
     int  maxHP() const;
     void aplicarDano(int dmg);
     void actualizar(float dt);
-
-    // ← Añadimos esta función pública para poder dibujar la barra de vida.
-    //    Recibirá el QPainter y la posición (superior izquierda del sprite).
+    //Muestra La salud del personaje principal y a futuro el de los enemigos
     void dibujar(QPainter &painter, const QPoint &posSprite);
 
 private:

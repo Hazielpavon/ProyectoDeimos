@@ -3,7 +3,6 @@
 #include "menuopciones.h"
 #include "pantallainicio.h"
 #include "PantallaCarga.h"
-
 #include <QPainter>
 #include <QDebug>
 
@@ -26,29 +25,17 @@ MainWindow::MainWindow(QWidget *parent)
     // Tamaño fijo para el área de juego
     setFixedSize(950, 650);
     connect(pantallaCarga, &PantallaCarga::cargaCompletada, this, [=]() {
-        // … pantallaCarga->close() …
 
         // 1) Creamos la entidad/jugador:
-        // En MainWindow, cuando termine la pantalla de carga:
         m_player = new entidad();
 
         // Cargamos Walking (24 frames)
-        m_player->sprite().loadWalkingFrames("Sprites/PersonajePrincipal/PNG Sequences/Walking/0_Blood_Demon_Walking_",
-            24
-            );
+        m_player->sprite().loadWalkingFrames("Sprites/PersonajePrincipal/PNG Sequences/Walking/0_Blood_Demon_Walking_", 24);
 
         // Cargamos Idle (por ejemplo 16 frames)
-        m_player->sprite().loadIdleFrames(
-            "Sprites/PersonajePrincipal/PNG Sequences/Idle/0_Blood_Demon_Idle_",
-            16
-            );
+        m_player->sprite().loadIdleFrames("Sprites/PersonajePrincipal/PNG Sequences/Idle/0_Blood_Demon_Idle_",16);
 
-        // Opcional: setear FPS de cada animación si quieres que Idle corra más lento:
-        /*
-m_player->sprite().setFPS(12);  // Ejemplo: 12 fps
-*/
 
-        // Fija un tamaño razonable (por ejemplo 128×128)
         m_player->sprite().setSize(128, 128);
 
         // Posiciónalo en el centro
@@ -204,8 +191,6 @@ void MainWindow::paintEvent(QPaintEvent * /*event*/)
         m_player->salud().dibujar(painter, posSprite);
     }
 }
-
-
 
 void MainWindow::keyPressEvent(QKeyEvent *event)
 {
