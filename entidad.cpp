@@ -4,7 +4,7 @@
 entidad::entidad()
     : m_transformacion()
     , m_sprite()
-    , m_componenteFisico(&m_transformacion)  // ← aquí espera un constructor ComponenteFisico(Transformacion*)
+    , m_componenteFisico(&m_transformacion)
     , m_componenteSalud()
       {
 
@@ -19,6 +19,8 @@ entidad::entidad()
     //      sprites/char_left_0.png
     //      sprites/char_left_1.png
     //      sprites/char_left_2.png
+
+
     m_sprite.loadFrames(":/sprites/char_right_", ":/sprites/char_left_", 3);
 
     // 3) Sincronizar la posición del Sprite con la de Transformacion
@@ -76,23 +78,23 @@ void entidad::actualizar(float dt)
 
 void entidad::dibujar(QPainter &painter)
 {
-    // El sprite ya está sincronizado en posición y frame;
-    // basta con llamar a draw() para que se pinte.
+     // El sprite ya está sincronizado en posición y frame;
+     // basta con llamar a draw() para que se pinte.
     m_sprite.draw(painter);
 
     // Opcional: si quieres dibujar una barra de vida sobre la cabeza:
-    // int hpActual = m_componenteSalud.currentHP();
-    // int hpMax    = m_componenteSalud.maxHP();
-    // if (hpActual > 0 && hpMax > 0) {
-    //     float frac = float(hpActual) / float(hpMax);
-    //     int anchoBarra = 40;
-    //     int altoBarra  = 5;
-    //     int anchoHealth = int(anchoBarra * frac);
-    //     QPoint pos = m_transformacion.getPosition();
-    //     painter.setBrush(Qt::red);
-    //     painter.drawRect(pos.x(), pos.y() - 10, anchoBarra, altoBarra);
-    //     painter.setBrush(Qt::green);
-    //     painter.drawRect(pos.x(), pos.y() - 10, anchoHealth, altoBarra);
-    //     painter.setBrush(Qt::NoBrush);
-    // }
+     int hpActual = m_componenteSalud.currentHP();
+     int hpMax    = m_componenteSalud.maxHP();
+     if (hpActual > 0 && hpMax > 0) {
+         float frac = float(hpActual) / float(hpMax);
+         int anchoBarra = 40;
+         int altoBarra  = 5;
+         int anchoHealth = int(anchoBarra * frac);
+         QPoint pos = m_transformacion.getPosition();
+         painter.setBrush(Qt::red);
+         painter.drawRect(pos.x(), pos.y() - 10, anchoBarra, altoBarra);
+         painter.setBrush(Qt::green);
+         painter.drawRect(pos.x(), pos.y() - 10, anchoHealth, altoBarra);
+         painter.setBrush(Qt::NoBrush);
+     }
 }
