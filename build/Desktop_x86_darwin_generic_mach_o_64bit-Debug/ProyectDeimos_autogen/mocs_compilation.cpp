@@ -2,4 +2,5 @@
 #include "EWIEGA46WW/moc_clickablelabel.cpp"
 #include "EWIEGA46WW/moc_mainwindow.cpp"
 #include "EWIEGA46WW/moc_menuopciones.cpp"
+#include "EWIEGA46WW/moc_pantallacarga.cpp"
 #include "EWIEGA46WW/moc_pantallainicio.cpp"
