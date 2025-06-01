@@ -9,6 +9,7 @@
 	"INCLUDE_DIR" : "/Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/ProyectDeimos_autogen/include",
 	"INPUTS" : 
 	[
+		"/Users/anavalle/Documents/ProyectoDeimos/resources/cargando.png",
 		"/Users/anavalle/Documents/ProyectoDeimos/resources/menu_Op.png",
 		"/Users/anavalle/Documents/ProyectoDeimos/resources/inicio.png"
 	],

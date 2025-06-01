@@ -969,7 +969,7 @@ CMakeFiles/ProyectDeimos.dir/mainwindow.cpp.o: \
   /opt/homebrew/include/QtGui/qcursor.h \
   /opt/homebrew/include/QtGui/qbitmap.h \
   /opt/homebrew/include/QtWidgets/qtabwidget.h \
-  /Users/anavalle/Documents/ProyectoDeimos/pantallainicio.h \
+  /Users/anavalle/Documents/ProyectoDeimos/menuopciones.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton \
@@ -982,6 +982,16 @@ CMakeFiles/ProyectDeimos.dir/mainwindow.cpp.o: \
   /opt/homebrew/include/QtCore/qiodevice.h \
   /opt/homebrew/include/QtGui/qtextdocument.h \
   /opt/homebrew/include/QtCore/qurl.h \
-  /Users/anavalle/Documents/ProyectoDeimos/menuopciones.h \
+  /Users/anavalle/Documents/ProyectoDeimos/pantallainicio.h \
+  /Users/anavalle/Documents/ProyectoDeimos/PantallaCarga.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QProgressBar \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qprogressbar.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QTimer \
+  /opt/homebrew/lib/QtCore.framework/Headers/qtimer.h \
+  /opt/homebrew/include/QtCore/qbasictimer.h \
+  /opt/homebrew/include/QtCore/qabstracteventdispatcher.h \
+  /opt/homebrew/include/QtCore/qeventloop.h \
+  /opt/homebrew/include/QtCore/qdeadlinetimer.h \
+  /opt/homebrew/include/QtCore/qelapsedtimer.h \
   /opt/homebrew/lib/QtCore.framework/Headers/QDebug \
   /opt/homebrew/lib/QtCore.framework/Headers/qdebug.h

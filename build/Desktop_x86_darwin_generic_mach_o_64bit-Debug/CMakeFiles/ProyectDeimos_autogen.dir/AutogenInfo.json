@@ -506,6 +506,12 @@
 			null
 		],
 		[
+			"/Users/anavalle/Documents/ProyectoDeimos/pantallacarga.h",
+			"MU",
+			"EWIEGA46WW/moc_pantallacarga.cpp",
+			null
+		],
+		[
 			"/Users/anavalle/Documents/ProyectoDeimos/pantallainicio.h",
 			"MU",
 			"EWIEGA46WW/moc_pantallainicio.cpp",
@@ -611,6 +617,11 @@
 		[ "/Users/anavalle/Documents/ProyectoDeimos/mainwindow.cpp", "MU", null ],
 		[
 			"/Users/anavalle/Documents/ProyectoDeimos/menuopciones.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/anavalle/Documents/ProyectoDeimos/pantallacarga.cpp",
 			"MU",
 			null
 		],
