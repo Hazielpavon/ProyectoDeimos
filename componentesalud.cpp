@@ -71,11 +71,5 @@ void componentesalud::dibujar(QPainter &painter, const QPoint &posSprite)
     painter.setBrush(QColor(50, 205, 50));  // verde “lime”
     painter.drawRect(rectVida);
 
-    // 7) (Opcional) Si quieres mostrar texto de vida "HP: X/Y" encima:
-    /*
-    painter.setPen(Qt::white);
-    painter.setFont(QFont("Arial", 8));
-    QString texto = QString("%1/%2").arg(m_currentHP).arg(m_maxHP);
-    painter.drawText(xBarra, yBarra - 2, texto);
-    */
+
 }

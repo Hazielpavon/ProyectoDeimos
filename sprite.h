@@ -7,12 +7,12 @@
 #include <QString>
 #include <QPoint>
 
-// Opcional: un enum para estados/animaciones si deseas más adelante
+
 enum class SpriteState {
     Idle,
     Walking,
     Attacking,
-    // …y otros estados que creas necesarios
+   // Faltan mas estados (Este metodo funciona para varios Sprites para todos, faltan un par de modificaciones con las rutas)
 };
 
 class Sprite
