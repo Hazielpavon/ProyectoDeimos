@@ -40,25 +40,27 @@ MainWindow::MainWindow(QWidget *parent)
 
          m_player->sprite().loadFrames(SpriteState::WalkingLeft,"Sprites/PersonajePrincipal/PNG Sequences/Walking Left/0_Blood_Demon_WalkingL_", 24);
 
+         m_player->sprite().loadFrames(SpriteState::Jump,"Sprites/PersonajePrincipal/PNG Sequences/Jump Loop/0_Blood_Demon_Jump Loop_", 6);
+
+         m_player->sprite().generateMirroredFrames(SpriteState::Jump, SpriteState::JumpLeft);
+
 
          m_player->sprite().setSize(128, 128);
 
-        // Posiciónalo en el centro
-        int spriteW = 128;
-        int spriteH = 128;
-        int x = (width() - spriteW) / 2;
-        int y = (height() - spriteH) / 2;
-        m_player->sprite().setPosition(x, y);
-        m_player->sprite().setState(SpriteState::Idle);
-        m_timer = new QTimer(this);
-        connect(m_timer, &QTimer::timeout, this, &MainWindow::onGameLoop);
-        m_timer->start(int(m_dt * 1000));
-        setFocusPolicy(Qt::StrongFocus);
-        setFocus();
-        QWidget *temp = new QWidget(this);
-        setCentralWidget(temp);
-        temp->show();
-        delete temp;
+         float centerX = float(width())  / 2.0f;
+         float centerY = float(height()) / 2.0f;
+         m_player->transform().setPosition(centerX, centerY);
+         m_player->sprite().setState(SpriteState::Idle);
+         m_timer = new QTimer(this);
+         connect(m_timer, &QTimer::timeout, this, &MainWindow::onGameLoop);
+         m_timer->start(int(m_dt * 1000));
+
+         setFocusPolicy(Qt::StrongFocus);
+         setFocus();
+         QWidget *temp = new QWidget(this);
+         setCentralWidget(temp);
+         temp->show();
+         delete temp;
     });
     setFocusPolicy(Qt::NoFocus);
     pantallaInicio = new PantallaInicio(this);
@@ -132,6 +134,8 @@ void MainWindow::paintEvent(QPaintEvent * /*event*/)
     }
 }
 
+// mainwindow.cpp (solo muestro las partes que cambian)
+
 void MainWindow::keyPressEvent(QKeyEvent *event)
 {
     if (!m_player) {
@@ -142,11 +146,12 @@ void MainWindow::keyPressEvent(QKeyEvent *event)
     switch (event->key()) {
     case Qt::Key_W:
     case Qt::Key_Up:
-        m_upPressed = true;
+        // Ya no usamos esto para desplazamiento vertical
+        // m_upPressed = true;
         break;
     case Qt::Key_S:
     case Qt::Key_Down:
-        m_downPressed = true;
+        // m_downPressed = true;
         break;
     case Qt::Key_A:
     case Qt::Key_Left:
@@ -155,6 +160,10 @@ void MainWindow::keyPressEvent(QKeyEvent *event)
     case Qt::Key_D:
     case Qt::Key_Right:
         m_rightPressed = true;
+        break;
+    case Qt::Key_Space:
+        // Iniciar salto parabólico
+        m_player->startJump();
         break;
     default:
         QMainWindow::keyPressEvent(event);
@@ -171,11 +180,11 @@ void MainWindow::keyReleaseEvent(QKeyEvent *event)
     switch (event->key()) {
     case Qt::Key_W:
     case Qt::Key_Up:
-        m_upPressed = false;
+        // m_upPressed = false;
         break;
     case Qt::Key_S:
     case Qt::Key_Down:
-        m_downPressed = false;
+        // m_downPressed = false;
         break;
     case Qt::Key_A:
     case Qt::Key_Left:
@@ -195,9 +204,9 @@ void MainWindow::processInput()
     if (!m_player) return;
 
     const float moveSpeed = 160.0f;
-    float vx = 0.0f, vy = 0.0f;
+    float vx = 0.0f;
 
-    // 1) Primero, calcula únciamente un botón a la vez:
+    // Solo horizontal (izquierda/derecha). No usamos vy.
     if (m_leftPressed && !m_rightPressed) {
         vx = -moveSpeed;
     }
@@ -208,34 +217,9 @@ void MainWindow::processInput()
         vx = 0.0f;
     }
 
-    if (m_upPressed && !m_downPressed) {
-        vy = -moveSpeed;
-    }
-    else if (m_downPressed && !m_upPressed) {
-        vy = +moveSpeed;
-    }
-    else {
-        vy = 0.0f;
-    }
-    m_player->fisica().setVelocity(vx, vy);
-    if (vx < 0.0f) {
-        m_player->sprite().setState(SpriteState::WalkingLeft);
-    }
-    else if (vx > 0.0f) {
-        m_player->sprite().setState(SpriteState::Walking);
-    }
-    else {
-        if (vy == 0.0f) {
-            if (m_player->facingleft()) {
-                m_player->sprite().setState(SpriteState::IdleLeft);
-            } else {
-                m_player->sprite().setState(SpriteState::Idle);
-            }
-        }
-        else {
-            m_player->sprite().setState(SpriteState::Walking);
-        }
-    }
+    m_player->fisica().setVelocity(vx, 0.0f);
+
+
 }
 
 

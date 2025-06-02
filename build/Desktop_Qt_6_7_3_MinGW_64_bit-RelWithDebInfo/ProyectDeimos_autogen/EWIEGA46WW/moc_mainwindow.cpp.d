@@ -391,8 +391,8 @@ C:/Users/Administrador/OneDrive\ -\ Universidad\ Tecnologica\ Centroamericana/Do
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Users/Administrador/OneDrive\ -\ Universidad\ Tecnologica\ Centroamericana/Documents/GitHub/ProyectoDeimos/Sprite.h \
   C:/Users/Administrador/OneDrive\ -\ Universidad\ Tecnologica\ Centroamericana/Documents/GitHub/ProyectoDeimos/componentefisico.h \
   C:/Users/Administrador/OneDrive\ -\ Universidad\ Tecnologica\ Centroamericana/Documents/GitHub/ProyectoDeimos/componentesalud.h \
   C:/Users/Administrador/OneDrive\ -\ Universidad\ Tecnologica\ Centroamericana/Documents/GitHub/ProyectoDeimos/entidad.h \
+  C:/Users/Administrador/OneDrive\ -\ Universidad\ Tecnologica\ Centroamericana/Documents/GitHub/ProyectoDeimos/sprite.h \
   C:/Users/Administrador/OneDrive\ -\ Universidad\ Tecnologica\ Centroamericana/Documents/GitHub/ProyectoDeimos/tranformacion.h

@@ -32,14 +32,33 @@ void Sprite::loadFrames(SpriteState state, const QString &prefix, int count)
 
         QPixmap pix(fullPath);
         if (pix.isNull()) {
-            qWarning() << "Sprite ❌ NO pudo cargar (";
+            qWarning() << "[loadFrames] NO pudo cargar:" << fullPath;
         } else {
-            qDebug() << "Sprite ✅ Cargó (";
+            qDebug() << "[loadFrames] Cargó:" << fullPath;
         }
         m_frames[state].append(pix);
     }
 }
-
+void Sprite::generateMirroredFrames(SpriteState srcState, SpriteState dstState)
+{
+    m_frames[dstState].clear();
+    if (!m_frames.contains(srcState) || m_frames[srcState].isEmpty()) {
+        qWarning() << "[Sprite] Aviso: no hay frames en srcState"
+                   << static_cast<int>(srcState) << "para generarlos espejados.";
+        return;
+    }
+    for (const QPixmap &orig : m_frames[srcState]) {
+        if (orig.isNull()) {
+            m_frames[dstState].append(QPixmap());
+        } else {
+            QPixmap flipped = orig.transformed(QTransform().scale(-1, 1));
+            m_frames[dstState].append(flipped);
+        }
+    }
+    qDebug() << "[Sprite] Generados" << m_frames[dstState].size()
+             << "frames espejados de estado" << static_cast<int>(srcState)
+             << "hacia" << static_cast<int>(dstState);
+}
 void Sprite::setPosition(int x, int y)
 {
     m_pos.setX(x);
