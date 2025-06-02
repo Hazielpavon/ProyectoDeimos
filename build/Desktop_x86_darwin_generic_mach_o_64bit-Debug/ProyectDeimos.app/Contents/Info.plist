@@ -10,7 +10,7 @@
 	<key>CFBundleName</key>
 	<string>ProyectDeimos</string>
 	<key>CFBundleIdentifier</key>
-	<string>ana-valle.ProyectDeimos</string>
+	<string>com.anavalle.ProyectDeimos</string>
 	<key>CFBundleExecutable</key>
 	<string>ProyectDeimos</string>
 

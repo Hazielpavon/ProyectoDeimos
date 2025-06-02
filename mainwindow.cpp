@@ -166,9 +166,6 @@ void MainWindow::mostrarPantalla(QWidget *pantalla)
     pantallaActual->show();
 }
 
-<<<<<<< HEAD
-
-=======
 // Game loop: solo se llamará una vez que m_player haya sido creado
 void MainWindow::onGameLoop()
 {
@@ -290,4 +287,3 @@ void MainWindow::processInput()
         m_player->sprite().setState(SpriteState::Walking);
     }
 }
->>>>>>> haziel

@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QFrame>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QStatusBar>
@@ -22,6 +23,7 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralwidget;
+    QFrame *gameFrame;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -29,13 +31,18 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(800, 600);
+        MainWindow->resize(1211, 717);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
+        gameFrame = new QFrame(centralwidget);
+        gameFrame->setObjectName("gameFrame");
+        gameFrame->setGeometry(QRect(0, 0, 1211, 691));
+        gameFrame->setFrameShape(QFrame::Shape::StyledPanel);
+        gameFrame->setFrameShadow(QFrame::Shadow::Raised);
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 800, 25));
+        menubar->setGeometry(QRect(0, 0, 1211, 21));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName("statusbar");

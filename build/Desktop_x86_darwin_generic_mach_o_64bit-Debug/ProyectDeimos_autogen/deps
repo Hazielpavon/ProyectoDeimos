@@ -761,23 +761,81 @@ ProyectDeimos_autogen/timestamp: \
 	/Users/anavalle/Documents/ProyectoDeimos/sprite.h \
 	/Users/anavalle/Documents/ProyectoDeimos/tranformacion.cpp \
 	/Users/anavalle/Documents/ProyectoDeimos/tranformacion.h \
+	/Users/anavalle/Documents/ProyectoDeimos/videointro.cpp \
+	/Users/anavalle/Documents/ProyectoDeimos/videointro.h \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeCXXCompiler.cmake.in \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeCXXCompilerABI.cpp \
 	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeCXXInformation.cmake \
 	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
 	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeCommonLanguageInclude.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeCompilerIdDetection.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeDetermineCompiler.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeDetermineCompilerABI.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeDetermineCompilerId.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeDetermineSystem.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeFindBinUtils.cmake \
 	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeFindDependencyMacro.cmake \
 	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeGenericSystem.cmake \
 	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeInitializeConfigs.cmake \
 	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeLanguageInformation.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeSystem.cmake.in \
 	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeSystemSpecificInformation.cmake \
 	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeTestCXXCompiler.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeTestCompilerCommon.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeUnixFindMake.cmake \
 	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/CheckCXXCompilerFlag.cmake \
 	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/CheckCXXSourceCompiles.cmake \
 	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/CheckIncludeFileCXX.cmake \
 	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/CheckLibraryExists.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
 	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/AppleClang-CXX.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake \
 	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
 	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/Clang.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
 	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/GNU.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
 	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/FindOpenGL.cmake \
 	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/FindPackageHandleStandardArgs.cmake \
 	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/FindPackageMessage.cmake \
@@ -786,15 +844,18 @@ ProyectDeimos_autogen/timestamp: \
 	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/GNUInstallDirs.cmake \
 	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake \
 	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake \
 	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Internal/CheckCompilerFlag.cmake \
 	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake \
 	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Internal/CheckSourceCompiles.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Internal/FeatureTesting.cmake \
 	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Linker/AppleClang-CXX.cmake \
 	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Linker/AppleClang.cmake \
 	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/MacroAddFileDependencies.cmake \
 	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake \
 	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake \
 	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Platform/Apple-Clang.cmake \
+	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Platform/Darwin-Determine-CXX.cmake \
 	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Platform/Darwin-Initialize.cmake \
 	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Platform/Darwin.cmake \
 	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Platform/Linker/Apple-AppleClang-CXX.cmake \
@@ -802,10 +863,14 @@ ProyectDeimos_autogen/timestamp: \
 	/opt/homebrew/Cellar/cmake/3.31.6/share/cmake/Modules/Platform/UnixPaths.cmake \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QList \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QObject \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QPoint \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QPointF \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QRect \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QSize \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QSizeF \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QString \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QTimer \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QVector \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/q17memory.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/q20iterator.h \
@@ -941,10 +1006,14 @@ ProyectDeimos_autogen/timestamp: \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/qvariant.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/qvector.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/qyieldcpu.h \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/QKeyEvent \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/QMouseEvent \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/QPainter \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/QPixmap \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/QTransform \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qaction.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qbitmap.h \
@@ -965,7 +1034,9 @@ ProyectDeimos_autogen/timestamp: \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qinputmethod.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qkeysequence.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qpainter.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qpen.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qpicture.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
@@ -977,6 +1048,7 @@ ProyectDeimos_autogen/timestamp: \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qscreen.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qscreen_platform.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qtextdocument.h \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qtextoption.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
@@ -984,14 +1056,30 @@ ProyectDeimos_autogen/timestamp: \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qvector2d.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qvectornd.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtMultimedia.framework/Versions/A/Headers/QMediaPlayer \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtMultimedia.framework/Versions/A/Headers/qaudio.h \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtMultimedia.framework/Versions/A/Headers/qmediaplayer.h \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtMultimedia.framework/Versions/A/Headers/qtaudio.h \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtMultimedia.framework/Versions/A/Headers/qtmultimedia-config.h \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtMultimedia.framework/Versions/A/Headers/qtmultimediaexports.h \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtMultimedia.framework/Versions/A/Headers/qtmultimediaglobal.h \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtMultimediaWidgets.framework/Versions/A/Headers/QVideoWidget \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtMultimediaWidgets.framework/Versions/A/Headers/qtmultimediawidgetsexports.h \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtMultimediaWidgets.framework/Versions/A/Headers/qtmultimediawidgetsglobal.h \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtMultimediaWidgets.framework/Versions/A/Headers/qvideowidget.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/QLabel \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/QProgressBar \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/QPushButton \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/QVBoxLayout \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qboxlayout.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qgridlayout.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qlabel.h \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qlayout.h \
+	/opt/homebrew/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qlayoutitem.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qprogressbar.h \
 	/opt/homebrew/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qpushbutton.h \
@@ -1225,6 +1313,78 @@ ProyectDeimos_autogen/timestamp: \
 	/opt/homebrew/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-release.cmake \
 	/opt/homebrew/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
 	/opt/homebrew/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
+	/opt/homebrew/lib/cmake/Qt6Multimedia/Qt6MultimediaAdditionalTargetInfo.cmake \
+	/opt/homebrew/lib/cmake/Qt6Multimedia/Qt6MultimediaConfig.cmake \
+	/opt/homebrew/lib/cmake/Qt6Multimedia/Qt6MultimediaConfigVersion.cmake \
+	/opt/homebrew/lib/cmake/Qt6Multimedia/Qt6MultimediaConfigVersionImpl.cmake \
+	/opt/homebrew/lib/cmake/Qt6Multimedia/Qt6MultimediaDependencies.cmake \
+	/opt/homebrew/lib/cmake/Qt6Multimedia/Qt6MultimediaMacros.cmake \
+	/opt/homebrew/lib/cmake/Qt6Multimedia/Qt6MultimediaPlugins.cmake \
+	/opt/homebrew/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets-release.cmake \
+	/opt/homebrew/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets.cmake \
+	/opt/homebrew/lib/cmake/Qt6Multimedia/Qt6MultimediaVersionlessAliasTargets.cmake \
+	/opt/homebrew/lib/cmake/Qt6Multimedia/Qt6QDarwinMediaPluginAdditionalTargetInfo.cmake \
+	/opt/homebrew/lib/cmake/Qt6Multimedia/Qt6QDarwinMediaPluginConfig.cmake \
+	/opt/homebrew/lib/cmake/Qt6Multimedia/Qt6QDarwinMediaPluginTargets-release.cmake \
+	/opt/homebrew/lib/cmake/Qt6Multimedia/Qt6QDarwinMediaPluginTargets.cmake \
+	/opt/homebrew/lib/cmake/Qt6MultimediaPrivate/Qt6MultimediaPrivateAdditionalTargetInfo.cmake \
+	/opt/homebrew/lib/cmake/Qt6MultimediaPrivate/Qt6MultimediaPrivateConfig.cmake \
+	/opt/homebrew/lib/cmake/Qt6MultimediaPrivate/Qt6MultimediaPrivateConfigVersion.cmake \
+	/opt/homebrew/lib/cmake/Qt6MultimediaPrivate/Qt6MultimediaPrivateConfigVersionImpl.cmake \
+	/opt/homebrew/lib/cmake/Qt6MultimediaPrivate/Qt6MultimediaPrivateDependencies.cmake \
+	/opt/homebrew/lib/cmake/Qt6MultimediaPrivate/Qt6MultimediaPrivateTargets.cmake \
+	/opt/homebrew/lib/cmake/Qt6MultimediaPrivate/Qt6MultimediaPrivateVersionlessAliasTargets.cmake \
+	/opt/homebrew/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsAdditionalTargetInfo.cmake \
+	/opt/homebrew/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfig.cmake \
+	/opt/homebrew/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfigVersion.cmake \
+	/opt/homebrew/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfigVersionImpl.cmake \
+	/opt/homebrew/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsDependencies.cmake \
+	/opt/homebrew/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsTargets-release.cmake \
+	/opt/homebrew/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsTargets.cmake \
+	/opt/homebrew/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsVersionlessAliasTargets.cmake \
+	/opt/homebrew/lib/cmake/Qt6MultimediaWidgetsPrivate/Qt6MultimediaWidgetsPrivateAdditionalTargetInfo.cmake \
+	/opt/homebrew/lib/cmake/Qt6MultimediaWidgetsPrivate/Qt6MultimediaWidgetsPrivateConfig.cmake \
+	/opt/homebrew/lib/cmake/Qt6MultimediaWidgetsPrivate/Qt6MultimediaWidgetsPrivateConfigVersion.cmake \
+	/opt/homebrew/lib/cmake/Qt6MultimediaWidgetsPrivate/Qt6MultimediaWidgetsPrivateConfigVersionImpl.cmake \
+	/opt/homebrew/lib/cmake/Qt6MultimediaWidgetsPrivate/Qt6MultimediaWidgetsPrivateDependencies.cmake \
+	/opt/homebrew/lib/cmake/Qt6MultimediaWidgetsPrivate/Qt6MultimediaWidgetsPrivateTargets.cmake \
+	/opt/homebrew/lib/cmake/Qt6MultimediaWidgetsPrivate/Qt6MultimediaWidgetsPrivateVersionlessAliasTargets.cmake \
+	/opt/homebrew/lib/cmake/Qt6Network/Qt6NetworkAdditionalTargetInfo.cmake \
+	/opt/homebrew/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake \
+	/opt/homebrew/lib/cmake/Qt6Network/Qt6NetworkConfigVersion.cmake \
+	/opt/homebrew/lib/cmake/Qt6Network/Qt6NetworkConfigVersionImpl.cmake \
+	/opt/homebrew/lib/cmake/Qt6Network/Qt6NetworkDependencies.cmake \
+	/opt/homebrew/lib/cmake/Qt6Network/Qt6NetworkPlugins.cmake \
+	/opt/homebrew/lib/cmake/Qt6Network/Qt6NetworkTargets-release.cmake \
+	/opt/homebrew/lib/cmake/Qt6Network/Qt6NetworkTargets.cmake \
+	/opt/homebrew/lib/cmake/Qt6Network/Qt6NetworkVersionlessAliasTargets.cmake \
+	/opt/homebrew/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginAdditionalTargetInfo.cmake \
+	/opt/homebrew/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginConfig.cmake \
+	/opt/homebrew/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginTargets-release.cmake \
+	/opt/homebrew/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginTargets.cmake \
+	/opt/homebrew/lib/cmake/Qt6Network/Qt6QSCNetworkReachabilityNetworkInformationPluginAdditionalTargetInfo.cmake \
+	/opt/homebrew/lib/cmake/Qt6Network/Qt6QSCNetworkReachabilityNetworkInformationPluginConfig.cmake \
+	/opt/homebrew/lib/cmake/Qt6Network/Qt6QSCNetworkReachabilityNetworkInformationPluginTargets-release.cmake \
+	/opt/homebrew/lib/cmake/Qt6Network/Qt6QSCNetworkReachabilityNetworkInformationPluginTargets.cmake \
+	/opt/homebrew/lib/cmake/Qt6Network/Qt6QSecureTransportBackendPluginAdditionalTargetInfo.cmake \
+	/opt/homebrew/lib/cmake/Qt6Network/Qt6QSecureTransportBackendPluginConfig.cmake \
+	/opt/homebrew/lib/cmake/Qt6Network/Qt6QSecureTransportBackendPluginTargets-release.cmake \
+	/opt/homebrew/lib/cmake/Qt6Network/Qt6QSecureTransportBackendPluginTargets.cmake \
+	/opt/homebrew/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginAdditionalTargetInfo.cmake \
+	/opt/homebrew/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginConfig.cmake \
+	/opt/homebrew/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets-release.cmake \
+	/opt/homebrew/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets.cmake \
+	/opt/homebrew/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginAdditionalTargetInfo.cmake \
+	/opt/homebrew/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginConfig.cmake \
+	/opt/homebrew/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets-release.cmake \
+	/opt/homebrew/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets.cmake \
+	/opt/homebrew/lib/cmake/Qt6NetworkPrivate/Qt6NetworkPrivateAdditionalTargetInfo.cmake \
+	/opt/homebrew/lib/cmake/Qt6NetworkPrivate/Qt6NetworkPrivateConfig.cmake \
+	/opt/homebrew/lib/cmake/Qt6NetworkPrivate/Qt6NetworkPrivateConfigVersion.cmake \
+	/opt/homebrew/lib/cmake/Qt6NetworkPrivate/Qt6NetworkPrivateConfigVersionImpl.cmake \
+	/opt/homebrew/lib/cmake/Qt6NetworkPrivate/Qt6NetworkPrivateDependencies.cmake \
+	/opt/homebrew/lib/cmake/Qt6NetworkPrivate/Qt6NetworkPrivateTargets.cmake \
+	/opt/homebrew/lib/cmake/Qt6NetworkPrivate/Qt6NetworkPrivateVersionlessAliasTargets.cmake \
 	/opt/homebrew/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake \
 	/opt/homebrew/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake \
 	/opt/homebrew/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-release.cmake \
@@ -1254,4 +1414,5 @@ ProyectDeimos_autogen/timestamp: \
 	/opt/homebrew/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-release.cmake \
 	/opt/homebrew/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
 	/opt/homebrew/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
+	/Users/anavalle/Documents/ProyectoDeimos/mainwindow.ui \
 	/opt/homebrew/Cellar/cmake/3.31.6/bin/cmake

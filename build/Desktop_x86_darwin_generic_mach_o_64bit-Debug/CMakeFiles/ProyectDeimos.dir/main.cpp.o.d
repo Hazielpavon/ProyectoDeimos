@@ -983,4 +983,40 @@ CMakeFiles/ProyectDeimos.dir/main.cpp.o: \
   /opt/homebrew/include/QtGui/qfontinfo.h \
   /opt/homebrew/include/QtGui/qfontvariableaxis.h \
   /opt/homebrew/include/QtWidgets/qsizepolicy.h \
-  /opt/homebrew/include/QtWidgets/qtabwidget.h
+  /opt/homebrew/include/QtWidgets/qtabwidget.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QTimer \
+  /opt/homebrew/lib/QtCore.framework/Headers/qtimer.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/QKeyEvent \
+  /opt/homebrew/lib/QtGui.framework/Headers/qevent.h \
+  /opt/homebrew/include/QtCore/qiodevice.h \
+  /opt/homebrew/include/QtCore/qurl.h \
+  /opt/homebrew/include/QtGui/qeventpoint.h \
+  /opt/homebrew/include/QtGui/qvector2d.h \
+  /opt/homebrew/include/QtGui/qvectornd.h \
+  /opt/homebrew/include/QtGui/qpointingdevice.h \
+  /opt/homebrew/include/QtGui/qinputdevice.h \
+  /opt/homebrew/include/QtGui/qscreen.h \
+  /opt/homebrew/include/QtCore/QList \
+  /opt/homebrew/include/QtCore/QObject \
+  /opt/homebrew/include/QtCore/QRect /opt/homebrew/include/QtCore/QSize \
+  /opt/homebrew/include/QtCore/QSizeF \
+  /opt/homebrew/include/QtGui/QTransform \
+  /opt/homebrew/include/QtGui/qscreen_platform.h \
+  /Users/anavalle/Documents/ProyectoDeimos/entidad.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/QPainter \
+  /opt/homebrew/lib/QtGui.framework/Headers/qpainter.h \
+  /opt/homebrew/include/QtGui/qtextoption.h \
+  /opt/homebrew/include/QtGui/qpen.h \
+  /Users/anavalle/Documents/ProyectoDeimos/tranformacion.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QPoint \
+  /opt/homebrew/lib/QtCore.framework/Headers/qpoint.h \
+  /Users/anavalle/Documents/ProyectoDeimos/Sprite.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/QPixmap \
+  /opt/homebrew/lib/QtGui.framework/Headers/qpixmap.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QVector \
+  /opt/homebrew/lib/QtCore.framework/Headers/qvector.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QString \
+  /opt/homebrew/lib/QtCore.framework/Headers/qstring.h \
+  /Users/anavalle/Documents/ProyectoDeimos/componentefisico.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QPointF \
+  /Users/anavalle/Documents/ProyectoDeimos/componentesalud.h

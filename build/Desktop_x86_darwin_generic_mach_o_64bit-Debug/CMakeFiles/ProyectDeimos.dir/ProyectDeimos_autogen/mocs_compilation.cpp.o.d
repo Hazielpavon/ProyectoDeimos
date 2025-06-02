@@ -1016,6 +1016,25 @@ CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/mocs_compilation.cpp.o: \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
   /opt/homebrew/include/QtWidgets/qtabwidget.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QTimer \
+  /opt/homebrew/lib/QtCore.framework/Headers/qtimer.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/QKeyEvent \
+  /Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/ProyectDeimos_autogen/EWIEGA46WW/../../../../entidad.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/QPainter \
+  /opt/homebrew/lib/QtGui.framework/Headers/qpainter.h \
+  /Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/ProyectDeimos_autogen/EWIEGA46WW/../../../../tranformacion.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QPoint \
+  /opt/homebrew/lib/QtCore.framework/Headers/qpoint.h \
+  /Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/ProyectDeimos_autogen/EWIEGA46WW/../../../../Sprite.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/QPixmap \
+  /opt/homebrew/lib/QtGui.framework/Headers/qpixmap.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QVector \
+  /opt/homebrew/lib/QtCore.framework/Headers/qvector.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QString \
+  /opt/homebrew/lib/QtCore.framework/Headers/qstring.h \
+  /Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/ProyectDeimos_autogen/EWIEGA46WW/../../../../componentefisico.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QPointF \
+  /Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/ProyectDeimos_autogen/EWIEGA46WW/../../../../componentesalud.h \
   /Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/ProyectDeimos_autogen/EWIEGA46WW/moc_menuopciones.cpp \
   /Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/ProyectDeimos_autogen/EWIEGA46WW/../../../../menuopciones.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton \
@@ -1025,7 +1044,24 @@ CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/mocs_compilation.cpp.o: \
   /Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/ProyectDeimos_autogen/EWIEGA46WW/../../../../pantallacarga.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QProgressBar \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qprogressbar.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/QTimer \
-  /opt/homebrew/lib/QtCore.framework/Headers/qtimer.h \
   /Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/ProyectDeimos_autogen/EWIEGA46WW/moc_pantallainicio.cpp \
-  /Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/ProyectDeimos_autogen/EWIEGA46WW/../../../../pantallainicio.h
+  /Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/ProyectDeimos_autogen/EWIEGA46WW/../../../../pantallainicio.h \
+  /Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/ProyectDeimos_autogen/EWIEGA46WW/moc_videointro.cpp \
+  /Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/ProyectDeimos_autogen/EWIEGA46WW/../../../../videointro.h \
+  /opt/homebrew/lib/QtMultimedia.framework/Headers/QMediaPlayer \
+  /opt/homebrew/lib/QtMultimedia.framework/Headers/qmediaplayer.h \
+  /opt/homebrew/include/QtMultimedia/qtmultimediaglobal.h \
+  /opt/homebrew/include/QtMultimedia/qtmultimedia-config.h \
+  /opt/homebrew/include/QtMultimedia/qtmultimediaexports.h \
+  /opt/homebrew/include/QtMultimedia/qtaudio.h \
+  /opt/homebrew/include/QtMultimedia/qaudio.h \
+  /opt/homebrew/lib/QtMultimediaWidgets.framework/Headers/QVideoWidget \
+  /opt/homebrew/lib/QtMultimediaWidgets.framework/Headers/qvideowidget.h \
+  /opt/homebrew/include/QtMultimediaWidgets/qtmultimediawidgetsglobal.h \
+  /opt/homebrew/include/QtMultimediaWidgets/qtmultimediawidgetsexports.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QVBoxLayout \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qboxlayout.h \
+  /opt/homebrew/include/QtWidgets/qlayout.h \
+  /opt/homebrew/include/QtWidgets/qlayoutitem.h \
+  /opt/homebrew/include/QtWidgets/qboxlayout.h \
+  /opt/homebrew/include/QtWidgets/qgridlayout.h
