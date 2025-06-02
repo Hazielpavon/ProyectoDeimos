@@ -69,14 +69,27 @@ MainWindow::MainWindow(QWidget *parent)
     pantallaInicio = new PantallaInicio(this);
     connect(pantallaInicio, &PantallaInicio::iniciarJuegoPresionado, this, [=]() {
         qDebug() << "✅ Cambiando a MenuOpciones";
+
         if (!menuOpciones) {
             menuOpciones = new MenuOpciones(this);
+
             connect(menuOpciones, &MenuOpciones::nuevaPartida, this, [=]() {
                 qDebug() << "🕹️ NUEVA PARTIDA presionada";
+
+                // Creamos la pantalla de carga
                 pantallaCarga = new PantallaCarga(this);
+
+                // Ahora que pantallaCarga existe, conectamos su señal:
                 connect(pantallaCarga, &PantallaCarga::cargaCompletada, this, [=]() {
-                    qDebug() << "✅ Carga finalizada. Iniciando la partida real.";
-                    pantallaCarga->close();
+                    qDebug() << "✅ PantallaCarga indicó que terminó la carga.";
+
+                    // Creamos la pantalla de video
+                    VideoIntro *video = new VideoIntro(this);
+                    mostrarPantalla(video);
+
+                    connect(video, &VideoIntro::videoTerminado, this, [=]() {
+                        qDebug() << "🎬 Video terminado. Iniciando juego.";
+
                     m_player = new entidad();
                     m_player->transform().setPosition(width()/2 - 32, height()/2 - 32);
                     m_timer = new QTimer(this);
@@ -89,6 +102,7 @@ MainWindow::MainWindow(QWidget *parent)
                     temp->show();
                     delete temp;
 
+                    });
                 });
                 mostrarPantalla(pantallaCarga);
             });
@@ -221,7 +235,6 @@ void MainWindow::processInput()
     }
 
     m_player->fisica().setVelocity(vx, 0.0f);
-
 
 }
 

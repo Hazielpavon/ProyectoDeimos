@@ -45,5 +45,4 @@ private:
     bool   m_facingLeft;        // para saber hacia dónde mira al acabar el salto
 
     // ─────────────────────────────────────────
-
 };

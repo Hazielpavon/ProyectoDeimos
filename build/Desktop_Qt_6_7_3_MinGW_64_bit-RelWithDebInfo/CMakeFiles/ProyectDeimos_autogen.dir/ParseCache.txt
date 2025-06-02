@@ -1879,6 +1879,8 @@ C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Docume
 C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Documents/GitHub/ProyectoDeimos/sprite.h
 C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Documents/GitHub/ProyectoDeimos/tranformacion.h
 C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Documents/GitHub/ProyectoDeimos/jugador.cpp
+C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Documents/GitHub/ProyectoDeimos/clickablelabel.cpp
+<<<<<<< Updated upstream
 C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Documents/GitHub/ProyectoDeimos/videointro.h
  mmc:Q_OBJECT
  mdp:C:/Qt/6.7.3/mingw_64/include/QtCore/q20functional.h
@@ -2249,7 +2251,8 @@ C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Docume
  mdp:C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h
  mdp:C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Documents/GitHub/ProyectoDeimos/build/Desktop_Qt_6_7_3_MinGW_64_bit-RelWithDebInfo/ProyectDeimos_autogen/moc_predefs.h
  mdp:C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Documents/GitHub/ProyectoDeimos/videointro.h
-C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Documents/GitHub/ProyectoDeimos/clickablelabel.cpp
+=======
+>>>>>>> Stashed changes
 C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Documents/GitHub/ProyectoDeimos/colatareas.cpp
 C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Documents/GitHub/ProyectoDeimos/componentefisico.cpp
 C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Documents/GitHub/ProyectoDeimos/componentesalud.cpp

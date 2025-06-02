@@ -1,0 +1,121 @@
+
+# ======================
+# Carpeta de compilación
+# ======================
+# Ignora cualquier carpeta "build-" en la raíz y sus subcarpetas de debug/release.
+# Ajusta el patrón si tus carpetas se llaman distinto (p. ej. "out/", "bin/", etc.).
+build-*/ 
+*/build-*/ 
+build/
+debug/
+release/
+
+# ======================
+# Archivos de Qt Creator
+# ======================
+
+# Proyectos .pro (qmake)
+*.pro.user
+*.pro.user.*     # archivos de usuario de Qt Creator
+*.qmake.stash    # stash de qmake
+
+# QtDesigner / UI
+ui_*.h           # cabeceras generadas de interfaces .ui
+*.ui.user        # ajustes de diseñador Qt (caché de diseño)
+
+# Archivos generados por moc y rcc
+moc_*.cpp        # generados por moc
+qrc_*.cpp        # generados por rcc (resources)
+
+# Qt Quick/QML (si aplica)
+qmlcache/        # caché QML 
+
+# ======================
+# Archivos de CMake
+# ======================
+
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+CMakeLists.txt.user
+cmake_install.cmake
+Makefile
+install_manifest.txt
+
+# Para Visual Studio con CMake (si alguna vez generas soluciones .sln)
+*.sln
+*.vcxproj*
+*.vcproj*
+*.vcxproj.user
+*.vcxproj.filters
+
+# ======================
+# Objetos / Binarios / Bibliotecas
+# ======================
+
+# Objetos y bibliotecas intermedias
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.libs
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Ejecutables
+*.exe
+*.app/
+*.out
+*.elf
+
+# ======================
+# Archivos temporales / Editores
+# ======================
+
+# Archivos swap, backup, temporales
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+*.temp
+
+# Carpetas de IDE/editoros (Visual Studio Code, Qt Creator, etc.)
+.vscode/
+.idea/
+*.user
+*.user.*    # puede incluir settings de proyectos
+*.opensdf
+*.sdf
+*.cache
+*.log
+
+# ======================
+# Archivos específicos de sistema
+# ======================
+
+# Archivos de macOS
+.DS_Store
+
+# Archivos de Windows
+Thumbs.db
+desktop.ini
+
+# ======================
+# Recursos que SÍ queramos versionar
+# ======================
+
+# NO ignores tu archivo de recursos .qrc ni las imágenes que hayas incluido.
+# Ajusta el patrón si la carpeta de recursos es diferente.
+!resources.qrc
+!*.png
+
+# ======================
+# Ignorar build de dependencias externas (si las tienes)
+# ======================
+vendor/
+third_party/

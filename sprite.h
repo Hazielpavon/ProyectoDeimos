@@ -39,6 +39,8 @@ public:
     void update(float dt);
     void draw(QPainter &painter) const;
 
+    void loadFrames(const QString &prefix, int count);
+    \
 private:
     int m_frameIndex;
     float m_timeAccumulator;
