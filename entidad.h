@@ -45,13 +45,14 @@ public:
     componentefisico &fisica()     { return m_componenteFisico;  }
     componentesalud  &salud()      { return m_componenteSalud;   }
     Sprite           &sprite()     { return m_sprite;           }
-
+    bool facingleft(){ return m_facingLeft; }
 private:
     tranformacion    m_transformacion;    ///< Posición, rotación y escala
     Sprite            m_sprite;            ///< Controla la animación (frames) del personaje
     componentefisico   m_componenteFisico;   ///< Actualiza posición/velocidad física
     componentesalud    m_componenteSalud;    ///< Maneja puntos de vida y
     void actualizarAnimacion(float dt);
+    bool m_facingLeft;
 };
 
 #endif // ENTIDAD_H

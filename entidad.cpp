@@ -11,6 +11,13 @@ entidad::entidad()
     // El personaje se crea idle
     m_sprite.setState(SpriteState::Idle);
 
+    m_sprite.loadFrames(SpriteState::Idle,"Sprites/PersonajePrincipal/PNG Sequences/Idle/0_Blood_Demon_Idle_", 16);
+
+    m_sprite.loadFrames(SpriteState::Walking,"Sprites/PersonajePrincipal/PNG Sequences/Walking/0_Blood_Demon_Walking_", 24);
+
+    m_sprite.loadFrames(SpriteState::IdleLeft,"Sprites/PersonajePrincipal/PNG Sequences/Idle Left/0_Blood_Demon_IdleL_", 16);
+
+    m_sprite.loadFrames(SpriteState::WalkingLeft,"Sprites/PersonajePrincipal/PNG Sequences/Walking Left/0_Blood_Demon_WalkingL_", 24);
     // 1.3) Ajustar velocidad de fotogramas (opcional):
     m_sprite.setFPS(12);
     // 1.4) Tamaño inicial del sprite
@@ -44,10 +51,24 @@ void entidad::actualizarAnimacion(float dt)
     float vy = m_componenteFisico.velocity().y();
 
     if (qFuzzyCompare(vx, 0.0f) && qFuzzyCompare(vy, 0.0f)) {
-        m_sprite.setState(SpriteState::Idle);
-    } else {
+        // —> No se mueve en ninguna dirección: elegimos Idle o IdleLeft según último facing
+        if (m_facingLeft) {
+            m_sprite.setState(SpriteState::IdleLeft);
+        } else {
+            m_sprite.setState(SpriteState::Idle);
+        }
+    }
+    else if (vx < 0.0f) {
+        // —> Se mueve a la izquierda
+        m_facingLeft = true;
+        m_sprite.setState(SpriteState::WalkingLeft);
+    }
+    else {
+        // —> Se mueve a la derecha o en vertical; lo consideramos “caminando hacia la derecha”
+        m_facingLeft = false;
         m_sprite.setState(SpriteState::Walking);
     }
 
     m_sprite.update(dt);
 }
+
