@@ -34,7 +34,7 @@ MainWindow::MainWindow(QWidget *parent)
 
         m_player->sprite().loadFrames(SpriteState::Walking,":/resources/0_Blood_Demon_Walking_",24);
 
-        // Cargar animación Idle:
+       // Cargar animación Idle:
         m_player->sprite().loadFrames(SpriteState::Idle,":/resources/0_Blood_Demon_Idle_",16);
 
         m_player->sprite().loadFrames(SpriteState::IdleLeft, ":/resources/0_Blood_Demon_IdleL_",16);
@@ -45,8 +45,6 @@ MainWindow::MainWindow(QWidget *parent)
         m_player->sprite().loadFrames(SpriteState::Jump, ":/resources/0_Blood_Demon_Jump Loop_",6);
 
         m_player->sprite().generateMirroredFrames(SpriteState::Jump,SpriteState::JumpLeft);
-
-
 
          m_player->sprite().setSize(128, 128);
 
