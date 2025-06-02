@@ -5,6 +5,7 @@
 #include "PantallaCarga.h"
 #include <QPainter>
 #include <QDebug>
+#include "videointro.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent),
@@ -22,7 +23,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     // Tamaño fijo para el área de juego
     setFixedSize(950, 650);
-   /* ui->setupUi(this);
+    /* ui->setupUi(this);
 
     connect(pantallaCarga, &PantallaCarga::cargaCompletada, this, [=]() {
 
@@ -89,6 +90,15 @@ MainWindow::MainWindow(QWidget *parent)
                     // Cerramos la pantalla de carga
                     pantallaCarga->close();
 
+
+                    VideoIntro *video = new VideoIntro(this);
+                    mostrarPantalla(video);
+
+                    connect(video, &VideoIntro::videoTerminado, this, [=]() {
+                        qDebug() << "🎬 Video terminado. Iniciando juego.";
+
+                    });
+
                     /*
                     // 1) Creamos la entidad/jugador y la posicionamos
                     m_player = new entidad();
@@ -131,6 +141,8 @@ MainWindow::MainWindow(QWidget *parent)
     // Al inicio, mostrar la pantalla de inicio
     mostrarPantalla(pantallaInicio);
 }
+
+
 
 MainWindow::~MainWindow() {
     // Si m_timer está vivo, lo detenemos
