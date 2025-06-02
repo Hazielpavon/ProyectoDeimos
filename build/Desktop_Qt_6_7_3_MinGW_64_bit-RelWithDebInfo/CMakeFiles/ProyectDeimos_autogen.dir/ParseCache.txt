@@ -1879,8 +1879,8 @@ C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Docume
 C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Documents/GitHub/ProyectoDeimos/sprite.h
 C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Documents/GitHub/ProyectoDeimos/tranformacion.h
 C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Documents/GitHub/ProyectoDeimos/jugador.cpp
-C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Documents/GitHub/ProyectoDeimos/clickablelabel.cpp
 <<<<<<< Updated upstream
+C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Documents/GitHub/ProyectoDeimos/clickablelabel.cpp
 C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Documents/GitHub/ProyectoDeimos/videointro.h
  mmc:Q_OBJECT
  mdp:C:/Qt/6.7.3/mingw_64/include/QtCore/q20functional.h

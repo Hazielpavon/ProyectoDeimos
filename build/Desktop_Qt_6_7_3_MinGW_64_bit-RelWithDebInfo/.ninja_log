@@ -1,39 +1,63 @@
 # ninja log v6
-32	223	7705883245933407	ProyectDeimos_autogen/timestamp	2fc5d1c5350fd59e
-759	936	7705868008534222	CMakeFiles/ProyectDeimos.dir/enemigo.cpp.obj	f07e7c01664b7f40
-32	223	7705883245933407	C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Documents/GitHub/ProyectoDeimos/build/Desktop_Qt_6_7_3_MinGW_64_bit-RelWithDebInfo/ProyectDeimos_autogen/mocs_compilation.cpp	2fc5d1c5350fd59e
-769	1651	7705868008631240	CMakeFiles/ProyectDeimos.dir/componentefisico.cpp.obj	550187dff23c8dfb
-892	3373	7705874174475128	CMakeFiles/ProyectDeimos.dir/main.cpp.obj	8d5e95da1d222dc9
-32	223	7705883245933407	ProyectDeimos_autogen/mocs_compilation.cpp	2fc5d1c5350fd59e
-32	223	7705883245933407	C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Documents/GitHub/ProyectoDeimos/build/Desktop_Qt_6_7_3_MinGW_64_bit-RelWithDebInfo/ProyectDeimos_autogen/timestamp	2fc5d1c5350fd59e
-745	898	7705868008391047	CMakeFiles/ProyectDeimos.dir/hilotrabajo.cpp.obj	f5be34fcfe65a5b8
-685	719	7705868007785687	ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp	cffb59967a13651d
-685	719	7705868007785687	C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Documents/GitHub/ProyectoDeimos/build/Desktop_Qt_6_7_3_MinGW_64_bit-RelWithDebInfo/ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp	cffb59967a13651d
-900	3237	7705874174556397	CMakeFiles/ProyectDeimos.dir/entidad.cpp.obj	d3cc900aebeba8c5
-749	1621	7705868008441956	CMakeFiles/ProyectDeimos.dir/tranformacion.cpp.obj	897c106dcc0abffc
-763	942	7705868008580287	CMakeFiles/ProyectDeimos.dir/jugador.cpp.obj	171f24f416294a0b
-741	908	7705868008350357	CMakeFiles/ProyectDeimos.dir/colatareas.cpp.obj	40e0ef4593aa37c1
-904	4213	7705874174596824	CMakeFiles/ProyectDeimos.dir/sprite.cpp.obj	872fa0563033b3f5
+916	1655	7704619951862298	CMakeFiles/ProyectDeimos.dir/componentefisico.cpp.obj	c79d3e760c572dc8
+4349	4674	7704512218504020	CMakeFiles/ProyectDeimos.dir/enemigo.cpp.obj	e027ce40014b6b31
+27	1145	7705199013176669	C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Documents/GitHub/ProyectoDeimos/build/Desktop_Qt_6_7_3_MinGW_64_bit-RelWithDebInfo/ProyectDeimos_autogen/mocs_compilation.cpp	2fc5d1c5350fd59e
+27	1145	7705199013176669	ProyectDeimos_autogen/timestamp	2fc5d1c5350fd59e
+4334	4678	7704512218358986	CMakeFiles/ProyectDeimos.dir/hilotrabajo.cpp.obj	7bedb529adcf7381
+1151	3965	7705199014382295	CMakeFiles/ProyectDeimos.dir/main.cpp.obj	95378166c421e534
+27	1145	7705199013176669	ProyectDeimos_autogen/mocs_compilation.cpp	2fc5d1c5350fd59e
+27	1145	7705199013176669	C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Documents/GitHub/ProyectoDeimos/build/Desktop_Qt_6_7_3_MinGW_64_bit-RelWithDebInfo/ProyectDeimos_autogen/timestamp	2fc5d1c5350fd59e
+3800	4307	7704512217989117	ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp	cffb59967a13651d
+3800	4307	7704512217989117	C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Documents/GitHub/ProyectoDeimos/build/Desktop_Qt_6_7_3_MinGW_64_bit-RelWithDebInfo/ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp	cffb59967a13651d
+1160	3737	7705199014479840	CMakeFiles/ProyectDeimos.dir/entidad.cpp.obj	1902cc9517d9d8e
+4339	5033	7704512218404808	CMakeFiles/ProyectDeimos.dir/tranformacion.cpp.obj	2b2ccde478a033b1
+4353	4676	7704512218544453	CMakeFiles/ProyectDeimos.dir/jugador.cpp.obj	7c54efc4b59d51c6
+4330	4678	7704512218318152	CMakeFiles/ProyectDeimos.dir/colatareas.cpp.obj	a2ce763b63a03563
+1165	4393	7705199014525440	CMakeFiles/ProyectDeimos.dir/sprite.cpp.obj	7b66b9c3523f0e2c
+921	3504	7704619951908957	CMakeFiles/ProyectDeimos.dir/componentesalud.cpp.obj	32ee97c95efa635c
 751	3289	7705269208530933	CMakeFiles/ProyectDeimos.dir/videointro.cpp.obj	2a5ea4e910c8f73f
-773	5431	7705868008678041	CMakeFiles/ProyectDeimos.dir/componentesalud.cpp.obj	8e6c4c9c576190aa
-728	5226	7705868008219528	CMakeFiles/ProyectDeimos.dir/pantallainicio.cpp.obj	8a5891eb7ede3f66
-227	2543	7705881353284016	CMakeFiles/ProyectDeimos.dir/mainwindow.cpp.obj	2a8d35c451766019
-778	6045	7705868008723659	CMakeFiles/ProyectDeimos.dir/clickablelabel.cpp.obj	209d75de91bc5a45
-784	5569	7705868008774876	CMakeFiles/ProyectDeimos.dir/pantallacarga.cpp.obj	f373d88c4f566a53
-732	6340	7705868008264898	CMakeFiles/ProyectDeimos.dir/menuopciones.cpp.obj	c482580bdd7286ca
-889	3851	7705874174438400	CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/mocs_compilation.cpp.obj	fd28aae5af6ea123
-789	58278	7705868008830518	CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.obj	7589cb2988f2a905
+4317	7294	7704512218190266	CMakeFiles/ProyectDeimos.dir/pantallainicio.cpp.obj	9c285a4e2db82cd0
+1155	4174	7705199014423940	CMakeFiles/ProyectDeimos.dir/mainwindow.cpp.obj	32dfa3933ce3cdcb
+4373	7239	7704512218745196	CMakeFiles/ProyectDeimos.dir/pantallacarga.cpp.obj	cb40060c61d325b7
+4368	7426	7704512218698396	CMakeFiles/ProyectDeimos.dir/clickablelabel.cpp.obj	22e3bcddfa61dee0
+4321	7598	7704512218230784	CMakeFiles/ProyectDeimos.dir/menuopciones.cpp.obj	cfa5f97b226dd229
 43	60	7704512174328155	clean	577b940aee94fbd7
-2543	5349	7705881376448570	ProyectDeimos.exe	e714fe27d8f1c572
+4377	25406	7704512218790936	CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.obj	f465df2c5e707cc3
+1146	4342	7705199014341689	CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/mocs_compilation.cpp.obj	66c03fab687c2b34
+4393	5386	7705199046808102	ProyectDeimos.exe	6e69ca4aef1916a5
 7	43	7704512173965820	CMakeFiles/clean.additional	8b1a23e4f7e97f4
-10	820	7705868000150844	build.ninja	1e57f6a4c0f722bc
-32	222	7705883642705733	ProyectDeimos_autogen/timestamp	2fc5d1c5350fd59e
-32	222	7705883642705733	ProyectDeimos_autogen/mocs_compilation.cpp	2fc5d1c5350fd59e
-32	222	7705883642705733	C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Documents/GitHub/ProyectoDeimos/build/Desktop_Qt_6_7_3_MinGW_64_bit-RelWithDebInfo/ProyectDeimos_autogen/timestamp	2fc5d1c5350fd59e
-32	222	7705883642705733	C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Documents/GitHub/ProyectoDeimos/build/Desktop_Qt_6_7_3_MinGW_64_bit-RelWithDebInfo/ProyectDeimos_autogen/mocs_compilation.cpp	2fc5d1c5350fd59e
-35	231	7705883738619122	ProyectDeimos_autogen/timestamp	2fc5d1c5350fd59e
-35	231	7705883738619122	ProyectDeimos_autogen/mocs_compilation.cpp	2fc5d1c5350fd59e
-35	231	7705883738619122	C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Documents/GitHub/ProyectoDeimos/build/Desktop_Qt_6_7_3_MinGW_64_bit-RelWithDebInfo/ProyectDeimos_autogen/timestamp	2fc5d1c5350fd59e
-35	231	7705883738619122	C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Documents/GitHub/ProyectoDeimos/build/Desktop_Qt_6_7_3_MinGW_64_bit-RelWithDebInfo/ProyectDeimos_autogen/mocs_compilation.cpp	2fc5d1c5350fd59e
-232	2495	7705883740574485	CMakeFiles/ProyectDeimos.dir/mainwindow.cpp.obj	2a8d35c451766019
-2495	5213	7705883763206128	ProyectDeimos.exe	e714fe27d8f1c572
+7	731	7705887359918382	build.ninja	1e57f6a4c0f722bc
+8	827	7705887359918382	build.ninja	1e57f6a4c0f722bc
+29	683	7705887366738378	ProyectDeimos_autogen/timestamp	2fc5d1c5350fd59e
+29	683	7705887366738378	ProyectDeimos_autogen/mocs_compilation.cpp	2fc5d1c5350fd59e
+29	683	7705887366738378	C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Documents/GitHub/ProyectoDeimos/build/Desktop_Qt_6_7_3_MinGW_64_bit-RelWithDebInfo/ProyectDeimos_autogen/timestamp	2fc5d1c5350fd59e
+29	683	7705887366738378	C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Documents/GitHub/ProyectoDeimos/build/Desktop_Qt_6_7_3_MinGW_64_bit-RelWithDebInfo/ProyectDeimos_autogen/mocs_compilation.cpp	2fc5d1c5350fd59e
+684	717	7705887367551323	ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp	cffb59967a13651d
+684	717	7705887367551323	C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Documents/GitHub/ProyectoDeimos/build/Desktop_Qt_6_7_3_MinGW_64_bit-RelWithDebInfo/ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp	cffb59967a13651d
+741	834	7705887368129456	CMakeFiles/ProyectDeimos.dir/hilotrabajo.cpp.obj	f5be34fcfe65a5b8
+737	845	7705887368083606	CMakeFiles/ProyectDeimos.dir/colatareas.cpp.obj	40e0ef4593aa37c1
+759	872	7705887368303486	CMakeFiles/ProyectDeimos.dir/jugador.cpp.obj	171f24f416294a0b
+755	873	7705887368257989	CMakeFiles/ProyectDeimos.dir/enemigo.cpp.obj	f07e7c01664b7f40
+746	1552	7705887368165086	CMakeFiles/ProyectDeimos.dir/tranformacion.cpp.obj	897c106dcc0abffc
+764	1553	7705887368348889	CMakeFiles/ProyectDeimos.dir/componentefisico.cpp.obj	550187dff23c8dfb
+769	5273	7705887368399669	CMakeFiles/ProyectDeimos.dir/componentesalud.cpp.obj	8e6c4c9c576190aa
+726	5483	7705887367967199	CMakeFiles/ProyectDeimos.dir/pantallainicio.cpp.obj	8a5891eb7ede3f66
+777	5606	7705887368480409	CMakeFiles/ProyectDeimos.dir/pantallacarga.cpp.obj	f373d88c4f566a53
+773	5849	7705887368440077	CMakeFiles/ProyectDeimos.dir/clickablelabel.cpp.obj	209d75de91bc5a45
+729	6193	7705887367997523	CMakeFiles/ProyectDeimos.dir/menuopciones.cpp.obj	c482580bdd7286ca
+782	55463	7705887368532359	CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.obj	7589cb2988f2a905
+17	923	7705888441976757	ProyectDeimos_autogen/timestamp	2fc5d1c5350fd59e
+17	923	7705888441976757	ProyectDeimos_autogen/mocs_compilation.cpp	2fc5d1c5350fd59e
+17	923	7705888441976757	C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Documents/GitHub/ProyectoDeimos/build/Desktop_Qt_6_7_3_MinGW_64_bit-RelWithDebInfo/ProyectDeimos_autogen/timestamp	2fc5d1c5350fd59e
+17	923	7705888441976757	C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Documents/GitHub/ProyectoDeimos/build/Desktop_Qt_6_7_3_MinGW_64_bit-RelWithDebInfo/ProyectDeimos_autogen/mocs_compilation.cpp	2fc5d1c5350fd59e
+938	3642	7705888443249001	CMakeFiles/ProyectDeimos.dir/entidad.cpp.obj	d3cc900aebeba8c5
+929	3777	7705888443149252	CMakeFiles/ProyectDeimos.dir/main.cpp.obj	8d5e95da1d222dc9
+934	4112	7705888443205207	CMakeFiles/ProyectDeimos.dir/mainwindow.cpp.obj	2a8d35c451766019
+924	4302	7705888443098066	CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/mocs_compilation.cpp.obj	fd28aae5af6ea123
+32	233	7705888566853526	ProyectDeimos_autogen/timestamp	2fc5d1c5350fd59e
+32	233	7705888566853526	ProyectDeimos_autogen/mocs_compilation.cpp	2fc5d1c5350fd59e
+32	233	7705888566853526	C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Documents/GitHub/ProyectoDeimos/build/Desktop_Qt_6_7_3_MinGW_64_bit-RelWithDebInfo/ProyectDeimos_autogen/timestamp	2fc5d1c5350fd59e
+32	233	7705888566853526	C:/Users/Administrador/OneDrive - Universidad Tecnologica Centroamericana/Documents/GitHub/ProyectoDeimos/build/Desktop_Qt_6_7_3_MinGW_64_bit-RelWithDebInfo/ProyectDeimos_autogen/mocs_compilation.cpp	2fc5d1c5350fd59e
+234	2677	7705888568873434	CMakeFiles/ProyectDeimos.dir/mainwindow.cpp.obj	2a8d35c451766019
+237	3215	7705888568899089	CMakeFiles/ProyectDeimos.dir/sprite.cpp.obj	872fa0563033b3f5
+3215	4637	7705888598680137	ProyectDeimos.exe	e714fe27d8f1c572
