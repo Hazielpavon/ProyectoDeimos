@@ -2,5 +2,7 @@
     <qresource prefix="/">
         <file>resources/inicio.png</file>
         <file>resources/menu_Op.png</file>
+        <file>resources/cargando.png</file>
+        <file>resources/historia.mp4</file>
     </qresource>
 </RCC>

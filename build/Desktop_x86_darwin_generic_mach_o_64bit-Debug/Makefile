@@ -248,6 +248,30 @@ ProyectDeimos_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/mocs_compilation.cpp.s
 .PHONY : ProyectDeimos_autogen/mocs_compilation.cpp.s
 
+clickablelabel.o: clickablelabel.cpp.o
+.PHONY : clickablelabel.o
+
+# target to build an object file
+clickablelabel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/clickablelabel.cpp.o
+.PHONY : clickablelabel.cpp.o
+
+clickablelabel.i: clickablelabel.cpp.i
+.PHONY : clickablelabel.i
+
+# target to preprocess a source file
+clickablelabel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/clickablelabel.cpp.i
+.PHONY : clickablelabel.cpp.i
+
+clickablelabel.s: clickablelabel.cpp.s
+.PHONY : clickablelabel.s
+
+# target to generate assembly for a file
+clickablelabel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/clickablelabel.cpp.s
+.PHONY : clickablelabel.cpp.s
+
 colatareas.o: colatareas.cpp.o
 .PHONY : colatareas.o
 
@@ -488,6 +512,30 @@ menuopciones.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/menuopciones.cpp.s
 .PHONY : menuopciones.cpp.s
 
+pantallacarga.o: pantallacarga.cpp.o
+.PHONY : pantallacarga.o
+
+# target to build an object file
+pantallacarga.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/pantallacarga.cpp.o
+.PHONY : pantallacarga.cpp.o
+
+pantallacarga.i: pantallacarga.cpp.i
+.PHONY : pantallacarga.i
+
+# target to preprocess a source file
+pantallacarga.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/pantallacarga.cpp.i
+.PHONY : pantallacarga.cpp.i
+
+pantallacarga.s: pantallacarga.cpp.s
+.PHONY : pantallacarga.s
+
+# target to generate assembly for a file
+pantallacarga.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/pantallacarga.cpp.s
+.PHONY : pantallacarga.cpp.s
+
 pantallainicio.o: pantallainicio.cpp.o
 .PHONY : pantallainicio.o
 
@@ -581,6 +629,9 @@ help:
 	@echo "... ProyectDeimos_autogen/mocs_compilation.o"
 	@echo "... ProyectDeimos_autogen/mocs_compilation.i"
 	@echo "... ProyectDeimos_autogen/mocs_compilation.s"
+	@echo "... clickablelabel.o"
+	@echo "... clickablelabel.i"
+	@echo "... clickablelabel.s"
 	@echo "... colatareas.o"
 	@echo "... colatareas.i"
 	@echo "... colatareas.s"
@@ -611,6 +662,9 @@ help:
 	@echo "... menuopciones.o"
 	@echo "... menuopciones.i"
 	@echo "... menuopciones.s"
+	@echo "... pantallacarga.o"
+	@echo "... pantallacarga.i"
+	@echo "... pantallacarga.s"
 	@echo "... pantallainicio.o"
 	@echo "... pantallainicio.i"
 	@echo "... pantallainicio.s"

@@ -1,10 +1,24 @@
 #ifndef TRANFORMACION_H
 #define TRANFORMACION_H
 
-class Tranformacion
+#include <QPoint>
+
+/**
+ * @brief Transformacion guarda únicamente una posición (x,y).
+ */
+class tranformacion
 {
 public:
-    Tranformacion();
+    tranformacion();
+
+    // Fija la posición interna.
+    void setPosition(int x, int y);
+
+    // Devuelve la posición interna (QPoint).
+    QPoint getPosition() const;
+
+private:
+    QPoint m_pos;
 };
 
-#endif // TRANFORMACION_H
+#endif // TRANSFORMACION_H
