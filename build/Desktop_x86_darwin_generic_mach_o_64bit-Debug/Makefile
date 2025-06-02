@@ -608,6 +608,30 @@ tranformacion.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/tranformacion.cpp.s
 .PHONY : tranformacion.cpp.s
 
+videointro.o: videointro.cpp.o
+.PHONY : videointro.o
+
+# target to build an object file
+videointro.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/videointro.cpp.o
+.PHONY : videointro.cpp.o
+
+videointro.i: videointro.cpp.i
+.PHONY : videointro.i
+
+# target to preprocess a source file
+videointro.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/videointro.cpp.i
+.PHONY : videointro.cpp.i
+
+videointro.s: videointro.cpp.s
+.PHONY : videointro.s
+
+# target to generate assembly for a file
+videointro.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProyectDeimos.dir/build.make CMakeFiles/ProyectDeimos.dir/videointro.cpp.s
+.PHONY : videointro.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -674,6 +698,9 @@ help:
 	@echo "... tranformacion.o"
 	@echo "... tranformacion.i"
 	@echo "... tranformacion.s"
+	@echo "... videointro.o"
+	@echo "... videointro.i"
+	@echo "... videointro.s"
 .PHONY : help
 
 

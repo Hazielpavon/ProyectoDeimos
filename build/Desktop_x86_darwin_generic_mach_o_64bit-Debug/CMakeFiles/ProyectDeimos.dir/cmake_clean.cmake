@@ -36,6 +36,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ProyectDeimos.dir/sprite.cpp.o.d"
   "CMakeFiles/ProyectDeimos.dir/tranformacion.cpp.o"
   "CMakeFiles/ProyectDeimos.dir/tranformacion.cpp.o.d"
+  "CMakeFiles/ProyectDeimos.dir/videointro.cpp.o"
+  "CMakeFiles/ProyectDeimos.dir/videointro.cpp.o.d"
   "ProyectDeimos.app/Contents/MacOS/ProyectDeimos"
   "ProyectDeimos.pdb"
   "ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp"

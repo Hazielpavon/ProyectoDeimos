@@ -26,6 +26,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/anavalle/Documents/ProyectoDeimos/pantallainicio.cpp" "CMakeFiles/ProyectDeimos.dir/pantallainicio.cpp.o" "gcc" "CMakeFiles/ProyectDeimos.dir/pantallainicio.cpp.o.d"
   "/Users/anavalle/Documents/ProyectoDeimos/sprite.cpp" "CMakeFiles/ProyectDeimos.dir/sprite.cpp.o" "gcc" "CMakeFiles/ProyectDeimos.dir/sprite.cpp.o.d"
   "/Users/anavalle/Documents/ProyectoDeimos/tranformacion.cpp" "CMakeFiles/ProyectDeimos.dir/tranformacion.cpp.o" "gcc" "CMakeFiles/ProyectDeimos.dir/tranformacion.cpp.o.d"
+  "/Users/anavalle/Documents/ProyectoDeimos/videointro.cpp" "CMakeFiles/ProyectDeimos.dir/videointro.cpp.o" "gcc" "CMakeFiles/ProyectDeimos.dir/videointro.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

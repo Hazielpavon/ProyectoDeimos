@@ -80,6 +80,7 @@ ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/anavalle/Documents/Pr
 ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp: CMakeFiles/ProyectDeimos_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json
 ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/anavalle/Documents/ProyectoDeimos/resources/cargando.png
 ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/anavalle/Documents/ProyectoDeimos/resources/menu_Op.png
+ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/anavalle/Documents/ProyectoDeimos/resources/historia.mp4
 ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/anavalle/Documents/ProyectoDeimos/resources/inicio.png
 ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp: /opt/homebrew/share/qt/libexec/rcc
 ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp: /opt/homebrew/share/qt/libexec/rcc
@@ -313,10 +314,24 @@ CMakeFiles/ProyectDeimos.dir/pantallacarga.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ProyectDeimos.dir/pantallacarga.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anavalle/Documents/ProyectoDeimos/pantallacarga.cpp -o CMakeFiles/ProyectDeimos.dir/pantallacarga.cpp.s
 
+CMakeFiles/ProyectDeimos.dir/videointro.cpp.o: CMakeFiles/ProyectDeimos.dir/flags.make
+CMakeFiles/ProyectDeimos.dir/videointro.cpp.o: /Users/anavalle/Documents/ProyectoDeimos/videointro.cpp
+CMakeFiles/ProyectDeimos.dir/videointro.cpp.o: CMakeFiles/ProyectDeimos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/ProyectDeimos.dir/videointro.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ProyectDeimos.dir/videointro.cpp.o -MF CMakeFiles/ProyectDeimos.dir/videointro.cpp.o.d -o CMakeFiles/ProyectDeimos.dir/videointro.cpp.o -c /Users/anavalle/Documents/ProyectoDeimos/videointro.cpp
+
+CMakeFiles/ProyectDeimos.dir/videointro.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ProyectDeimos.dir/videointro.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anavalle/Documents/ProyectoDeimos/videointro.cpp > CMakeFiles/ProyectDeimos.dir/videointro.cpp.i
+
+CMakeFiles/ProyectDeimos.dir/videointro.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ProyectDeimos.dir/videointro.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anavalle/Documents/ProyectoDeimos/videointro.cpp -o CMakeFiles/ProyectDeimos.dir/videointro.cpp.s
+
 CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.o: CMakeFiles/ProyectDeimos.dir/flags.make
 CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.o: ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp
 CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.o: CMakeFiles/ProyectDeimos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.o -MF CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.o.d -o CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.o -c /Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp
 
 CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.i: cmake_force
@@ -345,6 +360,7 @@ ProyectDeimos_OBJECTS = \
 "CMakeFiles/ProyectDeimos.dir/componentesalud.cpp.o" \
 "CMakeFiles/ProyectDeimos.dir/clickablelabel.cpp.o" \
 "CMakeFiles/ProyectDeimos.dir/pantallacarga.cpp.o" \
+"CMakeFiles/ProyectDeimos.dir/videointro.cpp.o" \
 "CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.o"
 
 # External object files for target ProyectDeimos
@@ -366,14 +382,19 @@ ProyectDeimos.app/Contents/MacOS/ProyectDeimos: CMakeFiles/ProyectDeimos.dir/com
 ProyectDeimos.app/Contents/MacOS/ProyectDeimos: CMakeFiles/ProyectDeimos.dir/componentesalud.cpp.o
 ProyectDeimos.app/Contents/MacOS/ProyectDeimos: CMakeFiles/ProyectDeimos.dir/clickablelabel.cpp.o
 ProyectDeimos.app/Contents/MacOS/ProyectDeimos: CMakeFiles/ProyectDeimos.dir/pantallacarga.cpp.o
+ProyectDeimos.app/Contents/MacOS/ProyectDeimos: CMakeFiles/ProyectDeimos.dir/videointro.cpp.o
 ProyectDeimos.app/Contents/MacOS/ProyectDeimos: CMakeFiles/ProyectDeimos.dir/ProyectDeimos_autogen/EWIEGA46WW/qrc_resources.cpp.o
 ProyectDeimos.app/Contents/MacOS/ProyectDeimos: CMakeFiles/ProyectDeimos.dir/build.make
+ProyectDeimos.app/Contents/MacOS/ProyectDeimos: /opt/homebrew/lib/QtMultimediaWidgets.framework/Versions/A/QtMultimediaWidgets
 ProyectDeimos.app/Contents/MacOS/ProyectDeimos: /opt/homebrew/lib/QtWidgets.framework/Versions/A/QtWidgets
+ProyectDeimos.app/Contents/MacOS/ProyectDeimos: /opt/homebrew/lib/QtMultimedia.framework/Versions/A/QtMultimedia
+ProyectDeimos.app/Contents/MacOS/ProyectDeimos: /opt/homebrew/lib/QtNetwork.framework/Versions/A/QtNetwork
 ProyectDeimos.app/Contents/MacOS/ProyectDeimos: /opt/homebrew/lib/QtGui.framework/Versions/A/QtGui
 ProyectDeimos.app/Contents/MacOS/ProyectDeimos: /opt/homebrew/lib/QtCore.framework/Versions/A/QtCore
 ProyectDeimos.app/Contents/MacOS/ProyectDeimos: CMakeFiles/ProyectDeimos.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable ProyectDeimos.app/Contents/MacOS/ProyectDeimos"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable ProyectDeimos.app/Contents/MacOS/ProyectDeimos"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ProyectDeimos.dir/link.txt --verbose=$(VERBOSE)
+	/opt/homebrew/Cellar/cmake/3.31.6/bin/cmake -E copy_directory /Users/anavalle/Documents/ProyectoDeimos/Sprites /Users/anavalle/Documents/ProyectoDeimos/build/Desktop_x86_darwin_generic_mach_o_64bit-Debug/ProyectDeimos.app/Contents/MacOS/Sprites
 
 # Rule to build all files generated by this target.
 CMakeFiles/ProyectDeimos.dir/build: ProyectDeimos.app/Contents/MacOS/ProyectDeimos
