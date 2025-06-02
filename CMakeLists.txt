@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.16)
 project(ProyectDeimos VERSION 0.1 LANGUAGES CXX)
 
 # -------------------------------------
-# Configuraciones estándar de Qt y C++
+# Configuración estándar de Qt y C++
 # -------------------------------------
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)
@@ -41,7 +41,7 @@ set(PROJECT_SOURCES
 )
 
 # -------------------------------------
-# Crea el ejecutable (.app en macOS)
+# Crea el ejecutable (macOS bundle .app)
 # -------------------------------------
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(ProyectDeimos
@@ -53,7 +53,7 @@ else()
 endif()
 
 # -------------------------------------
-# Vincula bibliotecas Qt
+# Vincula bibliotecas Qt necesarias
 # -------------------------------------
 target_link_libraries(ProyectDeimos
     PRIVATE
@@ -63,7 +63,7 @@ target_link_libraries(ProyectDeimos
 )
 
 # -------------------------------------
-# Copiar carpeta Sprites/ al bundle .app
+# Copiar carpeta Sprites al .app en macOS
 # -------------------------------------
 set(RESOURCE_DEST "${CMAKE_BINARY_DIR}/ProyectDeimos.app/Contents/Resources")
 
@@ -76,7 +76,7 @@ add_custom_command(
 )
 
 # -------------------------------------
-# Propiedades del bundle macOS
+# Propiedades específicas para el bundle en macOS
 # -------------------------------------
 set_target_properties(ProyectDeimos PROPERTIES
     MACOSX_BUNDLE TRUE

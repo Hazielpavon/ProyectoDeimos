@@ -1013,8 +1013,11 @@ CMakeFiles/ProyectDeimos.dir/mainwindow.cpp.o: \
   /opt/homebrew/lib/QtGui.framework/Headers/qpixmap.h \
   /opt/homebrew/lib/QtCore.framework/Headers/QVector \
   /opt/homebrew/lib/QtCore.framework/Headers/qvector.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QMap \
+  /opt/homebrew/lib/QtCore.framework/Headers/qmap.h \
   /opt/homebrew/lib/QtCore.framework/Headers/QString \
   /opt/homebrew/lib/QtCore.framework/Headers/qstring.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QSize \
   /Users/anavalle/Documents/ProyectoDeimos/componentefisico.h \
   /opt/homebrew/lib/QtCore.framework/Headers/QPointF \
   /Users/anavalle/Documents/ProyectoDeimos/componentesalud.h \
