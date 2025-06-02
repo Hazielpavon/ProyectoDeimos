@@ -1,10 +1,8 @@
-// sprite.cpp
-
 #include "sprite.h"
 #include <QDebug>
 #include <QCoreApplication>
 #include <QDir>
-
+#include <QPainter>
 Sprite::Sprite()
     : m_frameIndex(0)
     , m_timeAccumulator(0.0f)
@@ -13,30 +11,32 @@ Sprite::Sprite()
     , m_drawSize(64, 64)
     , m_pos(0, 0)
 {
+    // Nada más en el ctor; las animaciones se cargan con loadFrames(...)
 }
 
-void Sprite::loadFrames(const QString &prefix, int count)
+void Sprite::loadFrames(SpriteState state, const QString &prefix, int count)
 {
-    m_idleFrames.clear();
+    // Borro cualquier frame previo para ese estado:
+    m_frames[state].clear();
     m_frameIndex = 0;
     m_timeAccumulator = 0.0f;
 
+    // Para calcular la ruta al proyecto:
     QString exeDir = QCoreApplication::applicationDirPath();
     QString projectRoot = QDir(exeDir).absoluteFilePath("../..");
 
     for (int i = 0; i < count; ++i) {
         QString number = QString("%1").arg(i, 3, 10, QChar('0'));
-        // prefix por ejemplo "Sprites/PersonajePrincipal/PNG Sequences/Idle/0_Blood_Demon_Idle_"
         QString relPath = prefix + number + ".png";
         QString fullPath = QDir(projectRoot).absoluteFilePath(relPath);
 
         QPixmap pix(fullPath);
         if (pix.isNull()) {
-            qWarning() << "Idle ❌ NO pudo cargar:" << fullPath;
+            qWarning() << "Sprite ❌ NO pudo cargar (";
         } else {
-            qDebug() << "Idle ✅ Cargó:" << fullPath << "size" << pix.size();
+            qDebug() << "Sprite ✅ Cargó (";
         }
-        m_idleFrames.append(pix);
+        m_frames[state].append(pix);
     }
 }
 
@@ -69,39 +69,29 @@ void Sprite::setFPS(int framesPerSecond)
 
 void Sprite::update(float dt)
 {
-    const QVector<QPixmap> *currentFrames = nullptr;
-    if (m_state == SpriteState::Walking) {
-        currentFrames = &m_walkingFrames;
-    } else {
-        currentFrames = &m_idleFrames;
-    }
-
-    if (!currentFrames || currentFrames->isEmpty())
+    // Obtengo el vector de frames para el estado actual:
+    const QVector<QPixmap> &currentFrames = m_frames.value(m_state);
+    if (currentFrames.isEmpty())
         return;
 
     m_timeAccumulator += dt;
     while (m_timeAccumulator >= m_secondsPerFrame) {
         m_timeAccumulator -= m_secondsPerFrame;
-        m_frameIndex = (m_frameIndex + 1) % currentFrames->size();
+        m_frameIndex = (m_frameIndex + 1) % currentFrames.size();
     }
 }
 
 void Sprite::draw(QPainter &painter) const
 {
-    const QVector<QPixmap> *currentFrames = nullptr;
-    if (m_state == SpriteState::Walking) {
-        currentFrames = &m_walkingFrames;
-    } else {
-        currentFrames = &m_idleFrames;
-    }
-
-    if (!currentFrames || currentFrames->isEmpty())
+    // Dibujo el frame según el estado actual:
+    const QVector<QPixmap> &currentFrames = m_frames.value(m_state);
+    if (currentFrames.isEmpty())
         return;
 
-    const QPixmap &orig = currentFrames->at(m_frameIndex);
-    if (orig.isNull()) return;
+    const QPixmap &orig = currentFrames.at(m_frameIndex);
+    if (orig.isNull())
+        return;
 
-    // Escalamos a m_drawSize
     QPixmap scaledPix = orig.scaled(
         m_drawSize.width(),
         m_drawSize.height(),
