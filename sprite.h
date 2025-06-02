@@ -12,6 +12,8 @@ enum class SpriteState {
     Walking,
     Attacking,
     WalkingLeft,
+    Jump,
+    JumpLeft,
    // Faltan mas estados (Este metodo funciona para varios Sprites para todos, faltan un par de modificaciones con las rutas)
 };
 
@@ -22,6 +24,8 @@ public:
 
     // Ahora recibe también el estado al que pertenecen estos frames:
     void loadFrames(SpriteState state, const QString &prefix, int count);
+
+    void generateMirroredFrames(SpriteState srcState, SpriteState dstState);
 
     void setPosition(int x, int y);
     const QPoint &getPosition() const { return m_pos; }
