@@ -94,5 +94,11 @@
         <file>resources/0_Blood_Demon_WalkingL_021.png</file>
         <file>resources/0_Blood_Demon_WalkingL_022.png</file>
         <file>resources/0_Blood_Demon_WalkingL_023.png</file>
+        <file>resources/0_Blood_Demon_Jump Loop_000.png</file>
+        <file>resources/0_Blood_Demon_Jump Loop_001.png</file>
+        <file>resources/0_Blood_Demon_Jump Loop_002.png</file>
+        <file>resources/0_Blood_Demon_Jump Loop_003.png</file>
+        <file>resources/0_Blood_Demon_Jump Loop_004.png</file>
+        <file>resources/0_Blood_Demon_Jump Loop_005.png</file>
     </qresource>
 </RCC>

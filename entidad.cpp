@@ -13,19 +13,19 @@ entidad::entidad()
     , m_facingLeft(false)
 {
     // Cargamos las animaciones horizontales (Idle, Walking, IdleLeft, WalkingLeft):
-    m_sprite.loadFrames(SpriteState::Idle,
-                        "Sprites/PersonajePrincipal/PNG Sequences/Idle/0_Blood_Demon_Idle_", 16);
-    m_sprite.loadFrames(SpriteState::Walking,
-                        "Sprites/PersonajePrincipal/PNG Sequences/Walking/0_Blood_Demon_Walking_", 24);
-    m_sprite.loadFrames(SpriteState::IdleLeft,
-                        "Sprites/PersonajePrincipal/PNG Sequences/Idle Left/0_Blood_Demon_IdleL_", 16);
-    m_sprite.loadFrames(SpriteState::WalkingLeft,
-                        "Sprites/PersonajePrincipal/PNG Sequences/Walking Left/0_Blood_Demon_WalkingL_", 24);
+    m_sprite.loadFrames(SpriteState::Walking,":/resources/0_Blood_Demon_Walking_",24);
 
-    // Animación de salto (solo la “loop” o la fase de subida)
-    m_sprite.loadFrames(SpriteState::Jump,"Sprites/PersonajePrincipal/PNG Sequences/Jump Loop/0_Blood_Demon_Jump Loop_", 6);
-    // Generamos espejo de Jump → JumpLeft si lo necesitas
-    m_sprite.generateMirroredFrames(SpriteState::Jump, SpriteState::JumpLeft);
+    // Cargar animación Idle:
+    m_sprite.loadFrames(SpriteState::Idle,":/resources/0_Blood_Demon_Idle_",16);
+
+    m_sprite.loadFrames(SpriteState::IdleLeft, ":/resources/0_Blood_Demon_IdleL_",16);
+
+    m_sprite.loadFrames(SpriteState::WalkingLeft,":/resources/0_Blood_Demon_WalkingL_",24);
+
+    // Para salto (JumpStart) hay solo 6:
+   m_sprite.loadFrames(SpriteState::Jump, ":/resources/0_Blood_Demon_Jump Loop_",6);
+
+    m_sprite.generateMirroredFrames(SpriteState::Jump,SpriteState::JumpLeft);
 
     // Configuraciones generales:
     m_sprite.setFPS(12);

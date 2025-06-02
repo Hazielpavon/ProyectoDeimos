@@ -32,17 +32,20 @@ MainWindow::MainWindow(QWidget *parent)
 
         // Cargamos Walking (24 frames)
 
-         m_player->sprite().loadFrames(SpriteState::Walking, "Sprites/PersonajePrincipal/PNG Sequences/Walking/0_Blood_Demon_Walking_",24);
+        m_player->sprite().loadFrames(SpriteState::Walking,":/resources/0_Blood_Demon_Walking_",24);
+
         // Cargar animación Idle:
-         m_player->sprite().loadFrames(SpriteState::Idle,"Sprites/PersonajePrincipal/PNG Sequences/Idle/0_Blood_Demon_Idle_", 16);
+        m_player->sprite().loadFrames(SpriteState::Idle,":/resources/0_Blood_Demon_Idle_",16);
 
-         m_player->sprite().loadFrames(SpriteState::IdleLeft,"Sprites/PersonajePrincipal/PNG Sequences/Idle Left/0_Blood_Demon_IdleL_", 16);
+        m_player->sprite().loadFrames(SpriteState::IdleLeft, ":/resources/0_Blood_Demon_IdleL_",16);
 
-         m_player->sprite().loadFrames(SpriteState::WalkingLeft,"Sprites/PersonajePrincipal/PNG Sequences/Walking Left/0_Blood_Demon_WalkingL_", 24);
+        m_player->sprite().loadFrames(SpriteState::WalkingLeft,":/resources/0_Blood_Demon_WalkingL_",24);
 
-         m_player->sprite().loadFrames(SpriteState::Jump,"Sprites/PersonajePrincipal/PNG Sequences/Jump Loop/0_Blood_Demon_Jump Loop_", 6);
+        // Para salto (JumpStart) hay solo 6:
+        m_player->sprite().loadFrames(SpriteState::Jump, ":/resources/0_Blood_Demon_Jump Loop_",6);
 
-         m_player->sprite().generateMirroredFrames(SpriteState::Jump, SpriteState::JumpLeft);
+        m_player->sprite().generateMirroredFrames(SpriteState::Jump,SpriteState::JumpLeft);
+
 
 
          m_player->sprite().setSize(128, 128);

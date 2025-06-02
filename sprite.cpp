@@ -16,29 +16,43 @@ Sprite::Sprite()
 
 void Sprite::loadFrames(SpriteState state, const QString &prefix, int count)
 {
-    // Borro cualquier frame previo para ese estado:
     m_frames[state].clear();
     m_frameIndex = 0;
     m_timeAccumulator = 0.0f;
 
-    // Para calcular la ruta al proyecto:
-    QString exeDir = QCoreApplication::applicationDirPath();
-    QString projectRoot = QDir(exeDir).absoluteFilePath("../..");
+    // Si prefix arranca con ":/", asumimos que es recurso embebido
+    const bool esRecurso = prefix.startsWith(":/");
+
+    // Si no es recurso, calculamos projectRoot como antes
+    QString exeDir, projectRoot;
+    if (!esRecurso) {
+        exeDir     = QCoreApplication::applicationDirPath();
+        projectRoot = QDir(exeDir).absoluteFilePath("../..");
+    }
 
     for (int i = 0; i < count; ++i) {
         QString number = QString("%1").arg(i, 3, 10, QChar('0'));
-        QString relPath = prefix + number + ".png";
-        QString fullPath = QDir(projectRoot).absoluteFilePath(relPath);
-
-        QPixmap pix(fullPath);
-        if (pix.isNull()) {
-            qWarning() << "[loadFrames] NO pudo cargar:" << fullPath;
+        QString path;
+        if (esRecurso) {
+            // Ejemplo: prefix = ":/resources/0_Blood_Demon_Idle_"
+            // → resulta ":/resources/0_Blood_Demon_Idle_000.png"
+            path = prefix + number + ".png";
         } else {
-            qDebug() << "[loadFrames] Cargó:" << fullPath;
+            // Modo “disco” (si aún quieres soportar ambas formas):
+            QString relPath = prefix + number + ".png";
+            path = QDir(projectRoot).absoluteFilePath(relPath);
+        }
+
+        QPixmap pix(path);
+        if (pix.isNull()) {
+            qWarning() << "[loadFrames] NO pudo cargar:" << path;
+        } else {
+            qDebug() << "[loadFrames] Cargó:" << path;
         }
         m_frames[state].append(pix);
     }
 }
+
 void Sprite::generateMirroredFrames(SpriteState srcState, SpriteState dstState)
 {
     m_frames[dstState].clear();
