@@ -1,17 +1,17 @@
-#ifndef SPRITE_H
-#define SPRITE_H
-
+#pragma once
 #include <QPixmap>
 #include <QVector>
-#include <QPainter>
-#include <QString>
+#include <QMap>
 #include <QPoint>
-
+#include <QString>
+#include <QSize>
 
 enum class SpriteState {
     Idle,
+    IdleLeft,
     Walking,
     Attacking,
+    WalkingLeft,
    // Faltan mas estados (Este metodo funciona para varios Sprites para todos, faltan un par de modificaciones con las rutas)
 };
 
@@ -20,37 +20,32 @@ class Sprite
 public:
     Sprite();
 
-    // Fija la posición donde se dibujará
+    // Ahora recibe también el estado al que pertenecen estos frames:
+    void loadFrames(SpriteState state, const QString &prefix, int count);
+
     void setPosition(int x, int y);
+    const QPoint &getPosition() const { return m_pos; }
 
-    // Ajusta el tamaño al que queremos escalar el sprite
-    void setSize(int ancho, int alto);
+    void setSize(int w, int h);
+    QSize getSize() const { return m_drawSize; }
 
-    // Llama a este método cada frame para avanzar la animación
+    void setState(SpriteState newState);
+    void setFPS(int framesPerSecond);
+
     void update(float dt);
-
-    // Dibuja el frame actual en la posición interna (m_pos)
     void draw(QPainter &painter) const;
 
-    void loadFrames(const QString &prefix, int count);
-    \
-
-    void setState(SpriteState s);
-    void setFPS(int framesPerSecond);
-    QSize getSize() const { return m_drawSize; }
-     QPoint getPosition() const { return m_pos; }
-
 private:
-    QVector<QPixmap> m_walkingFrames;
-    QVector<QPixmap> m_idleFrames;    // frames originales (sin escalar)
-    int               m_frameIndex; // índice actual en la animación
-    QPoint            m_pos;        // posición X,Y donde se dibuja (será la esquina superior del sprite)
-    float             m_timeAccumulator; // acumulador de tiempo para avanzar frames
-    float             m_secondsPerFrame; // 1 / FPS
+    int m_frameIndex;
+    float m_timeAccumulator;
+    float m_secondsPerFrame;
+    SpriteState m_state;
 
-    SpriteState       m_state;      // estado de animación (Idle, Walking, etc.)
+    // Contenedor genérico para TODAS las animaciones:
+    QMap<SpriteState, QVector<QPixmap>> m_frames;
 
-    QSize             m_drawSize;   // tamañ // estado actual si manejas varias animaciones
+    QSize m_drawSize;
+    QPoint m_pos;  // tamañ // estado actual si manejas varias animaciones
 };
 
-#endif // SPRITE_H
+

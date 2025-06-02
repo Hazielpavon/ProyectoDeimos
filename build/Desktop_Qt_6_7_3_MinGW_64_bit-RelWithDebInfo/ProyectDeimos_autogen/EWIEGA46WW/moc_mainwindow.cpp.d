@@ -1,6 +1,7 @@
 C:/Users/Administrador/OneDrive\ -\ Universidad\ Tecnologica\ Centroamericana/Documents/GitHub/ProyectoDeimos/build/Desktop_Qt_6_7_3_MinGW_64_bit-RelWithDebInfo/ProyectDeimos_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/Administrador/OneDrive\ -\ Universidad\ Tecnologica\ Centroamericana/Documents/GitHub/ProyectoDeimos/mainwindow.h \
   C:/Users/Administrador/OneDrive\ -\ Universidad\ Tecnologica\ Centroamericana/Documents/GitHub/ProyectoDeimos/build/Desktop_Qt_6_7_3_MinGW_64_bit-RelWithDebInfo/ProyectDeimos_autogen/moc_predefs.h \
   C:/Qt/6.7.3/mingw_64/include/QtCore/QList \
+  C:/Qt/6.7.3/mingw_64/include/QtCore/QMap \
   C:/Qt/6.7.3/mingw_64/include/QtCore/QObject \
   C:/Qt/6.7.3/mingw_64/include/QtCore/QPoint \
   C:/Qt/6.7.3/mingw_64/include/QtCore/QPointF \
