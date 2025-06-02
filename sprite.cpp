@@ -15,33 +15,7 @@ Sprite::Sprite()
 {
 }
 
-void Sprite::loadWalkingFrames(const QString &prefix, int count)
-{
-    m_walkingFrames.clear();
-    m_frameIndex = 0;
-    m_timeAccumulator = 0.0f;
-
-    // Construimos projectRoot tal y como vimos antes
-    QString exeDir = QCoreApplication::applicationDirPath();
-    QString projectRoot = QDir(exeDir).absoluteFilePath("../..");
-
-    for (int i = 0; i < count; ++i) {
-        QString number = QString("%1").arg(i, 3, 10, QChar('0'));
-        // prefix por ejemplo "Sprites/PersonajePrincipal/PNG Sequences/Walking/0_Blood_Demon_Walking_"
-        QString relPath = prefix + number + ".png";
-        QString fullPath = QDir(projectRoot).absoluteFilePath(relPath);
-
-        QPixmap pix(fullPath);
-        if (pix.isNull()) {
-            qWarning() << "Walking ❌ NO pudo cargar:" << fullPath;
-        } else {
-            qDebug() << "Walking ✅ Cargó:" << fullPath << "size" << pix.size();
-        }
-        m_walkingFrames.append(pix);
-    }
-}
-
-void Sprite::loadIdleFrames(const QString &prefix, int count)
+void Sprite::loadFrames(const QString &prefix, int count)
 {
     m_idleFrames.clear();
     m_frameIndex = 0;

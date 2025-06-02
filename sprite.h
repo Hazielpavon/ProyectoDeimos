@@ -19,23 +19,21 @@ class Sprite
 {
 public:
     Sprite();
-    void loadWalkingFrames(const QString &prefix, int count);
 
-    // Carga las imágenes de la animación “Idle”; el prefijo debe terminar en “_”
-    void loadIdleFrames(const QString &prefix, int count);
-
-    // Fija la posición donde se dibujará (centro del sprite)
+    // Fija la posición donde se dibujará
     void setPosition(int x, int y);
 
-    // Ajusta el tamaño (ancho y alto) al que queremos escalar el sprite
+    // Ajusta el tamaño al que queremos escalar el sprite
     void setSize(int ancho, int alto);
 
     // Llama a este método cada frame para avanzar la animación
     void update(float dt);
 
-    // Dibuja el frame actual en la posición interna (m_pos),
-    // usando el tamaño fijado en setSize()
+    // Dibuja el frame actual en la posición interna (m_pos)
     void draw(QPainter &painter) const;
+
+    void loadFrames(const QString &prefix, int count);
+    \
 
     void setState(SpriteState s);
     void setFPS(int framesPerSecond);
