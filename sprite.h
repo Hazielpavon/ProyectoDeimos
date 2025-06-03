@@ -14,6 +14,8 @@ enum class SpriteState {
     WalkingLeft,
     Jump,
     JumpLeft,
+    Running,
+    RunningLeft,
    // Faltan mas estados (Este metodo funciona para varios Sprites para todos, faltan un par de modificaciones con las rutas)
 };
 

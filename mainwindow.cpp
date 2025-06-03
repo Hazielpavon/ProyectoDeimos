@@ -19,7 +19,8 @@ MainWindow::MainWindow(QWidget *parent)
     m_upPressed(false),
     m_downPressed(false),
     m_leftPressed(false),
-    m_rightPressed(false)
+    m_rightPressed(false),
+    m_shiftPressed(false)
 {
     // Tamaño fijo para el área de juego
     setFixedSize(950, 650);
@@ -29,78 +30,79 @@ MainWindow::MainWindow(QWidget *parent)
 
         // 1) Creamos la entidad/jugador:
         m_player = new entidad();
-
-        // Cargamos Walking (24 frames)
-
+        // Cargamos todas las animaciones del personaje
         m_player->sprite().loadFrames(SpriteState::Walking,":/resources/0_Blood_Demon_Walking_",24);
-
-       // Cargar animación Idle:
         m_player->sprite().loadFrames(SpriteState::Idle,":/resources/0_Blood_Demon_Idle_",16);
-
         m_player->sprite().loadFrames(SpriteState::IdleLeft, ":/resources/0_Blood_Demon_IdleL_",16);
-
         m_player->sprite().loadFrames(SpriteState::WalkingLeft,":/resources/0_Blood_Demon_WalkingL_",24);
-
-        // Para salto (JumpStart) hay solo 6:
         m_player->sprite().loadFrames(SpriteState::Jump, ":/resources/0_Blood_Demon_Jump Loop_",6);
-
         m_player->sprite().generateMirroredFrames(SpriteState::Jump,SpriteState::JumpLeft);
+        m_player->sprite().loadFrames(SpriteState::Running, ":/resources/0_Blood_Demon_Running_",12);
+        m_player->sprite().generateMirroredFrames(SpriteState::Running,SpriteState::RunningLeft);
+
 
          m_player->sprite().setSize(128, 128);
-
          float centerX = float(width())  / 2.0f;
          float centerY = float(height()) / 2.0f;
+
          m_player->transform().setPosition(centerX, centerY);
          m_player->sprite().setState(SpriteState::Idle);
+
          m_timer = new QTimer(this);
          connect(m_timer, &QTimer::timeout, this, &MainWindow::onGameLoop);
+
          m_timer->start(int(m_dt * 1000));
 
          setFocusPolicy(Qt::StrongFocus);
          setFocus();
+
          QWidget *temp = new QWidget(this);
          setCentralWidget(temp);
+
          temp->show();
          delete temp;
     });
+
     setFocusPolicy(Qt::NoFocus);
+
     pantallaInicio = new PantallaInicio(this);
+
     connect(pantallaInicio, &PantallaInicio::iniciarJuegoPresionado, this, [=]() {
-        qDebug() << "✅ Cambiando a MenuOpciones";
+        // Si se presiona el boton de iniciar Juego
 
         if (!menuOpciones) {
             menuOpciones = new MenuOpciones(this);
-
             connect(menuOpciones, &MenuOpciones::nuevaPartida, this, [=]() {
-                qDebug() << "🕹️ NUEVA PARTIDA presionada";
+             // Se selecciono nueva partida
 
                 // Creamos la pantalla de carga
                 pantallaCarga = new PantallaCarga(this);
 
                 // Ahora que pantallaCarga existe, conectamos su señal:
                 connect(pantallaCarga, &PantallaCarga::cargaCompletada, this, [=]() {
-                    qDebug() << "✅ PantallaCarga indicó que terminó la carga.";
 
-                    // Creamos la pantalla de video
-                    VideoIntro *video = new VideoIntro(this);
-                    mostrarPantalla(video);
 
-                    connect(video, &VideoIntro::videoTerminado, this, [=]() {
-                        qDebug() << "🎬 Video terminado. Iniciando juego.";
+                    // Creamos la pantalla de video y cargamos el video
+                    // VideoIntro *video = new VideoIntro(this);
+                    // mostrarPantalla(video);
+                    // connect(video, &VideoIntro::videoTerminado, this, [=]() {
 
                     m_player = new entidad();
                     m_player->transform().setPosition(width()/2 - 32, height()/2 - 32);
+
                     m_timer = new QTimer(this);
                     connect(m_timer, &QTimer::timeout, this, &MainWindow::onGameLoop);
                     m_timer->start(int(m_dt * 1000));
                     setFocusPolicy(Qt::StrongFocus);
                     setFocus();
+
                     QWidget *temp = new QWidget(this);
                     setCentralWidget(temp);
                     temp->show();
                     delete temp;
 
-                    });
+                    // });
+
                 });
                 mostrarPantalla(pantallaCarga);
             });
@@ -149,7 +151,6 @@ void MainWindow::paintEvent(QPaintEvent * /*event*/)
     }
 }
 
-// mainwindow.cpp (solo muestro las partes que cambian)
 
 void MainWindow::keyPressEvent(QKeyEvent *event)
 {
@@ -159,15 +160,6 @@ void MainWindow::keyPressEvent(QKeyEvent *event)
     }
 
     switch (event->key()) {
-    case Qt::Key_W:
-    case Qt::Key_Up:
-        // Ya no usamos esto para desplazamiento vertical
-        // m_upPressed = true;
-        break;
-    case Qt::Key_S:
-    case Qt::Key_Down:
-        // m_downPressed = true;
-        break;
     case Qt::Key_A:
     case Qt::Key_Left:
         m_leftPressed = true;
@@ -176,8 +168,10 @@ void MainWindow::keyPressEvent(QKeyEvent *event)
     case Qt::Key_Right:
         m_rightPressed = true;
         break;
+    case Qt::Key_Shift:
+        m_shiftPressed = true;
+        break;
     case Qt::Key_Space:
-        // Iniciar salto parabólico
         m_player->startJump();
         break;
     default:
@@ -193,14 +187,6 @@ void MainWindow::keyReleaseEvent(QKeyEvent *event)
     }
 
     switch (event->key()) {
-    case Qt::Key_W:
-    case Qt::Key_Up:
-        // m_upPressed = false;
-        break;
-    case Qt::Key_S:
-    case Qt::Key_Down:
-        // m_downPressed = false;
-        break;
     case Qt::Key_A:
     case Qt::Key_Left:
         m_leftPressed = false;
@@ -208,6 +194,9 @@ void MainWindow::keyReleaseEvent(QKeyEvent *event)
     case Qt::Key_D:
     case Qt::Key_Right:
         m_rightPressed = false;
+        break;
+    case Qt::Key_Shift:
+        m_shiftPressed = false;
         break;
     default:
         QMainWindow::keyReleaseEvent(event);
@@ -218,10 +207,11 @@ void MainWindow::processInput()
 {
     if (!m_player) return;
 
-    const float moveSpeed = 160.0f;
+    float baseSpeed = 160.0f;
+    float moveSpeed = m_shiftPressed ? (baseSpeed * 2.0f) : baseSpeed;
+
     float vx = 0.0f;
 
-    // Solo horizontal (izquierda/derecha). No usamos vy.
     if (m_leftPressed && !m_rightPressed) {
         vx = -moveSpeed;
     }
@@ -234,6 +224,29 @@ void MainWindow::processInput()
 
     m_player->fisica().setVelocity(vx, 0.0f);
 
+    if (vx < 0.0f) {
+        if (m_shiftPressed) {
+            m_player->sprite().setState(SpriteState::RunningLeft);
+        } else {
+            m_player->sprite().setState(SpriteState::WalkingLeft);
+        }
+    }
+    else if (vx > 0.0f) {
+        if (m_shiftPressed) {
+            m_player->sprite().setState(SpriteState::Running);
+        } else {
+            m_player->sprite().setState(SpriteState::Walking);
+        }
+    }
+    else {
+
+        if (m_player->facingleft()) {
+            m_player->sprite().setState(SpriteState::IdleLeft);
+        } else {
+            m_player->sprite().setState(SpriteState::Idle);
+        }
+    }
 }
+
 
 

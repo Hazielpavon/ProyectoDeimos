@@ -50,7 +50,7 @@ private:
     bool m_downPressed;
     bool m_leftPressed;
     bool m_rightPressed;
-
+    bool m_shiftPressed;
     // Constante delta-time fijo (en segundos)
     const float m_dt = 0.016f;  // ≈60 FPS
 

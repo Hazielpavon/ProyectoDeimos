@@ -100,5 +100,17 @@
         <file>resources/0_Blood_Demon_Jump Loop_003.png</file>
         <file>resources/0_Blood_Demon_Jump Loop_004.png</file>
         <file>resources/0_Blood_Demon_Jump Loop_005.png</file>
+        <file>resources/0_Blood_Demon_Running_000.png</file>
+        <file>resources/0_Blood_Demon_Running_001.png</file>
+        <file>resources/0_Blood_Demon_Running_002.png</file>
+        <file>resources/0_Blood_Demon_Running_003.png</file>
+        <file>resources/0_Blood_Demon_Running_004.png</file>
+        <file>resources/0_Blood_Demon_Running_005.png</file>
+        <file>resources/0_Blood_Demon_Running_006.png</file>
+        <file>resources/0_Blood_Demon_Running_007.png</file>
+        <file>resources/0_Blood_Demon_Running_008.png</file>
+        <file>resources/0_Blood_Demon_Running_009.png</file>
+        <file>resources/0_Blood_Demon_Running_010.png</file>
+        <file>resources/0_Blood_Demon_Running_011.png</file>
     </qresource>
 </RCC>
